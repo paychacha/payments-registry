@@ -1,5 +1,5 @@
 id: rapyd
 name: Rapyd
 website: https://www.rapyd.net
-roles: [psp, acquirer]
+roles: [psp, acquirer, aggregator]
 coverage: []

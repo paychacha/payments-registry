@@ -1,5 +1,5 @@
 id: checkout-com
 name: Checkout.com
 website: https://www.checkout.com
-roles: [psp, acquirer, gateway]
+roles: [psp, acquirer, gateway, payfac]
 coverage: []

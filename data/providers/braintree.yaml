@@ -1,5 +1,5 @@
 id: braintree
 name: Braintree
 website: https://www.braintreepayments.com
-roles: [psp, gateway]
+roles: [psp, gateway, payfac]
 coverage: []

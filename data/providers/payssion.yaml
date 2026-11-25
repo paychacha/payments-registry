@@ -1,5 +1,5 @@
 id: payssion
 name: Payssion
 website: https://www.payssion.com
-roles: [aggregator]
+roles: [psp, aggregator]
 coverage: []

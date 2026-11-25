@@ -1,5 +1,5 @@
 id: dodo-payments
 name: Dodo Payments
 website: https://dodopayments.com
-roles: [mor]
+roles: [gateway, mor]
 coverage: []

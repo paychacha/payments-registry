@@ -1,5 +1,5 @@
 id: ebanx
 name: EBANX
 website: https://www.ebanx.com
-roles: [psp]
+roles: [psp, payfac, aggregator]
 coverage: []

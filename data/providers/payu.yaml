@@ -1,5 +1,5 @@
 id: payu
 name: PayU
 website: https://corporate.payu.com
-roles: [psp]
+roles: [psp, payfac, aggregator]
 coverage: []
