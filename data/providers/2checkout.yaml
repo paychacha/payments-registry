@@ -1,5 +1,5 @@
 id: 2checkout
 name: 2Checkout
 website: https://www.2checkout.com
-roles: [mor, psp]
+roles: [psp, payfac, mor]
 coverage: []

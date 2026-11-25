@@ -27,7 +27,7 @@ This is the broad term. Most providers are a PSP and something narrower as well:
 
 A bank or licensed financial institution that is a member of the card networks, or holds the equivalent position in another payment system, and accepts payments on a merchant's behalf. It receives the money from the payers' banks through the network, pays the merchant, and answers to the network for the merchant's transactions, including chargebacks and fines.
 
-**How to tell:** the company holds its own acquiring membership or licence, and is not relying on another institution's.
+**How to tell:** the company is itself a member or licensed acquirer of a card network or payment scheme, and is not relying on another institution's membership. A payments regulator's licence to sign up merchants, such as a "merchant acquisition" licence, is not enough by itself: payment facilitators hold those too.
 
 ### `gateway`
 

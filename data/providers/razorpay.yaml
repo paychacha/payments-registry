@@ -1,5 +1,5 @@
 id: razorpay
 name: Razorpay
 website: https://razorpay.com
-roles: [psp, aggregator]
+roles: [psp, gateway, mor, aggregator]
 coverage: []

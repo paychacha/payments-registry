@@ -1,5 +1,5 @@
 id: oceanpayment
 name: Oceanpayment
 website: https://www.oceanpayment.com
-roles: [psp]
+roles: [psp, acquirer, aggregator]
 coverage: []

@@ -52,7 +52,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # id, name, website, roles. The first eight have a payment method list in the source data, in the
 # order the catalog prefers their names. The rest are the payment services paychacha.com recognises
 # on merchant websites (src/payment-providers.ts there); they start with no coverage.
-# Roles are a first reading, to be corrected by the providers themselves: see GLOSSARY.md.
+# Roles of the first eight are a first reading. Those of the rest were checked against the providers'
+# legal terms and documentation, regulators' registers and Mastercard's payment facilitator list on
+# 2026-11-25; a role is listed only where one of those shows it. See GLOSSARY.md.
 PROVIDERS = [
     ("stripe", "Stripe", "https://stripe.com", ["psp", "payfac"]),
     ("adyen", "Adyen", "https://www.adyen.com", ["psp", "acquirer", "gateway"]),
@@ -63,41 +65,41 @@ PROVIDERS = [
     ("payermax", "PayerMax", "https://www.payermax.com", ["psp", "aggregator"]),
     ("kyrenpay", "KyrenPay", "https://kyrenpay.com", ["mor"]),
     # Card acquirers and payment service providers.
-    ("paypal", "PayPal", "https://www.paypal.com", ["psp", "payfac"]),
-    ("braintree", "Braintree", "https://www.braintreepayments.com", ["psp", "gateway"]),
-    ("checkout-com", "Checkout.com", "https://www.checkout.com", ["psp", "acquirer", "gateway"]),
-    ("square", "Square", "https://squareup.com", ["psp", "payfac"]),
-    ("razorpay", "Razorpay", "https://razorpay.com", ["psp", "aggregator"]),
+    ("paypal", "PayPal", "https://www.paypal.com", ["psp", "gateway", "payfac"]),
+    ("braintree", "Braintree", "https://www.braintreepayments.com", ["psp", "gateway", "payfac"]),
+    ("checkout-com", "Checkout.com", "https://www.checkout.com", ["psp", "acquirer", "gateway", "payfac"]),
+    ("square", "Square", "https://squareup.com", ["psp", "acquirer", "payfac"]),
+    ("razorpay", "Razorpay", "https://razorpay.com", ["psp", "gateway", "mor", "aggregator"]),
     ("worldpay", "Worldpay", "https://www.worldpay.com", ["psp", "acquirer", "gateway"]),
-    ("rapyd", "Rapyd", "https://www.rapyd.net", ["psp", "acquirer"]),
-    ("payu", "PayU", "https://corporate.payu.com", ["psp"]),
-    ("mollie", "Mollie", "https://www.mollie.com", ["psp"]),
-    ("xendit", "Xendit", "https://www.xendit.co", ["psp"]),
-    ("2c2p", "2C2P", "https://2c2p.com", ["psp"]),
-    ("ebanx", "EBANX", "https://www.ebanx.com", ["psp"]),
-    ("authorize-net", "Authorize.net", "https://www.authorize.net", ["gateway"]),
+    ("rapyd", "Rapyd", "https://www.rapyd.net", ["psp", "acquirer", "aggregator"]),
+    ("payu", "PayU", "https://corporate.payu.com", ["psp", "payfac", "aggregator"]),
+    ("mollie", "Mollie", "https://www.mollie.com", ["psp", "acquirer", "payfac", "aggregator"]),
+    ("xendit", "Xendit", "https://www.xendit.co", ["psp", "gateway", "payfac", "aggregator"]),
+    ("2c2p", "2C2P", "https://2c2p.com", ["psp", "payfac", "aggregator"]),
+    ("ebanx", "EBANX", "https://www.ebanx.com", ["psp", "payfac", "aggregator"]),
+    ("authorize-net", "Authorize.net", "https://www.authorize.net", ["psp", "gateway"]),
     # Merchants of record.
     ("paddle", "Paddle", "https://www.paddle.com", ["mor"]),
     ("lemon-squeezy", "Lemon Squeezy", "https://www.lemonsqueezy.com", ["mor"]),
     ("creem", "Creem", "https://www.creem.io", ["mor"]),
-    ("waffo", "Waffo", "https://waffo.com", ["mor"]),
+    ("waffo", "Waffo", "https://waffo.com", ["psp", "mor"]),
     ("fastspring", "FastSpring", "https://fastspring.com", ["mor"]),
     ("polar", "Polar", "https://polar.sh", ["mor"]),
-    ("dodo-payments", "Dodo Payments", "https://dodopayments.com", ["mor"]),
+    ("dodo-payments", "Dodo Payments", "https://dodopayments.com", ["gateway", "mor"]),
     ("gumroad", "Gumroad", "https://gumroad.com", ["mor"]),
-    ("2checkout", "2Checkout", "https://www.2checkout.com", ["mor", "psp"]),
+    ("2checkout", "2Checkout", "https://www.2checkout.com", ["psp", "payfac", "mor"]),
     # Cross-border collection for sellers in China.
-    ("pingpong", "PingPong", "https://www.pingpongx.com", ["psp"]),
-    ("oceanpayment", "Oceanpayment", "https://www.oceanpayment.com", ["psp"]),
-    ("asiabill", "Asiabill", "https://www.asiabill.com", ["psp"]),
-    ("useepay", "UseePay", "https://www.useepay.com", ["psp"]),
+    ("pingpong", "PingPong", "https://www.pingpongx.com", ["psp", "payfac", "aggregator"]),
+    ("oceanpayment", "Oceanpayment", "https://www.oceanpayment.com", ["psp", "acquirer", "aggregator"]),
+    ("asiabill", "Asiabill", "https://www.asiabill.com", ["psp", "acquirer", "payfac"]),
+    ("useepay", "UseePay", "https://www.useepay.com", ["psp", "acquirer", "aggregator"]),
     # Local payment methods worldwide through one account.
-    ("payssion", "Payssion", "https://www.payssion.com", ["aggregator"]),
+    ("payssion", "Payssion", "https://www.payssion.com", ["psp", "aggregator"]),
     # Cryptocurrency and stablecoin payments.
-    ("coinbase-commerce", "Coinbase Commerce", "https://www.coinbase.com/commerce", ["psp"]),
+    ("coinbase-business", "Coinbase Business", "https://www.coinbase.com/business", ["psp"]),
     ("nowpayments", "NOWPayments", "https://nowpayments.io", ["psp"]),
     ("cryptomus", "Cryptomus", "https://cryptomus.com", ["psp"]),
-    ("paydify", "Paydify", "https://www.paydify.com", ["psp"]),
+    ("paydify", "Paydify", "https://www.paydify.com", ["psp", "aggregator"]),
     ("infini", "Infini", "https://infini.money", ["psp"]),
     ("binance-pay", "Binance Pay", "https://pay.binance.com", ["psp"]),
     ("okx-pay", "OKX Pay", "https://www.okx.com", ["psp"]),

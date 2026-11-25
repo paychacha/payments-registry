@@ -1,5 +1,5 @@
 id: pingpong
 name: PingPong
 website: https://www.pingpongx.com
-roles: [psp]
+roles: [psp, payfac, aggregator]
 coverage: []

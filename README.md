@@ -107,7 +107,7 @@ Each coverage entry has:
 - **Coverage is what a provider's public pages said on the `checked` date.** Providers change their lists without notice. Follow `source` before relying on an entry.
 - **`countries` means payer countries.** Adyen publishes the countries where merchants can use a method, not where its payers are, so its entries have no `countries`.
 - **A method's `currencies` are only the national currencies of its countries.** A provider's coverage entry often lists more, because providers also publish the currencies they settle in.
-- **Roles are a first reading**, made from general knowledge and not yet confirmed by the providers. Corrections are welcome.
+- **Roles are listed only where a public source shows them.** For 39 providers they were checked on 2026-11-25 against legal terms, documentation, regulators' registers and Mastercard's payment facilitator list; a role that could not be shown is left out, so a provider may play more roles than its file says. The roles of the eight providers with coverage, and of OKX Pay, are a first reading and not yet checked. Corrections are welcome.
 - **40 of the 48 providers have no coverage yet.** They are listed so that they can add their own.
 
 ## What is not in it

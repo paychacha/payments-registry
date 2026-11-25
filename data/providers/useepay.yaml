@@ -1,5 +1,5 @@
 id: useepay
 name: UseePay
 website: https://www.useepay.com
-roles: [psp]
+roles: [psp, acquirer, aggregator]
 coverage: []
