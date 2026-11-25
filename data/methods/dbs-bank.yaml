@@ -1,0 +1,5 @@
+id: dbs-bank
+name: DBS Bank
+type: real_time_payment
+countries: [SG]
+currencies: [SGD]

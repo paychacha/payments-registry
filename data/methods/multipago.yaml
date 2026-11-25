@@ -1,0 +1,4 @@
+id: multipago
+name: Multipago
+type: cash_voucher
+countries: [BO]

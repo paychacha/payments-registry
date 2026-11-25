@@ -1,0 +1,4 @@
+id: sbp
+name: SBP
+type: bank_transfer
+countries: [RU]

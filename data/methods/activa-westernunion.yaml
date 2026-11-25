@@ -1,0 +1,5 @@
+id: activa-westernunion
+name: Activa WesternUnion
+type: cash_voucher
+countries: [EC]
+currencies: [USD]

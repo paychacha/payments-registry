@@ -1,0 +1,6 @@
+id: skrill
+name: Skrill
+aliases:
+  - Skrill 1 Tap
+type: wallet
+global: true

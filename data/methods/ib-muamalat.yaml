@@ -1,0 +1,5 @@
+id: ib-muamalat
+name: IB Muamalat
+type: bank_redirect
+countries: [ID]
+currencies: [IDR]

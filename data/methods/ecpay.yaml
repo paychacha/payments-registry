@@ -1,0 +1,5 @@
+id: ecpay
+name: ECPay
+type: cash_voucher
+countries: [PH]
+currencies: [PHP]

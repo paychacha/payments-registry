@@ -1,0 +1,5 @@
+id: servipagos
+name: ServiPagos
+type: cash_voucher
+countries: [EC]
+currencies: [USD]

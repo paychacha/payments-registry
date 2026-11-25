@@ -1,0 +1,4 @@
+id: banco-guayaquil
+name: Banco Guayaquil
+type: bank_transfer
+countries: [EC]

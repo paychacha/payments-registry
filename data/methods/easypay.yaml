@@ -1,0 +1,4 @@
+id: easypay
+name: EasyPay
+type: cash_voucher
+countries: [BG]

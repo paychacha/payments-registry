@@ -1,0 +1,4 @@
+id: banco-nacion
+name: Banco Nación
+type: bank_transfer
+countries: [AR]

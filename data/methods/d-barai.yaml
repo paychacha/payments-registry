@@ -1,0 +1,7 @@
+id: d-barai
+name: d Barai
+aliases:
+  - d払い
+type: wallet
+countries: [JP]
+currencies: [JPY]

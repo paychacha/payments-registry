@@ -1,0 +1,5 @@
+id: bank-millennium
+name: Bank Millennium
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

@@ -1,0 +1,5 @@
+id: true-money-shop
+name: True Money Shop
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

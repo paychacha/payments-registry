@@ -1,0 +1,5 @@
+id: echeck-select
+name: eCheck Select
+type: real_time_payment
+countries: [US]
+currencies: [USD]

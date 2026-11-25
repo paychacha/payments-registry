@@ -1,0 +1,2697 @@
+id: nuvei
+name: Nuvei
+website: https://www.nuvei.com
+roles: [psp, acquirer, gateway]
+coverage:
+  - method: 1voucher
+    countries: [ZA]
+    currencies: [ZAR]
+    source: https://www.nuvei.com/apm/1voucher
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: 7-eleven
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/7-eleven
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: abitab
+    countries: [UY]
+    currencies: [UYU]
+    source: https://www.nuvei.com/apm/abitab
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: abon
+    countries: [AT, BA, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HR, HU, IE, IT, LT, LU, LV,
+      ME, MK, MT, NL, PL, PT, RO, RS, SI, SK, XK]
+    currencies: [BAM, CZK, DKK, EUR, HUF, MKD, PLN, RON, RSD, SEK]
+    source: https://www.nuvei.com/apm/abon
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: acertamos
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/acertamos
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ach-direct-debit
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/ach
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: activa-westernunion
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/activa-westernunion
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: affinonline
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/affinonline
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: afterpay-clearpay
+    countries: [AU, CA, GB, NZ, US]
+    currencies: [AUD, CAD, GBP, NZD, USD]
+    source: https://www.nuvei.com/apm/afterpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: aircash
+    countries: [AT, BA, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HR, HU, IE, IT, LT, LU, LV,
+      ME, MK, MT, NL, PL, PT, RO, RS, SI, SK, XK]
+    currencies: [BAM, CZK, DKK, EUR, HUF, MKD, PLN, RON, RSD, SEK]
+    source: https://www.nuvei.com/apm/aircash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airpak
+    countries: [SV]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/airpak
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airtel-money
+    countries: [AL, IN, KE, TZ, UG, ZM]
+    currencies: [ALL, INR, KES, TZS, USD, ZMW]
+    source: https://www.nuvei.com/apm/airtel-mobile-money
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airteltigo
+    countries: [GH]
+    currencies: [GHS]
+    source: https://www.nuvei.com/apm/airteltigo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alfamart-group
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/alfamart-group
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alior-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/alior-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay
+    countries: [CN, SG]
+    currencies: [AUD, CAD, CHF, DKK, EUR, GBP, JPY, KRW, NOK, NZD, SEK, SGD, THB, USD]
+    source: https://www.nuvei.com/apm/alipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-hk
+    countries: [HK]
+    currencies: [HKD]
+    source: https://www.nuvei.com/apm/alipayhk
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alliance-bank
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/alliance-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ambank
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/ambank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    countries: [AT, BE, BG, CA, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IT, LT, LU,
+      LV, MT, NL, PL, PT, RO, SE, SI, SK, US]
+    currencies: [AUD, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, ILS, JPY, KRW, MXN, NOK, NZD,
+      PLN, RON, SEK, SGD, THB, USD, ZAR]
+    source: https://www.nuvei.com/apm/american-express
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    countries: [AE, AT, AU, BE, BG, BR, BY, CA, CH, CN, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GE,
+      GR, HK, HR, HU, IE, IM, IS, IT, JP, LI, LT, LU, LV, MC, MO, MT, NL, "NO", NZ, PL, PT, RO,
+      SA, SE, SG, SI, SK, TW, UA, US]
+    currencies: [AUD, CAD, CHF, CNY, EUR, GBP, HKD, JPY, NZD, SGD, TWD, USD]
+    source: https://www.nuvei.com/apm/apple-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apuestas-unidas
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/apuestas-unidas
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: argencard
+    countries: [AR]
+    currencies: [ARS, USD]
+    source: https://www.nuvei.com/apm/argencard
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: astropay
+    countries: [AE, AM, AT, AU, AZ, BD, BH, BO, BR, CA, CD, CH, CL, CM, CN, CO, CR, DE, DK, DO,
+      EC, EG, ES, FI, GB, GH, GT, HK, HN, ID, IN, JP, KE, KR, KW, LK, ME, MN, MX, MY, NG, "NO",
+      NP, NZ, PE, PK, PY, QA, SA, SE, SG, SV, TH, TN, TR, TZ, UY, VE, VN, ZA]
+    currencies: [ARS, AUD, BRL, CAD, CLP, CNY, COP, CZK, DKK, EGP, EUR, GTQ, HNL, IDR, INR, JPY,
+      KRW, MMK, MXN, MYR, NIO, NOK, NZD, PEN, PLN, RSD, SAR, SEK, THB, TRY, TWD, USD, VND, ZAR]
+    source: https://www.nuvei.com/apm/astropay-card
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atm-bersama-prima-alto
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/atm-bersama-prima-alto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/au-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: aura
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/aura
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: axs
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/axs
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: baloto
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/baloto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banamex
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/banamex
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-agrario
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-agrario
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-av-villas
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-av-villas
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-azteca
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/banco-azteca
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-bice
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/bancobice
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-bolivariano
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-bolivariano
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-caja-social
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-caja-social
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-cooperativo-coopcentral
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/banco-cooperativo-coopcentral
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-credi-chile
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-credi-chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-de-antigua
+    countries: [GT]
+    currencies: [GTQ, USD]
+    source: https://www.nuvei.com/apm/banco-de-antigua
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-de-bogota
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/banco-de-bogota
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-de-chile
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-de-chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-de-occidente
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/banco-de-occidente
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-do-brasil
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/banco-do-brasil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-estado
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-estado
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-falabella
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-falabella
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-forjadores
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-forjadores
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-gnb-sudameris
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-gnb-sudameris
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-guayaquil
+    countries: [EC]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/banco-guayaquil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-nacional
+    countries: [CR]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/banco-nacional
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-original
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/banco-original
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-pichincha
+    countries: [CO, EC]
+    currencies: [EUR, USD]
+    source: https://www.nuvei.com/apm/banco-pichincha
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-popular
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/banco-popular
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-safra
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/banco-safra
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-security
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-security
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-walmart-acuenta
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/acuenta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-walmart-lider
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-walmart---lider
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancolombia
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/bancolombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancomat-pay
+    countries: [IT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/bancomat-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancontact
+    countries: [BE]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/bancontact
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancoomeva-s-a
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/bancoomeva-s-a
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-handlowy
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/bank-handlowy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-islam
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/bank-islam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-millennium
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/bank-millennium
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-muamalat
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/bank-muamalat
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-rakyat
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/bank-rakyat
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-transfer
+    countries: [AD, AT, AU, BE, BG, BR, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE,
+      IS, IT, LI, LT, LU, LV, MC, MT, MY, NL, "NO", PL, PT, RO, SE, SI, SK, SZ]
+    currencies: [AUD, BRL, CHF, CZK, DKK, EUR, GBP, HUF, MYR, NOK, PLN, RON, SEK, TRY, USD, ZAR]
+    source: https://www.nuvei.com/apm/bank-transfer-malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banki-spoldzielcze
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/banki-spoldzielcze
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banorte
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/banorte
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banrisul
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/banrisul
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bayad-center
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/bayad-center
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bbva-bancomer
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/bbva-bancomer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bbva-colombia
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/bbva-colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bbva-continental
+    countries: [MX, PE]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/bbva-continental
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bc
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/bc
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bca
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/bank-central-asia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bci
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/bci
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bcp
+    countries: [PE]
+    currencies: [EUR, PEN, USD]
+    source: https://www.nuvei.com/apm/bcp
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: beeline
+    source: https://www.nuvei.com/apm/beeline
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: big-c
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/big-c-supercenter
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bii-va
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/bii-va
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bitpay
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CN, CO, CR, CY, CZ,
+      DE, DK, EC, EE, EG, ES, FI, FR, GB, GE, GH, GI, GR, GT, HK, HR, HU, ID, IE, IL, IM, IN,
+      IS, IT, JM, JO, JP, KE, KR, LI, LT, LU, LV, MA, MC, MD, ME, MK, MO, MT, MX, MY, NE, NG,
+      NL, "NO", NP, NZ, OM, PA, PE, PH, PL, PR, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV,
+      SZ, TH, TR, TW, UA, US, UY, VE, VN, XK]
+    currencies: [EUR, GBP, USD]
+    source: https://www.nuvei.com/apm/bitpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bizum
+    countries: [ES]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/bizum
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: blik
+    countries: [PL, SK]
+    currencies: [EUR, PLN]
+    source: https://www.nuvei.com/apm/blik
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bni
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/bni-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bnp-paribas
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/bnp-paribas
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bodega-aurrera
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/bodega-aurrera
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boku
+    countries: [AE, AR, AT, AU, BA, BE, BR, CA, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HK,
+      HR, HU, ID, IE, IN, IT, JP, LT, LV, MY, NL, "NO", PH, PL, PT, RO, RS, SA, SE, SG, SI, SK,
+      TH, TR, TW, US]
+    currencies: [AUD, BRL, CAD, CHF, EUR, GBP, SEK, USD]
+    source: https://www.nuvei.com/apm/boku
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boleto
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/boleto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boonterm
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/boonterm
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boost
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/boost
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bos-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/bos-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bpi
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/bpi-bank-of-the-philippine-islands
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bradesco
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/bradesco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: broxel
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/broxel
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bsn
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/bsn
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bualuang-mbanking
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/bangkok-bank-atm
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cabal
+    countries: [AR]
+    currencies: [ARS, USD]
+    source: https://www.nuvei.com/apm/cabal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caixa
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/caixa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-arequipa
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/caja-arequipa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-cusco
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/caja-cusco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-desarrollo
+    countries: [GT]
+    currencies: [GTQ, USD]
+    source: https://www.nuvei.com/apm/caja-desarrollo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-huancayo
+    countries: [PE]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/caja-huancayo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-ica
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/caja-ica
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-solidaria-tamaulipas
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/caja-solidaria-tamaulipas
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-tacna
+    countries: [PE]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/caja-tacna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caja-trujillo
+    countries: [PE]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/caja-trujillo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: calimax
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/calimax
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartao-mercado-livre
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/cartao-mercado-livre
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartes-bancaires
+    countries: [FR]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/cartes-bancaires
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: carulla
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/carulla
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cash-app-pay
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/cash-app-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cashlib
+    countries: [AU, BE, CH, CZ, DE, ES, FR, GB, GR, IT, LU, NL, "NO", PL, SE, TR]
+    currencies: [AUD, CHF, CZK, EUR, GBP, NOK, PLN, SEK]
+    source: https://www.nuvei.com/apm/cashlib
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cenpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/cenpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: central-food-hall
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/central-food-hall
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ceska-sporitelna
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/ceska-sporitelna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cimb-clicks
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/cimb-clicks
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cimb-niaga
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/cimb-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: circle-k
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/circle-k
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: citi-korea
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/citi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: citibank
+    countries: [CO]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/citibank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: citibank-singapore
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/citibank-singapore
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: clave
+    countries: [PA]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/clave
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cmr
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/cmr
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cobro-express
+    countries: [AR]
+    currencies: [ARS]
+    source: https://www.nuvei.com/apm/cobro-express
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: codi
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/codi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: con-suerte
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/con-suerte
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: credit-agricole
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/credit-agricole
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cross-bank-qr
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/cross-bank-qr
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: crypto-and-go
+    countries: [AT, AU, BG, CA, CH, CZ, EE, ES, FI, HR, HU, IE, IN, IS, JP, LT, LU, LV, MT, NL,
+      "NO", NZ, PL, PT, SI]
+    currencies: [AED, ARS, AUD, AZN, BAM, BHD, BRL, CAD, CHF, CLP, CNY, COP, CRC, CZK, DKK, DOP,
+      DZD, EGP, EUR, GBP, GEL, GTQ, HKD, HNL, HUF, IDR, ILS, INR, IQD, ISK, JOD, JPY, KGS, KRW,
+      KWD, KZT, LBP, MAD, MDL, MMK, MOP, MXN, MYR, NIO, NOK, NZD, OMR, PEN, PHP, PKR, PLN, QAR,
+      RON, RSD, SAR, SEK, SGD, SYP, THB, TND, TRY, TWD, UAH, USD, UYU, UZS, VND, YER, ZAR]
+    source: https://www.nuvei.com/apm/crypto-go
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: csob
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/csob
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cucuta75
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/cucuta75
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cvs-pharmacy
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/cvs-pharmacy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: d-barai
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/dbarai
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/dana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: danamon-bank
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/danamon-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: daviplata
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/daviplata
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: davivienda
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/davivienda
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dbs-bank
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/dbs-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-discover
+    countries: [AT, BE, BG, CA, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IT, LT, LU,
+      LV, MT, NL, PL, PT, RO, SE, SI, SK, US]
+    currencies: [AED, AUD, BHD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, ILS, INR, JPY, KWD, MAD,
+      NOK, NZD, OMR, PLN, QAR, RON, SAR, SEK, SGD, THB, TRY, USD, ZAR]
+    source: https://www.nuvei.com/apm/diners-discover
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dollar-general
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/dollar-general
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: donga-bank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/donga-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dragonpay
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/dragonpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: duitnow
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/duitnow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: e-money
+    countries: [SN]
+    currencies: [XOF]
+    source: https://www.nuvei.com/apm/e-money
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: easypay
+    countries: [BG]
+    source: https://www.nuvei.com/apm/easypay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: echeck-select
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/echeck-select
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ecpay
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/ecpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: efecty
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/efecty
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eft-pro
+    countries: [ZA]
+    currencies: [ZAR]
+    source: https://www.nuvei.com/apm/eft-pro
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: elo
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/elo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: enets
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/enets
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: epay
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/epay-99d0d
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eps
+    countries: [AT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/eps
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: equitel
+    countries: [KE]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/equitel
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: era
+    countries: [CZ]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/era
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eromnet
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/eromnet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eumm
+    countries: [CM]
+    currencies: [XAF]
+    source: https://www.nuvei.com/apm/eumm
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: exito
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/exito
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: express-lider
+    countries: [CL]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/express-lider
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: extra
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/extra
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: facilito
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/facilito
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: familymart
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/familymart
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: farmacia-santa-maria
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/farmacia-santa-maria
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: farmacias-911
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/farmacias-911
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: farmacias-benavides-and-del-ahorro
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/farmacias-benavides-del-ahorro
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: farmacias-del-ahorro
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/farmacias-del-ahorro
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: farmacias-economicas
+    countries: [SV]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/farmacias-economicas
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fawry
+    countries: [EG]
+    currencies: [EGP]
+    source: https://www.nuvei.com/apm/fawry
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fedecaces
+    countries: [SV]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/fedecaces
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fio-banka
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/fio-banka
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fonix
+    countries: [GB]
+    currencies: [GBP]
+    source: https://www.nuvei.com/apm/fonix
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fortumo
+    countries: [BR, CA, CZ, DE, DK, ES, FI, FR, GB, PL, RO, SE, TR]
+    currencies: [AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, NOK, PLN, SEK, TRY]
+    source: https://www.nuvei.com/apm/fortumo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: free-money
+    countries: [SN]
+    currencies: [XOF]
+    source: https://www.nuvei.com/apm/free-money
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fresh-mart
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/fresh-mart
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fundacion-genesis
+    countries: [GT]
+    currencies: [GTQ, USD]
+    source: https://www.nuvei.com/apm/fundacion-genesis
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gana
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/gana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ganagana
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/ganagana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/gcash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: getin-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/getin-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: google-pay
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CN, CO, CR, CY, CZ,
+      DE, DK, EC, EE, EG, ES, FI, FR, GB, GE, GH, GI, GR, GT, HK, HR, HU, ID, IE, IL, IM, IN,
+      IS, IT, JM, JO, JP, KE, KR, LI, LT, LU, LV, MA, MC, MD, ME, MK, MO, MT, MX, MY, NE, NG,
+      NL, "NO", NP, NZ, OM, PA, PE, PH, PL, PR, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV,
+      SZ, TH, TR, TW, UA, UY, VE, VN, XK, ZA]
+    currencies: [AED, ARS, AUD, AZN, BAM, BDT, BHD, BOB, BRL, CAD, CHF, CLP, CNY, COP, CRC, CZK,
+      DKK, DOP, DZD, EGP, ETB, EUR, GBP, GEL, GHS, GTQ, HKD, HNL, HUF, IDR, ILS, INR, IQD, ISK,
+      JOD, JPY, KES, KGS, KRW, KWD, KZT, LBP, LKR, MAD, MDL, MMK, MOP, MXN, MYR, NIO, NOK, NPR,
+      NZD, OMR, PEN, PHP, PKR, PLN, QAR, RON, RSD, RWF, SAR, SEK, SGD, SYP, THB, TND, TRY, TWD,
+      TZS, UAH, USD, UYU, UZS, VND, YER, ZAR]
+    source: https://www.nuvei.com/apm/google-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gopay
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/gopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/grabpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gwangju
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/gwangju
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: halopesa
+    countries: [TZ]
+    currencies: [TZS]
+    source: https://www.nuvei.com/apm/halopesa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hana
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/hana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hdbank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/hdbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hipay
+    countries: [BE, BR, DE, ES, FR, GB, NL, PT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/hipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hipercard
+    countries: [BR]
+    currencies: [BRL, EUR]
+    source: https://www.nuvei.com/apm/hipercard
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hong-leong
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/hong-leong
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hong-leong-connect
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/hong-leong-connect-pex
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hsbc
+    countries: [MX]
+    currencies: [MXN, USD]
+    source: https://www.nuvei.com/apm/hsbc
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hyundai
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/hyundai
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ib-muamalat
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/ib-muamalat
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ideal
+    countries: [NL]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/ideal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indomaret
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/indomaret
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ing
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/ing
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: instadebit
+    countries: [CA]
+    currencies: [CAD, USD]
+    source: https://www.nuvei.com/apm/instadebit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: instant-bank-payments-nordics
+    countries: [DK, EE, FI, SE]
+    currencies: [DKK, EUR, SEK]
+    source: https://www.nuvei.com/apm/instant-bank-payments
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: instant-bank-transfer-canada
+    countries: [CA]
+    currencies: [CAD]
+    source: https://www.nuvei.com/apm/instant-bank-transfer-canada
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: instant-open-banking
+    countries: [AT, BE, DE, EE, ES, FR, GB, IE, IT, LT, LV, NL]
+    currencies: [EUR, GBP]
+    source: https://www.nuvei.com/apm/instant-open-banking
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: integral
+    countries: [SV]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/integral
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: inteligo
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/inteligo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: interac-e-transfer
+    countries: [CA]
+    currencies: [CAD]
+    source: https://www.nuvei.com/apm/interac-e-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: interac-online
+    countries: [CA]
+    currencies: [CAD]
+    source: https://www.nuvei.com/apm/interac-online
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: interbank
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/interbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ipko
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/ipko
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: itau
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/banco-itau
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: itau-chile
+    countries: [CL]
+    currencies: [CLP]
+    source: https://www.nuvei.com/apm/itau
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: japan-bank-transfer
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/bank-transfer-japan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jeju
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/jeju
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jeonbuk
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/jeonbuk
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jer
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/jer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: k-plus
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/kasikorn-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kakao-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/kakaopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kasnet
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/kasnet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: keb
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/keb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kfh
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/kfh
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: khipu
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/khipu
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: klarna
+    countries: [AT, DE, DK, FI, GB, NL, "NO", SE, US]
+    currencies: [DKK, EUR, GBP, NOK, SEK, USD]
+    source: https://www.nuvei.com/apm/klarna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: klarna-debit-risk
+    countries: [AT, DE, GB]
+    currencies: [EUR, GBP]
+    source: https://www.nuvei.com/apm/klarna-debit-risk
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: komercni-banka
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/komercni-banka
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: konbini
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/konbini
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kookmin
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/kookmin
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-cards
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/south-korea-local-cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kredivo
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/kredivo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: krungsri
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/bank-of-ayudhya
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: krungthai-next
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/krung-thai-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kwickgo
+    countries: [AT, AU, BG, CA, CH, CZ, EE, ES, FI, HR, HU, IE, IN, IS, JP, LT, LU, LV, MT, NL,
+      "NO", NZ, PL, PT, SI]
+    currencies: [AED, ARS, AUD, AZN, BAM, BHD, BRL, CAD, CHF, CLP, CNY, COP, CRC, CZK, DKK, DOP,
+      DZD, EGP, EUR, GBP, GEL, GTQ, HKD, HNL, HUF, IDR, ILS, INR, IQD, ISK, JOD, JPY, KGS, KRW,
+      KWD, KZT, LBP, MAD, MDL, MMK, MOP, MXN, MYR, NIO, NOK, NZD, OMR, PEN, PHP, PKR, PLN, QAR,
+      RON, RSD, SAR, SEK, SGD, SYP, THB, TND, TRY, TWD, UAH, USD, UYU, UZS, VND, YER, ZAR]
+    source: https://www.nuvei.com/apm/kwickgo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: la-perla
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/la-perla
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: lider
+    countries: [CL]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/lider
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: line-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/line-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: linkaja
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/linkaja
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: livin-by-mandiri
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/bank-mandiri
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: loterica
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/loterica
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: lotte
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/lotte
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: m-pesa
+    countries: [KE, TZ]
+    currencies: [TZS, USD]
+    source: https://www.nuvei.com/apm/m-pesa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mach
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/mach
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: magna
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/magna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    countries: [AE, AT, AU, BE, BG, BR, CA, CL, CO, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HK,
+      HR, HU, IE, IT, KR, LT, LU, LV, MT, MX, NL, PE, PL, PT, RO, SE, SG, SI, SK, US]
+    currencies: [AED, ALL, AMD, ARS, AUD, AZN, BAM, BBD, BDT, BHD, BMD, BND, BOB, BRL, BWP, BYN,
+      CAD, CHF, CLP, CNY, COP, CRC, CZK, DKK, DOP, EGP, EUR, GBP, GEL, GHS, GTQ, HKD, HNL, HUF,
+      IDR, ILS, INR, IQD, ISK, JMD, JOD, JPY, KES, KGS, KHR, KRW, KWD, KYD, KZT, LKR, MAD, MDL,
+      MKD, MNT, MOP, MUR, MWK, MXN, MYR, MZN, NAD, NGN, NOK, NZD, OMR, PAB, PEN, PGK, PHP, PKR,
+      PLN, PYG, QAR, RON, RSD, SAR, SEK, SGD, SOS, THB, TOP, TRY, TTD, TWD, TZS, UAH, UGX, USD,
+      UYU, UZS, VND, XAF, XOF, ZAR]
+    source: https://www.nuvei.com/apm/mastercard
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maya
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/paymaya
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maybank2u
+    countries: [ID, MY]
+    currencies: [IDR, MYR]
+    source: https://www.nuvei.com/apm/maybank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mb-way
+    countries: [PT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/mbway
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mbank
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/mbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: meeza-digital-network
+    countries: [EG]
+    currencies: [EGP]
+    source: https://www.nuvei.com/apm/mezza-digital-network
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mercado-pago
+    countries: [AR, BR, CL, CO, MX]
+    currencies: [ARS, BRL, CLP, COP, MXN]
+    source: https://www.nuvei.com/apm/mercado-pago
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: merpay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/merpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobicash
+    countries: [TD, ZA, ZM]
+    currencies: [XOF]
+    source: https://www.nuvei.com/apm/mobicash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobilepay
+    countries: [DK, FI]
+    currencies: [DKK, EUR, NOK, SEK]
+    source: https://www.nuvei.com/apm/mobilepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: momo
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/momo-wallet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: moneta-money-bank
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/moneta-money-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: moov
+    countries: [CI]
+    currencies: [XOF]
+    source: https://www.nuvei.com/apm/moov
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: moviired
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/moviired
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mplatba
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/mplatba
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: msb
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/msb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mtn-mobile-money
+    countries: [CI, CM, GA, GH, RW, UG, ZM]
+    currencies: [GHS, RWF, USD, XAF, XOF, ZMW]
+    source: https://www.nuvei.com/apm/mtn
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mtransfer
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/mtransfer---mbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: muchbetter
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CN, CO, CR, CY, CZ,
+      DE, DK, EC, EE, EG, ES, FI, FR, GB, GE, GI, GR, GT, HK, HR, HU, ID, IE, IL, IN, IS, IT,
+      JM, JO, JP, KE, KR, LI, LT, LU, LV, MA, MC, MD, ME, MK, MT, MX, MY, NE, NG, NL, "NO", NP,
+      NZ, OM, PA, PE, PH, PL, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV, SZ, TH, TW, UA,
+      US, UY, VE, VN, ZA]
+    currencies: [BRL, CAD, CHF, CNY, EUR, GBP, PLN, USD]
+    source: https://www.nuvei.com/apm/muchbetter
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: multibanco
+    countries: [PT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/multibanco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: multicaja
+    countries: [CL]
+    currencies: [CLP]
+    source: https://www.nuvei.com/apm/multicaja
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mybank
+    countries: [BE, ES, IT, PT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/mybank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nama-bank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/nama-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naranja
+    countries: [AR]
+    currencies: [ARS, USD]
+    source: https://www.nuvei.com/apm/naranja
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nativa
+    countries: [AR]
+    currencies: [ARS, USD]
+    source: https://www.nuvei.com/apm/nativa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naver-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/naver-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: neosurf
+    countries: [AT, AU, BE, CA, CH, CY, DK, ES, FR, GB, IE, IT, KE, LU, MA, NE, NG, NL, "NO",
+      NZ, PL, PT, RO, SE, SN]
+    currencies: [AUD, CAD, EUR, GBP, PLN]
+    source: https://www.nuvei.com/apm/neosurf
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nequi
+    countries: [CO, PA]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/nequi-bank-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nest-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/nest-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: neteller
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CO, CR, CY, CZ, DE,
+      DK, EC, EE, EG, ES, FI, FR, GB, GE, GI, GR, GT, HK, HR, HU, ID, IE, IL, IM, IN, IS, IT,
+      JM, JO, KE, KR, LI, LT, LU, LV, MA, MC, ME, MK, MO, MT, MX, MY, NE, NG, NL, "NO", NP, NZ,
+      OM, PA, PE, PH, PL, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV, SZ, TH, TR, TW, UA,
+      UY, VE, VN, ZA]
+    currencies: [AUD, CAD, DKK, EUR, GBP, HUF, INR, JPY, MXN, NOK, PLN, RON, SEK, USD]
+    source: https://www.nuvei.com/apm/neteller
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nh
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/nh
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nibss
+    countries: [NG]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/nibss
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: niubiz
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/niubiz
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: noble-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/noble-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nordea
+    countries: [FI]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/nordea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: npp
+    countries: [AU]
+    currencies: [AUD]
+    source: https://www.nuvei.com/apm/npp
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nqr
+    countries: [NG]
+    currencies: [NGN]
+    source: https://www.nuvei.com/apm/nqr
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ocbc
+    countries: [MY, SG]
+    currencies: [MYR, SGD]
+    source: https://www.nuvei.com/apm/ocbc-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: okto-cash
+    countries: [CY, GR, IT, RO]
+    currencies: [EUR, RON]
+    source: https://www.nuvei.com/apm/okto-cash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: okto-wallet
+    countries: [GR, IT, RO]
+    currencies: [RON]
+    source: https://www.nuvei.com/apm/okto-wallet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: olamoney
+    countries: [IN]
+    currencies: [INR]
+    source: https://www.nuvei.com/apm/olamoney
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: online-banking-finland
+    countries: [FI]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/finnish-banks
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: onshop
+    countries: [IT]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/onshop
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: op-pohjola
+    countries: [FI]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/op-pohjola
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: opay
+    countries: [EG]
+    currencies: [EGP]
+    source: https://www.nuvei.com/apm/opay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: open-pay
+    countries: [MX]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/open-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: openbucks-card
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/openbucks-card
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: optima
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/optima
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: orange-money
+    countries: [CI, CM, SN]
+    currencies: [XAF, XOF]
+    source: https://www.nuvei.com/apm/orange-money
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ovo
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/ovo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oxxo
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/oxxo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paga
+    countries: [NG]
+    currencies: [NGN]
+    source: https://www.nuvei.com/apm/paga
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagatodo
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/pagatodo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pago-agil
+    countries: [EC]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/pago-agil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pago-express
+    countries: [PY]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/pago-express
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pago-facil
+    countries: [AR]
+    currencies: [ARS]
+    source: https://www.nuvei.com/apm/pago-facil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagocash
+    countries: [PA]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/pagocash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagoefectivo
+    countries: [EC, PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/pago-efectivo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagos-724
+    countries: [SV]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/pagos-724
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: passngo
+    countries: [AT, AU, BG, CA, CH, CZ, EE, ES, FI, HR, HU, IE, IN, IS, JP, LT, LU, LV, MT, NL,
+      "NO", NZ, PL, PT, SI]
+    currencies: [AED, ARS, AUD, AZN, BAM, BHD, BRL, CAD, CHF, CLP, CNY, COP, CRC, CZK, DKK, DOP,
+      DZD, EGP, EUR, GBP, GEL, GTQ, HKD, HNL, HUF, IDR, ILS, INR, IQD, ISK, JOD, JPY, KGS, KRW,
+      KWD, KZT, LBP, MAD, MDL, MMK, MOP, MXN, MYR, NIO, NOK, NZD, OMR, PEN, PHP, PKR, PLN, QAR,
+      RON, RSD, SAR, SEK, SGD, SYP, THB, TND, TRY, TWD, UAH, USD, UYU, UZS, VND, YER, ZAR]
+    source: https://www.nuvei.com/apm/passngo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-cash
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/pay-by-cash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-mobile
+    currencies: [AUD, CAD, CHF, CZK, DKK, EUR, GBP, NOK, PLN, SEK, TRY]
+    source: https://www.nuvei.com/apm/pay-by-mobile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/payeasy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-post-by-thailandpost
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/pay-post-by-thailandpost
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-with-bank-transfer-pwbt
+    countries: [GB]
+    currencies: [GBP]
+    source: https://www.nuvei.com/apm/pay-with-bank-transfer-pwbt
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-with-crypto
+    countries: [AD, AE, AM, AO, AT, AU, AW, AZ, BE, BG, BH, BM, BR, BS, BT, BW, BZ, CA, CH, CI,
+      CL, CO, CR, CY, CZ, DE, DJ, DK, DO, EE, ER, ES, ET, FI, FJ, FR, GA, GB, GE, GG, GH, GI,
+      GM, GN, GR, GT, GY, HK, HN, HR, HU, ID, IE, IL, IM, IN, IS, IT, KE, KM, KW, KZ, LA, LI,
+      LK, LR, LS, LT, LU, LV, MC, MD, MG, MN, MO, MT, MU, MV, MW, MX, MY, NA, NE, "NO", NZ, OM,
+      PE, PF, PG, PL, PT, PY, QA, RO, RW, SB, SC, SE, SG, SI, SK, SL, SV, TD, TJ, TM, TO, TW,
+      US, UY, UZ, ZA, ZM]
+    currencies: [AED, ARS, AUD, AZN, BAM, BDT, BHD, BOB, BRL, CAD, CDF, CHF, CLP, CNY, COP, CZK,
+      DKK, DOP, EGP, ETB, EUR, GBP, GEL, GHS, GTQ, HKD, HNL, HUF, IDR, ILS, INR, IQD, ISK, JOD,
+      JPY, KGS, KRW, KWD, KZT, LBP, MAD, MDL, MMK, MNT, MOP, MXN, MYR, MZN, NGN, NIO, NOK, NPR,
+      NZD, PAB, PEN, PHP, PKR, PLN, RON, RSD, RWF, SAR, SEK, SGD, SYP, THB, TND, TRY, TWD, TZS,
+      UAH, USD, UZS, XAF, XOF, YER, ZAR, ZMW]
+    source: https://www.nuvei.com/apm/pay-with-crypto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay4fun
+    countries: [BR]
+    currencies: [BRL, EUR, GBP, USD]
+    source: https://www.nuvei.com/apm/pay4fun
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay4me
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/pay4me
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paycash
+    countries: [CL, CO, MX, PE]
+    currencies: [CLP, COP, MXN, PEN]
+    source: https://www.nuvei.com/apm/paycash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paylink-idea
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/paylink-idea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynet
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/paynet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/paynow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypal
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CN, CO, CR, CY, CZ,
+      DE, DK, EC, EE, EG, ES, FI, FR, GB, GE, GI, GR, GT, HK, HR, HU, ID, IE, IL, IN, IS, IT,
+      JM, JO, JP, KE, KR, LI, LT, LU, LV, MA, MC, MD, ME, MK, MT, MX, MY, NE, NG, NL, "NO", NP,
+      NZ, OM, PA, PE, PH, PL, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV, SZ, TH, TW, UA,
+      US, UY, VE, VN, ZA]
+    currencies: [AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, ILS, JPY, MMK, MXN, MYR, NOK,
+      NZD, PHP, PLN, SEK, SGD, THB, TRY, TWD, USD, UYU]
+    source: https://www.nuvei.com/apm/paypal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/paypay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payphone
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/payphone
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysafecard
+    countries: [AT, AU, BE, BG, CA, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GE, GI, HR, HU, IE,
+      IT, LI, LT, LU, LV, MT, MX, NL, "NO", PE, PL, PT, RO, SA, SE, SI, SK, UY]
+    currencies: [AUD, CAD, EUR, GBP, NOK, RON, SEK, USD]
+    source: https://www.nuvei.com/apm/paysafecard
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysafecash
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/paysafe-cash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payto
+    countries: [AU]
+    currencies: [AUD]
+    source: https://www.nuvei.com/apm/payto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payu
+    countries: [CZ, PL]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/payu
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payz
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, CA, CH, CL, CN, CO, CR, CY, CZ, DE,
+      DK, EC, EE, EG, ES, FI, FR, GB, GE, GI, GR, HK, HR, HU, IE, IL, IN, IS, IT, JM, JO, JP,
+      KR, LI, LT, LU, LV, MC, MD, ME, MK, MO, MT, MX, MY, NL, "NO", NP, NZ, OM, PA, PE, PL, PR,
+      PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SV, TH, TR, TW, UA, US, UY, VE, VN, XK, ZA]
+    currencies: [AED, ARS, AUD, BAM, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, GEL, HKD,
+      HUF, ILS, ISK, JPY, MDL, MOP, MXN, MYR, NOK, NZD, PEN, PLN, RON, RSD, SEK, SGD, THB, TRY,
+      UAH, USD, UZS, ZAR]
+    source: https://www.nuvei.com/apm/payz
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pbs-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/pbs-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pekao24przelew-banka-pekao
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/pekao24przelew-banka-pekao
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: permata
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/permata-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pesalink
+    countries: [KE]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/pesalink
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pichincha-mi-vecino
+    countries: [EC]
+    currencies: [EUR, USD]
+    source: https://www.nuvei.com/apm/pichincha-mi-vecino
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: picpay
+    countries: [BR]
+    currencies: [BRL]
+    source: https://www.nuvei.com/apm/picpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    countries: [BR]
+    currencies: [BRL]
+    source: https://www.nuvei.com/apm/pix
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: play-plus
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/play
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: plus-bank
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/plus-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: podkarpacki-bank-spoldzielczy
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/podkarpacki-bank-spoldzielczy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: posb
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/posb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: postfinance-card
+    countries: [CH]
+    currencies: [CHF, EUR]
+    source: https://www.nuvei.com/apm/postfinance-card
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: postfinance-efinance
+    countries: [CH]
+    currencies: [CHF, EUR]
+    source: https://www.nuvei.com/apm/postfinance-efinance
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: postova-banka
+    countries: [SK]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/postova-banka
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: postovni-sporitelna
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/postovni-sporitelna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/promptpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: przelewy24
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/przelewy24
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pse
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/pse
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: public-bank
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/public-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: puntored
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/puntored
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qr-code-wallet-yape-and-plin
+    countries: [PE]
+    currencies: [PEN]
+    source: https://www.nuvei.com/apm/qr-code-wallet---yape-and-plin
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qr-redeban
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/qr-redeban
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qris
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/qris
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: raiffeisen-bank
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/raiffeisen-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rakuten-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.nuvei.com/apm/rakuten-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rapipago
+    countries: [AR]
+    currencies: [ARS]
+    source: https://www.nuvei.com/apm/rapipago
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: red-activa
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/red-activa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: red-compra
+    countries: [CL]
+    currencies: [CLP]
+    source: https://www.nuvei.com/apm/red-compra
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: red-link
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/red-link
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: redpagos
+    countries: [UY]
+    currencies: [UYU]
+    source: https://www.nuvei.com/apm/redpagos
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rhb
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/rhb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ripley
+    countries: [PE]
+    currencies: [PEN, USD]
+    source: https://www.nuvei.com/apm/ripley
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: riverty
+    countries: [AT, BE, DE, DK, FI, NL, "NO", SE, SZ]
+    currencies: [CHF, DKK, EUR, NOK, SEK]
+    source: https://www.nuvei.com/apm/riverty
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: robinson
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/robinson
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: roma
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/roma
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rupay
+    countries: [IN]
+    currencies: [INR]
+    source: https://www.nuvei.com/apm/rupay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: safetypay
+    countries: [AT, BE, BR, CL, DE, EC, ES, MX, NL, PE, PY]
+    currencies: [EUR, USD]
+    source: https://www.nuvei.com/apm/safetypay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sam
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/sam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sams-club
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/sams-club
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/samsung
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/samsung-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-brazil
+    countries: [BR]
+    currencies: [BRL, USD]
+    source: https://www.nuvei.com/apm/santander-brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-chile
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/banco-santander
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-mexico
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/santander-mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: satispay
+    countries: [AT, BE, BG, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IS, IT, LI,
+      LT, LU, LV, MT, NL, "NO", PL, PT, RO, SE, SI, SK, TR]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/satispay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sberbank
+    countries: [CZ]
+    currencies: [CZK]
+    source: https://www.nuvei.com/apm/sberbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scb-easy
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/siam-commercial-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scotiabank
+    countries: [MX, PE]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/scotiabank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: secure-bank-transfer
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/secure-bank-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sencillito
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/sencillito
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sepa-direct-debit
+    countries: [AD, AT, BE, BG, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IS, IT,
+      LI, LT, LU, LV, MC, MT, NL, "NO", PL, PT, RO, SE, SI, SK]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/sepa-direct-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: servipag
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/servipag
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: servipagos
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/servipagos
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shb
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/shb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shinhan
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/shinhan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopeepay
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.nuvei.com/apm/shopeepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: skrill
+    countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CN, CO, CR, CY, CZ,
+      DE, DK, EC, EE, EG, ES, FI, FR, GB, GE, GH, GI, GR, GT, HK, HR, HU, ID, IE, IL, IM, IN,
+      IS, IT, JM, JO, KE, KR, LI, LT, LU, LV, MA, MC, MD, ME, MK, MO, MT, MX, MY, NE, NG, NL,
+      "NO", NP, NZ, OM, PA, PE, PH, PL, PR, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV, SZ,
+      TH, TR, TW, UA, UY, VE, VN, ZA]
+    currencies: [AED, AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, ILS, INR, ISK, JOD, JPY, KRW,
+      MAD, MYR, NOK, NZD, OMR, PLN, QAR, RON, RSD, SAR, SEK, SGD, THB, TND, TRY, TWD, USD, ZAR]
+    source: https://www.nuvei.com/apm/skrill
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: skrill-rapid-transfer
+    countries: [AT, BE, BG, DE, DK, EE, ES, FI, FR, GB, GR, HU, IT, LV, NL, "NO", PL, PT, SE]
+    currencies: [DKK, EUR, GBP, HUF, NOK, PLN, SEK]
+    source: https://www.nuvei.com/apm/skrill-rapid-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: slovenska-sporitelna
+    countries: [SK]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/slovenska-sporitelna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: standard-chartered-bank
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/standard-chartered-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: stpmex
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/stpmex
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: su-chance
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/su-chance
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: su-red
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/su-red
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sugarpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/sugarpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: superama
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/superama
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: surti-mayorista
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/surti-mayorista
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: surtimax
+    countries: [CO]
+    currencies: [COP, USD]
+    source: https://www.nuvei.com/apm/surtimax
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: swish
+    countries: [SE]
+    currencies: [SEK]
+    source: https://www.nuvei.com/apm/swish
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: swiss-payments
+    countries: [CH]
+    currencies: [CHF]
+    source: https://www.nuvei.com/apm/swiss-payments
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: t-mobile
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/t-mobile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tambo
+    countries: [PE]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/tambo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tarjeta-shopping
+    countries: [AR]
+    currencies: [ARS, USD]
+    source: https://www.nuvei.com/apm/tarjeta-shopping
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tatra-banka
+    countries: [SK]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/tatra-banka
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: techcombank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/techcombank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tesco-lotus
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/tesco-lotus
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: thailand-online-banking
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/online-banking-thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tia
+    countries: [EC]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/tia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tiendas-galo
+    countries: [SV]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/tiendas-galo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tienphongbank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/tienphongbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tigo-pesa
+    countries: [TZ]
+    currencies: [TZS]
+    source: https://www.nuvei.com/apm/tigo-mobile-money
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tingg
+    countries: [NG]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/tingg
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: todito-cash
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.nuvei.com/apm/todito-cash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tops-market
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/tops-market
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: toss-payments
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/toss-payments
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.nuvei.com/apm/touch-n-go
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tpay
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.nuvei.com/apm/tpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: transfiya
+    countries: [CO]
+    currencies: [COP]
+    source: https://www.nuvei.com/apm/transfiya
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: troy
+    countries: [TR]
+    currencies: [TRY]
+    source: https://www.nuvei.com/apm/troy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: true-money-shop
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/true-money-shop
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: trustly
+    countries: [AT, BE, CZ, DE, DK, EE, ES, FI, GB, LT, LV, NL, "NO", PL, SE, SK]
+    currencies: [AED, ARS, AUD, AZN, BAM, BHD, BRL, CAD, CHF, CLP, CNY, COP, CRC, CZK, DKK, DOP,
+      DZD, EGP, EUR, GBP, GEL, GTQ, HKD, HNL, HUF, IDR, ILS, INR, IQD, ISK, JOD, JPY, KGS, KRW,
+      KWD, KZT, LBP, MAD, MDL, MMK, MOP, MXN, MYR, NIO, NOK, NZD, OMR, PEN, PHP, PKR, PLN, QAR,
+      RON, RSD, SAR, SEK, SGD, SYP, THB, TND, TRY, TWD, UAH, USD, UYU, UZS, VND, YER, ZAR]
+    source: https://www.nuvei.com/apm/trustly
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ttb-touch
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/thanachart-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tupay
+    countries: [PE]
+    currencies: [PEN]
+    source: https://www.nuvei.com/apm/tupay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: twint
+    countries: [CH]
+    currencies: [CHF]
+    source: https://www.nuvei.com/apm/twint
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unicredit
+    countries: [CZ, SK]
+    currencies: [CZK, EUR]
+    source: https://www.nuvei.com/apm/unicredit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionbank
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.nuvei.com/apm/ubp-unionbank-philippines
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionpay
+    countries: [CN]
+    currencies: [EUR, GBP, USD]
+    source: https://www.nuvei.com/apm/unionpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: united-overseas-bank
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.nuvei.com/apm/united-overseas-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ussd
+    countries: [NG]
+    currencies: [NGN]
+    source: https://www.nuvei.com/apm/ussd
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: venmo
+    countries: [US]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/venmo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vietabank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/vietabank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vietcombank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/vietcombank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vietinbank
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/vietinbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    countries: [AE, AT, AU, BE, BG, BR, CA, CL, CO, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HK,
+      HR, HU, IE, IT, KR, LT, LU, LV, MT, MX, NL, PE, PL, PT, RO, SE, SG, SI, SK, US]
+    currencies: [AED, ALL, AMD, ARS, AUD, AZN, BAM, BBD, BDT, BHD, BMD, BND, BOB, BRL, BWP, BYN,
+      CAD, CHF, CLP, CNY, COP, CRC, CZK, DKK, DOP, EGP, EUR, GBP, GEL, GHS, GTQ, HKD, HNL, HUF,
+      IDR, ILS, INR, IQD, ISK, JMD, JOD, JPY, KES, KGS, KHR, KRW, KWD, KYD, KZT, LKR, MAD, MDL,
+      MKD, MNT, MOP, MUR, MWK, MXN, MYR, MZN, NAD, NGN, NOK, NZD, OMR, PAB, PEN, PGK, PHP, PKR,
+      PLN, PYG, QAR, RON, RSD, SAR, SEK, SGD, SOS, THB, TOP, TRY, TTD, TWD, TZS, UAH, UGX, USD,
+      UYU, UZS, VND, XAF, XOF, ZAR]
+    source: https://www.nuvei.com/apm/visa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa-voucher
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DK, EE, ES, FI, GB, GR, HR, HU,
+      IE, IN, IT, JP, KR, LT, LU, LV, MT, MX, MY, NL, "NO", NZ, PE, PH, PL, PT, QA, RO, RS, SA,
+      SE, SG, SI, SK, TH, UA, ZA]
+    currencies: [AED, ARS, AUD, BRL, CAD, CHF, CLP, CZK, DKK, EUR, GBP, HUF, INR, JPY, MXN, MYR,
+      NOK, NZD, PEN, PHP, PLN, QAR, RON, RSD, SAR, SEK, SGD, THB, UAH, ZAR]
+    source: https://www.nuvei.com/apm/visa-voucher
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vodafone-cash
+    countries: [GH]
+    currencies: [GHS]
+    source: https://www.nuvei.com/apm/vodafone
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vseobecna-uverova-banka
+    countries: [SK]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/vseobecna-uverova-banka
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vtc-pay
+    countries: [VN]
+    currencies: [VND]
+    source: https://www.nuvei.com/apm/vtc-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: walmart
+    countries: [MX]
+    currencies: [USD]
+    source: https://www.nuvei.com/apm/walmart
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wave
+    countries: [SN]
+    currencies: [XOF]
+    source: https://www.nuvei.com/apm/wave
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: webpay
+    countries: [CL]
+    currencies: [CLP, USD]
+    source: https://www.nuvei.com/apm/webpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    countries: [CN]
+    currencies: [CNY, EUR, GBP, USD]
+    source: https://www.nuvei.com/apm/wechat-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wero
+    countries: [BE, DE, FR, LU, NL]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/wero
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: western-union
+    countries: [EC, PA]
+    currencies: [EUR]
+    source: https://www.nuvei.com/apm/western-union
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: woori
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.nuvei.com/apm/woori
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zamtel
+    countries: [ZM]
+    currencies: [ZMW]
+    source: https://www.nuvei.com/apm/zamtel
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zen
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.nuvei.com/apm/zen
+    source_type: provider_docs
+    checked: 2026-11-24

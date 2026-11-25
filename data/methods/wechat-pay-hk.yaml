@@ -1,0 +1,5 @@
+id: wechat-pay-hk
+name: WeChat Pay HK
+type: wallet
+countries: [HK]
+currencies: [HKD]

@@ -1,0 +1,5 @@
+id: public-bank
+name: Public Bank
+type: real_time_payment
+countries: [MY]
+currencies: [MYR]

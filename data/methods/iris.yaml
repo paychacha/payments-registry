@@ -1,0 +1,5 @@
+id: iris
+name: IRIS
+type: bank_redirect
+countries: [GR]
+currencies: [EUR]

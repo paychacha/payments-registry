@@ -1,0 +1,4 @@
+id: banco-caja-social
+name: Banco Caja Social
+type: bank_transfer
+countries: [CO]

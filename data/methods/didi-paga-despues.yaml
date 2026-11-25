@@ -1,0 +1,4 @@
+id: didi-paga-despues
+name: DiDi Paga Después
+type: bnpl
+countries: [MX]

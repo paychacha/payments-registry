@@ -1,0 +1,5 @@
+id: blik
+name: BLIK
+type: bank_redirect
+countries: [PL, SK]
+currencies: [EUR, PLN]

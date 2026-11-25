@@ -1,0 +1,5 @@
+id: perlas-terminals
+name: Perlas Terminals
+type: cash_voucher
+countries: [LT]
+currencies: [EUR]

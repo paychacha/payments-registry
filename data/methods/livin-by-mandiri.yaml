@@ -1,0 +1,8 @@
+id: livin-by-mandiri
+name: Livin' by Mandiri
+aliases:
+  - Bank Mandiri
+  - Mandiri ATM Automatic
+type: bank_transfer
+countries: [ID]
+currencies: [IDR]

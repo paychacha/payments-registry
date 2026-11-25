@@ -1,0 +1,7 @@
+id: kasnet
+name: KasNet
+aliases:
+  - Kasnet Agente Multibanco
+type: cash_voucher
+countries: [PE]
+currencies: [PEN]

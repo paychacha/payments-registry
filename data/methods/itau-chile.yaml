@@ -1,0 +1,5 @@
+id: itau-chile
+name: Itaú (Chile)
+type: bank_transfer
+countries: [CL]
+currencies: [CLP]

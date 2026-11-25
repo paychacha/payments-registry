@@ -1,0 +1,5 @@
+id: bank-islam
+name: Bank Islam
+type: bank_transfer
+countries: [MY]
+currencies: [MYR]

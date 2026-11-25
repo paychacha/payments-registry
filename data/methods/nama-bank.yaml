@@ -1,0 +1,5 @@
+id: nama-bank
+name: NamA Bank
+type: bank_transfer
+countries: [VN]
+currencies: [VND]

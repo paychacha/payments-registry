@@ -1,0 +1,5 @@
+id: rupay
+name: Rupay
+type: card
+countries: [IN]
+currencies: [INR]

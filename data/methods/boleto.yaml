@@ -1,0 +1,8 @@
+id: boleto
+name: Boleto
+aliases:
+  - Boleto Hybrid
+  - Boleto Rapido
+type: cash_voucher
+countries: [BR]
+currencies: [BRL]

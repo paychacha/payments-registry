@@ -1,0 +1,5 @@
+id: multibanco
+name: Multibanco
+type: cash_voucher
+countries: [PT]
+currencies: [EUR]

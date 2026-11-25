@@ -1,0 +1,8 @@
+id: touch-n-go
+name: Touch 'n Go
+aliases:
+  - Touch 'n Go Digital
+  - Touch 'n Go eWallet
+type: wallet
+countries: [MY]
+currencies: [MYR]

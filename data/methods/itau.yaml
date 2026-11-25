@@ -1,0 +1,7 @@
+id: itau
+name: Itaú
+aliases:
+  - Banco Itau
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

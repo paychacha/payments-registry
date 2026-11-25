@@ -1,0 +1,5 @@
+id: pay4me
+name: Pay4Me
+type: bank_redirect
+countries: [MY]
+currencies: [MYR]

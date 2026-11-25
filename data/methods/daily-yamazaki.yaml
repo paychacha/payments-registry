@@ -1,0 +1,5 @@
+id: daily-yamazaki
+name: Daily Yamazaki
+type: cash_voucher
+countries: [JP]
+currencies: [JPY]

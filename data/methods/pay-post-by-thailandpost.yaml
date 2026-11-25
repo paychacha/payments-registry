@@ -1,0 +1,5 @@
+id: pay-post-by-thailandpost
+name: Pay@Post by Thailandpost
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

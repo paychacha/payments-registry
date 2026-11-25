@@ -1,0 +1,5 @@
+id: paypal
+name: PayPal
+website: https://www.paypal.com
+roles: [psp, payfac]
+coverage: []

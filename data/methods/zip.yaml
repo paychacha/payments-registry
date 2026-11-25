@@ -1,0 +1,5 @@
+id: zip
+name: Zip
+type: bnpl
+countries: [AU, US]
+currencies: [AUD, USD]

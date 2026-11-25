@@ -1,0 +1,5 @@
+id: instant-bank-transfer-canada
+name: Instant Bank Transfer Canada
+type: real_time_payment
+countries: [CA]
+currencies: [CAD]

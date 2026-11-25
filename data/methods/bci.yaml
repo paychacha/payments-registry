@@ -1,0 +1,7 @@
+id: bci
+name: BCI
+aliases:
+  - Banco BCI
+type: real_time_payment
+countries: [CL]
+currencies: [CLP]

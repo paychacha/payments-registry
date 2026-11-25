@@ -1,0 +1,5 @@
+id: crypto-com-pay
+name: Crypto.com Pay
+website: https://crypto.com/pay
+roles: [psp]
+coverage: []

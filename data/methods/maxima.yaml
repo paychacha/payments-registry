@@ -1,0 +1,5 @@
+id: maxima
+name: Maxima
+type: cash_voucher
+countries: [LT]
+currencies: [EUR]

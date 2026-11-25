@@ -1,0 +1,5 @@
+id: red-activa
+name: Red Activa
+type: cash_voucher
+countries: [EC]
+currencies: [USD]

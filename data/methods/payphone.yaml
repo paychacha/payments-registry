@@ -1,0 +1,5 @@
+id: payphone
+name: Payphone
+type: wallet
+countries: [EC]
+currencies: [USD]

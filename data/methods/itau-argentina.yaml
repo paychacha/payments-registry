@@ -1,0 +1,4 @@
+id: itau-argentina
+name: Itaú (Argentina)
+type: bank_transfer
+countries: [AR]

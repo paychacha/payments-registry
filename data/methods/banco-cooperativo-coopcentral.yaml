@@ -1,0 +1,5 @@
+id: banco-cooperativo-coopcentral
+name: Banco Cooperativo Coopcentral
+type: bank_transfer
+countries: [CO]
+currencies: [COP]

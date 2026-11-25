@@ -1,0 +1,4 @@
+id: investec
+name: Investec
+type: bank_transfer
+countries: [ZA]

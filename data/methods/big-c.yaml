@@ -1,0 +1,7 @@
+id: big-c
+name: Big C
+aliases:
+  - Big C Supercenter
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

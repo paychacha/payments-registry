@@ -1,0 +1,4 @@
+id: sterling-bank
+name: Sterling Bank
+type: bank_transfer
+countries: [NG]

@@ -1,0 +1,7 @@
+id: boost
+name: Boost
+aliases:
+  - Boost Wallet
+type: wallet
+countries: [MY]
+currencies: [MYR]

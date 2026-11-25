@@ -1,0 +1,5 @@
+id: banorte
+name: Banorte
+type: bank_transfer
+countries: [MX]
+currencies: [MXN]

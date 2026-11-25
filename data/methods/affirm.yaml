@@ -1,0 +1,5 @@
+id: affirm
+name: Affirm
+type: bnpl
+countries: [CA, US]
+currencies: [USD]

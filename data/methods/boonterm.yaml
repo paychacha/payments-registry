@@ -1,0 +1,5 @@
+id: boonterm
+name: Boonterm
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

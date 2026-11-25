@@ -1,0 +1,5 @@
+id: venmo
+name: Venmo
+type: wallet
+countries: [US]
+currencies: [USD]

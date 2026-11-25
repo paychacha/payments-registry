@@ -1,0 +1,4 @@
+id: bsi
+name: BSI
+type: bank_redirect
+countries: [ID]

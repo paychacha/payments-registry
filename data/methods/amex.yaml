@@ -1,0 +1,6 @@
+id: amex
+name: American Express
+aliases:
+  - American Express (AMEX)
+type: card
+global: true

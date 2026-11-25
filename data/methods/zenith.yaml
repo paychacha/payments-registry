@@ -1,0 +1,6 @@
+id: zenith
+name: Zenith Bank
+aliases:
+  - Zenith
+type: bank_transfer
+countries: [NG]

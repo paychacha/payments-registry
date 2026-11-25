@@ -1,0 +1,5 @@
+id: ministop
+name: Ministop
+type: cash_voucher
+countries: [JP]
+currencies: [JPY]

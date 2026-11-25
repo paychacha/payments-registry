@@ -1,0 +1,7 @@
+id: pay-by-bank
+name: Pay by Bank
+aliases:
+  - Open banking / PaybyBank
+type: bank_redirect
+countries: [BE, DE, ES, FI, FR, GB, IE, NL]
+currencies: [EUR, GBP]

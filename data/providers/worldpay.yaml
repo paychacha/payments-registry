@@ -1,0 +1,5 @@
+id: worldpay
+name: Worldpay
+website: https://www.worldpay.com
+roles: [psp, acquirer, gateway]
+coverage: []

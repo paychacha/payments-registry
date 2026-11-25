@@ -1,0 +1,6 @@
+id: bbva-chile
+name: BBVA (Chile)
+aliases:
+  - BBVA
+type: bank_transfer
+countries: [CL]

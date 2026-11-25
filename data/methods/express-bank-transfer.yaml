@@ -1,0 +1,5 @@
+id: express-bank-transfer
+name: Express Bank Transfer
+type: bank_redirect
+countries: [KR]
+currencies: [KRW]

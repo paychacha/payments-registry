@@ -1,0 +1,5 @@
+id: pay-by-bank-app-pbba
+name: Pay by Bank app (PbBa)
+type: bank_redirect
+countries: [GB]
+currencies: [GBP]

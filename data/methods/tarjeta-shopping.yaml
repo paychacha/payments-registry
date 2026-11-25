@@ -1,0 +1,5 @@
+id: tarjeta-shopping
+name: Tarjeta Shopping
+type: card
+countries: [AR]
+currencies: [ARS]

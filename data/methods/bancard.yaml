@@ -1,0 +1,4 @@
+id: bancard
+name: Bancard
+type: real_time_payment
+countries: [PY]

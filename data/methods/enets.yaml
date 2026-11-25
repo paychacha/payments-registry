@@ -1,0 +1,5 @@
+id: enets
+name: eNETS
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

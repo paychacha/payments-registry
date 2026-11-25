@@ -1,0 +1,5 @@
+id: rakuten-pay
+name: 楽天ペイ (Rakuten Pay)
+type: wallet
+countries: [JP]
+currencies: [JPY]

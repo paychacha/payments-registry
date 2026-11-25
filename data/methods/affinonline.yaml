@@ -1,0 +1,5 @@
+id: affinonline
+name: AffinOnline
+type: bank_redirect
+countries: [MY]
+currencies: [MYR]

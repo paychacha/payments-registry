@@ -1,0 +1,5 @@
+id: farmacia-santa-maria
+name: Farmacia Santa Maria
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

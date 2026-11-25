@@ -1,0 +1,5 @@
+id: au-pay
+name: au PAY
+type: wallet
+countries: [JP]
+currencies: [JPY]

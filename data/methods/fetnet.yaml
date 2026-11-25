@@ -1,0 +1,5 @@
+id: fetnet
+name: FETnet
+type: carrier_billing
+countries: [TW]
+currencies: [TWD]

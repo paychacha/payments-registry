@@ -1,0 +1,5 @@
+id: sugarpay
+name: SugarPay
+type: bank_transfer
+countries: [TH]
+currencies: [THB]

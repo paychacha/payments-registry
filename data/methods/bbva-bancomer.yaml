@@ -1,0 +1,7 @@
+id: bbva-bancomer
+name: BBVA Bancomer
+aliases:
+  - Bancomer
+type: real_time_payment
+countries: [MX]
+currencies: [MXN]

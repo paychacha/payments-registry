@@ -1,0 +1,4 @@
+id: capitec-pay
+name: Capitec Pay
+type: bank_transfer
+countries: [ZA]

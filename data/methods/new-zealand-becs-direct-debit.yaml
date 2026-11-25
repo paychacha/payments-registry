@@ -1,0 +1,5 @@
+id: new-zealand-becs-direct-debit
+name: New Zealand BECS Direct Debit
+type: bank_debit
+countries: [NZ]
+currencies: [NZD]

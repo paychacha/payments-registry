@@ -1,0 +1,6 @@
+id: galicia
+name: Banco Galicia
+aliases:
+  - Galicia
+type: bank_transfer
+countries: [AR]

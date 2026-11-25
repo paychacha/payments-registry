@@ -1,0 +1,5 @@
+id: dragonpay
+name: Dragonpay
+type: bank_transfer
+countries: [PH]
+currencies: [PHP]

@@ -1,0 +1,5 @@
+id: payu
+name: PayU
+type: bank_redirect
+countries: [CZ, PL, SK]
+currencies: [CZK, EUR, PLN]

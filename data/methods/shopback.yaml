@@ -1,0 +1,5 @@
+id: shopback
+name: ShopBack
+type: wallet
+countries: [SG]
+currencies: [SGD]

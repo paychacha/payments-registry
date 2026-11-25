@@ -1,0 +1,5 @@
+id: npp
+name: NPP
+type: bank_transfer
+countries: [AU]
+currencies: [AUD]

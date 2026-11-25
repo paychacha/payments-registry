@@ -1,0 +1,4 @@
+id: gt-bank
+name: GTBank
+type: bank_transfer
+countries: [NG]

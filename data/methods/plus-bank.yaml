@@ -1,0 +1,5 @@
+id: plus-bank
+name: Plus bank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

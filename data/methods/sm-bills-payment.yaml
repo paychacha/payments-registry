@@ -1,0 +1,5 @@
+id: sm-bills-payment
+name: SM Bills Payment
+type: cash_voucher
+countries: [PH]
+currencies: [PHP]

@@ -1,0 +1,8 @@
+id: ach-direct-debit
+name: ACH Direct Debit
+aliases:
+  - Guaranteed ACH
+  - ACH
+type: bank_debit
+countries: [US]
+currencies: [USD]

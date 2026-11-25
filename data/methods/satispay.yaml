@@ -1,0 +1,5 @@
+id: satispay
+name: Satispay
+type: wallet
+countries: [BE, DE, FR, IT, LU]
+currencies: [EUR]

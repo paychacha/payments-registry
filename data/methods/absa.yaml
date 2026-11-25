@@ -1,0 +1,4 @@
+id: absa
+name: Absa
+type: bank_transfer
+countries: [ZA]

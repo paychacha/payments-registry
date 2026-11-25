@@ -1,0 +1,4 @@
+id: buy-now-pay-later-bnpl
+name: Buy Now Pay Later (BNPL)
+type: bnpl
+countries: [AR]

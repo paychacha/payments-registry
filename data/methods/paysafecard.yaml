@@ -1,0 +1,6 @@
+id: paysafecard
+name: paysafecard
+type: prepaid_voucher
+countries: [AT, AU, BE, BG, CA, CH, CY, CZ, DE, DK, ES, FI, FR, GB, GE, GI, HR, HU, IE, IT, LI,
+  LT, LU, MT, MX, NL, "NO", PE, PL, PT, RO, SE, SI, SK, UY]
+currencies: [AUD, CAD, CHF, CZK, EUR, GBP, HUF, NOK, PLN, RON, SEK]

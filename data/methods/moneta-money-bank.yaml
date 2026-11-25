@@ -1,0 +1,5 @@
+id: moneta-money-bank
+name: Moneta Money Bank
+type: bank_transfer
+countries: [CZ]
+currencies: [CZK]

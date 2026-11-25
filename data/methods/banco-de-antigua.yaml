@@ -1,0 +1,5 @@
+id: banco-de-antigua
+name: Banco de Antigua
+type: cash_voucher
+countries: [GT]
+currencies: [GTQ]

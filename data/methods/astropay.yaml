@@ -1,0 +1,8 @@
+id: astropay
+name: Astropay
+type: wallet
+countries: [AE, AM, AT, AU, AZ, BD, BH, BO, BR, CA, CD, CH, CL, CM, CN, CO, CR, DE, DK, DO, EC,
+  EG, ES, FI, GB, GH, GT, HK, HN, ID, IN, JP, KE, KR, KW, LK, ME, MN, MX, MY, NG, "NO", NP, NZ,
+  PE, PK, PY, QA, SA, SE, SG, SV, TH, TN, TR, TZ, UY, VE, VN, ZA]
+currencies: [AUD, BRL, CAD, CLP, CNY, COP, DKK, EGP, EUR, GTQ, HNL, IDR, INR, JPY, KRW, MXN,
+  MYR, NOK, NZD, PEN, SAR, SEK, THB, TRY, USD, VND, ZAR]

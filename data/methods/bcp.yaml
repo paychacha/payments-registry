@@ -1,0 +1,7 @@
+id: bcp
+name: BCP
+aliases:
+  - Banco de Credito
+type: bank_transfer
+countries: [PE]
+currencies: [PEN]

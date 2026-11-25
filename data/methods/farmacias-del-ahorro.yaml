@@ -1,0 +1,5 @@
+id: farmacias-del-ahorro
+name: Farmacias del Ahorro
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

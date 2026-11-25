@@ -1,0 +1,5 @@
+id: paotang-pay
+name: Paotang Pay
+type: wallet
+countries: [TH]
+currencies: [THB]

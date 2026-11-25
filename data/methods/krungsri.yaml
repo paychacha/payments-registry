@@ -1,0 +1,8 @@
+id: krungsri
+name: Krungsri
+aliases:
+  - Bank of Ayudhya
+  - Bank of Ayutthaya
+type: bank_transfer
+countries: [TH]
+currencies: [THB]

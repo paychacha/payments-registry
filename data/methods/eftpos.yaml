@@ -1,0 +1,5 @@
+id: eftpos
+name: eftpos Australia
+type: card
+countries: [AU]
+currencies: [AUD]

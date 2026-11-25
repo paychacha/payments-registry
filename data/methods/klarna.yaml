@@ -1,0 +1,5 @@
+id: klarna
+name: Klarna
+type: bnpl
+countries: [AT, CH, DE, DK, FI, GB, NL, "NO", SE, US]
+currencies: [CHF, DKK, EUR, GBP, NOK, SEK, USD]

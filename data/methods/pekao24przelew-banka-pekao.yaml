@@ -1,0 +1,5 @@
+id: pekao24przelew-banka-pekao
+name: Pekao24Przelew - Banka Pekao
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

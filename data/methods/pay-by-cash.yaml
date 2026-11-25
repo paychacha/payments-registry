@@ -1,0 +1,5 @@
+id: pay-by-cash
+name: Pay By Cash
+type: cash_voucher
+countries: [US]
+currencies: [USD]

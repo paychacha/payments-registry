@@ -1,0 +1,5 @@
+id: mollie
+name: Mollie
+website: https://www.mollie.com
+roles: [psp]
+coverage: []

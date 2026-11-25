@@ -1,0 +1,5 @@
+id: paylink-idea
+name: Paylink Idea
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

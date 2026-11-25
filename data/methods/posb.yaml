@@ -1,0 +1,5 @@
+id: posb
+name: POSB
+type: bank_transfer
+countries: [SG]
+currencies: [SGD]

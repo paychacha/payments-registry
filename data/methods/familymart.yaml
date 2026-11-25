@@ -1,0 +1,5 @@
+id: familymart
+name: FamilyMart
+type: cash_voucher
+countries: [JP, TH, TW]
+currencies: [JPY, THB, TWD]

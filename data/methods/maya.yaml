@@ -1,0 +1,7 @@
+id: maya
+name: Maya
+aliases:
+  - PayMaya
+type: wallet
+countries: [PH]
+currencies: [PHP]

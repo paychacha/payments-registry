@@ -1,0 +1,5 @@
+id: paysera
+name: Paysera
+type: wallet
+countries: [EE, LT, LV]
+currencies: [EUR]

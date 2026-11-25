@@ -1,0 +1,5 @@
+id: hi-life
+name: Hi-Life
+type: cash_voucher
+countries: [TW]
+currencies: [TWD]

@@ -1,0 +1,5 @@
+id: banco-bolivariano
+name: Banco Bolivariano
+type: bank_transfer
+countries: [EC]
+currencies: [USD]

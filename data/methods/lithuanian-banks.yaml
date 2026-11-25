@@ -1,0 +1,5 @@
+id: lithuanian-banks
+name: Lithuanian Banks
+type: bank_redirect
+countries: [LT]
+currencies: [EUR]

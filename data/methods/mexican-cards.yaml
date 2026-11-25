@@ -1,0 +1,5 @@
+id: mexican-cards
+name: Mexican cards
+type: card
+countries: [MX]
+currencies: [MXN]

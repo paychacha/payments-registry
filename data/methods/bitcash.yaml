@@ -1,0 +1,5 @@
+id: bitcash
+name: BitCash
+type: prepaid_voucher
+countries: [JP]
+currencies: [JPY]

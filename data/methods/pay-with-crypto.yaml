@@ -1,0 +1,11 @@
+id: pay-with-crypto
+name: Pay With Crypto
+type: wallet
+countries: [AD, AE, AM, AO, AT, AU, AW, AZ, BE, BG, BH, BM, BR, BS, BT, BW, BZ, CA, CH, CI, CL,
+  CO, CR, CY, CZ, DE, DJ, DK, DO, EE, ER, ES, ET, FI, FJ, FR, GA, GB, GE, GG, GH, GI, GM, GN,
+  GR, GT, GY, HK, HN, HR, HU, ID, IE, IL, IM, IN, IS, IT, KE, KM, KW, KZ, LA, LI, LK, LR, LS,
+  LT, LU, LV, MC, MD, MG, MN, MO, MT, MU, MV, MW, MX, MY, NA, NE, "NO", NZ, OM, PE, PF, PG, PL,
+  PT, PY, QA, RO, RW, SB, SC, SE, SG, SI, SK, SL, SV, TD, TJ, TM, TO, TW, US, UY, UZ, ZA, ZM]
+currencies: [AED, AUD, AZN, BHD, BRL, CAD, CHF, CLP, COP, CZK, DKK, DOP, ETB, EUR, GBP, GEL,
+  GHS, GTQ, HKD, HNL, HUF, IDR, ILS, INR, ISK, KWD, KZT, MDL, MNT, MOP, MXN, MYR, NOK, NZD, PEN,
+  PLN, RON, RWF, SEK, SGD, TWD, USD, UZS, XAF, XOF, ZAR, ZMW]

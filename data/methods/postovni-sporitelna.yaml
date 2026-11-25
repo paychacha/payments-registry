@@ -1,0 +1,5 @@
+id: postovni-sporitelna
+name: Postovni Sporitelna
+type: bank_redirect
+countries: [CZ]
+currencies: [CZK]

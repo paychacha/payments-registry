@@ -1,0 +1,5 @@
+id: alior-bank
+name: Alior Bank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

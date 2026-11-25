@@ -1,0 +1,4 @@
+id: standard-bank
+name: Standard Bank
+type: bank_transfer
+countries: [ZA]

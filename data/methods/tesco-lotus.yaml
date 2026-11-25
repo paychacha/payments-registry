@@ -1,0 +1,5 @@
+id: tesco-lotus
+name: Tesco Lotus
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

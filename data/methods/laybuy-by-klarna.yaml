@@ -1,0 +1,5 @@
+id: laybuy-by-klarna
+name: Laybuy by Klarna
+type: bnpl
+countries: [NZ]
+currencies: [NZD]

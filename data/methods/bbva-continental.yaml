@@ -1,0 +1,4 @@
+id: bbva-continental
+name: BBVA Continental
+type: bank_transfer
+countries: [MX, PE]

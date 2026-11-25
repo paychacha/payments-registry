@@ -1,0 +1,5 @@
+id: postova-banka
+name: Postova Banka
+type: bank_transfer
+countries: [SK]
+currencies: [EUR]

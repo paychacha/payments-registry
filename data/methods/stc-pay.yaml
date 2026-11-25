@@ -1,0 +1,5 @@
+id: stc-pay
+name: stc pay
+type: wallet
+countries: [SA]
+currencies: [SAR]

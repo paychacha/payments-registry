@@ -1,0 +1,5 @@
+id: bitpay
+name: BitPay
+website: https://www.bitpay.com
+roles: [psp]
+coverage: []

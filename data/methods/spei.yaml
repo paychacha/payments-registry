@@ -1,0 +1,7 @@
+id: spei
+name: SPEI
+aliases:
+  - Mexico bank transfers (SPEI)
+type: bank_transfer
+countries: [MX]
+currencies: [MXN]

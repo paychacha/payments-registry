@@ -1,0 +1,7 @@
+id: mercado-pago
+name: Mercado Pago
+aliases:
+  - Mercado Pago Checkout Pro
+type: wallet
+countries: [AR, BR, CL, CO, MX, PE]
+currencies: [ARS, BRL, CLP, COP, MXN, PEN]

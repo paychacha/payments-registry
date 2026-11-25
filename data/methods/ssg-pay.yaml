@@ -1,0 +1,5 @@
+id: ssg-pay
+name: SSG Pay
+type: wallet
+countries: [KR]
+currencies: [KRW]

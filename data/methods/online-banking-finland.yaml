@@ -1,0 +1,7 @@
+id: online-banking-finland
+name: Online banking Finland
+aliases:
+  - Finnish Banks
+type: bank_redirect
+countries: [FI]
+currencies: [EUR]

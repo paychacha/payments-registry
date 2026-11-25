@@ -1,0 +1,5 @@
+id: hipay-mongolia
+name: Hipay (Mongolia)
+type: wallet
+countries: [MN]
+currencies: [MNT]

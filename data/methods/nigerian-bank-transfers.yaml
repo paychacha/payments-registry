@@ -1,0 +1,5 @@
+id: nigerian-bank-transfers
+name: Nigerian bank transfers
+type: bank_transfer
+countries: [NG]
+currencies: [NGN]

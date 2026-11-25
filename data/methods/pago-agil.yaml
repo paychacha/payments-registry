@@ -1,0 +1,4 @@
+id: pago-agil
+name: Pago Agil
+type: cash_voucher
+countries: [EC]

@@ -1,0 +1,5 @@
+id: webpay
+name: Webpay
+type: wallet
+countries: [CL]
+currencies: [CLP]

@@ -1,0 +1,7 @@
+id: permata
+name: Permata
+aliases:
+  - Permata Bank
+type: bank_redirect
+countries: [ID]
+currencies: [IDR]

@@ -1,0 +1,5 @@
+id: nordea
+name: Nordea
+type: bank_transfer
+countries: [FI]
+currencies: [EUR]

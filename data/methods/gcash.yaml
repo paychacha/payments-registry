@@ -1,0 +1,5 @@
+id: gcash
+name: GCash
+type: wallet
+countries: [PH]
+currencies: [PHP]

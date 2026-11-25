@@ -1,0 +1,5 @@
+id: airpak
+name: AirPak
+type: cash_voucher
+countries: [SV]
+currencies: [USD]

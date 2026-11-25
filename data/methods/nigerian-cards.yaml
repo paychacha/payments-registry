@@ -1,0 +1,5 @@
+id: nigerian-cards
+name: Nigerian cards
+type: card
+countries: [NG]
+currencies: [NGN]

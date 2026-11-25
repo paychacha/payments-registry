@@ -1,0 +1,5 @@
+id: scalapay
+name: Scalapay
+type: bnpl
+countries: [ES, FR, IT, NL, PT]
+currencies: [EUR]

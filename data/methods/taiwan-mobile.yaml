@@ -1,0 +1,5 @@
+id: taiwan-mobile
+name: Taiwan Mobile
+type: carrier_billing
+countries: [TW]
+currencies: [TWD]

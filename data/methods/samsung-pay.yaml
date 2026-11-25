@@ -1,0 +1,5 @@
+id: samsung-pay
+name: Samsung Pay
+type: wallet
+countries: [KR]
+currencies: [KRW]

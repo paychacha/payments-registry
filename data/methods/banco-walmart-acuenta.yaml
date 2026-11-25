@@ -1,0 +1,5 @@
+id: banco-walmart-acuenta
+name: Banco Walmart - aCuenta
+type: cash_voucher
+countries: [CL]
+currencies: [CLP]

@@ -1,0 +1,5 @@
+id: payco
+name: PayCo
+type: wallet
+countries: [KR]
+currencies: [KRW]

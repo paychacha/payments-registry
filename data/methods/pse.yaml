@@ -1,0 +1,5 @@
+id: pse
+name: PSE
+type: bank_transfer
+countries: [CO]
+currencies: [COP]

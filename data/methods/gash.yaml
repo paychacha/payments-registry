@@ -1,0 +1,5 @@
+id: gash
+name: GASH
+type: prepaid_voucher
+countries: [TW]
+currencies: [TWD]

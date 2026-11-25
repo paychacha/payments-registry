@@ -1,0 +1,4 @@
+id: bank-transfer-direct-debit
+name: Bank Transfer (Direct Debit)
+type: bank_transfer
+countries: [NG]

@@ -1,0 +1,5 @@
+id: fortumo
+name: Fortumo
+type: carrier_billing
+countries: [BR, CA, CZ, DE, DK, ES, FI, FR, GB, PL, RO, SE, TR]
+currencies: [BRL, CAD, CZK, DKK, EUR, GBP, PLN, SEK, TRY]

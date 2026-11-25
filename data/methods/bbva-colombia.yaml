@@ -1,0 +1,7 @@
+id: bbva-colombia
+name: BBVA Colombia
+aliases:
+  - BBVA
+type: real_time_payment
+countries: [CO]
+currencies: [COP]

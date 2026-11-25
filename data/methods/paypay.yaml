@@ -1,0 +1,5 @@
+id: paypay
+name: PayPay
+type: wallet
+countries: [JP]
+currencies: [JPY]

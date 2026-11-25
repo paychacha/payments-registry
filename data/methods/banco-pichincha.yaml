@@ -1,0 +1,5 @@
+id: banco-pichincha
+name: Banco Pichincha
+type: bank_transfer
+countries: [CO, EC]
+currencies: [USD]

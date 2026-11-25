@@ -1,0 +1,5 @@
+id: paycash
+name: PayCash
+type: cash_voucher
+countries: [CL, CO, CR, GT, MX, PA, PE]
+currencies: [CLP, COP, MXN, PEN]

@@ -1,0 +1,9 @@
+id: indonesia-virtual-account
+name: Indonesia Virtual Account
+aliases:
+  - Indonesian Bank Transfer
+  - Virtual Accounts
+  - 印尼虚拟账户
+type: bank_transfer
+countries: [ID]
+currencies: [IDR]

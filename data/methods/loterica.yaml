@@ -1,0 +1,5 @@
+id: loterica
+name: Loterica
+type: cash_voucher
+countries: [BR]
+currencies: [BRL]

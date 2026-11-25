@@ -1,0 +1,523 @@
+id: adyen
+name: Adyen
+website: https://www.adyen.com
+roles: [psp, acquirer, gateway]
+coverage:
+  - method: 7-eleven
+    currencies: [MYR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: accel
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ach-direct-debit
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: affirm
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: afterpay-clearpay
+    currencies: [GBP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay
+    currencies: [AUD, CAD, CHF, EUR, GBP, HKD, JPY, NOK, NZD, SEK, SGD, THB, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-hk
+    currencies: [HKD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-plus
+    currencies: [AED, AUD, CAD, CHF, DKK, EUR, GBP, HKD, JPY, MYR, NOK, NZD, SEK, SGD, THB, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alma
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    currencies: [AUD, CAD, CHF, EUR, GBP, HKD, SGD, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atome
+    currencies: [MYR, SGD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bacs-direct-debit
+    currencies: [GBP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancontact
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: benefit
+    currencies: [BHD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: billie
+    currencies: [CHF, EUR, GBP, NOK, SEK]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bizum
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: blik
+    currencies: [PLN]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boleto
+    currencies: [BRL]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boost
+    currencies: [MYR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: carnet
+    currencies: [MXN]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartes-bancaires
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cash-app-pay
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: convenience-stores-philippines
+    currencies: [PHP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    currencies: [IDR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dankort
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-club
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: discover
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: doku-va
+    currencies: [IDR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: doku-wallet
+    currencies: [IDR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: duitnow
+    currencies: [MYR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eftpos
+    currencies: [AUD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: elo
+    currencies: [BRL]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eps
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fawry
+    currencies: [EGP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    currencies: [PHP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gift-cards
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: google-pay
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gopay
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    currencies: [MYR, PHP, SGD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hipercard
+    currencies: [BRL]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ideal
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indonesian-convenience-stores
+    currencies: [IDR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: interac
+    currencies: [CAD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jcb
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kakao-pay
+    currencies: [KRW]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: klarna
+    currencies: [AUD, CAD, CHF, DKK, EUR, GBP, NOK, PLN, SEK, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: konbini
+    currencies: [JPY]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-cards
+    currencies: [KRW]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maestro
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mb-way
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: meal-vouchers
+    currencies: [BRL, EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobile-money
+    currencies: [KES, TZS]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobilepay
+    currencies: [DKK, EUR, NOK, SEK]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: momo
+    currencies: [VND]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: multibanco
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: netbanking
+    currencies: [INR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nyce
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oney
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: online-banking-czech-republic
+    currencies: [CZK, EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: online-banking-finland
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: online-banking-malaysia
+    currencies: [MYR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: online-banking-poland
+    currencies: [PLN]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: online-banking-slovakia
+    currencies: [CZK, EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: over-the-counter-atm-philippines
+    currencies: [PHP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oxxo
+    currencies: [MXN]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-bank
+    currencies: [EUR, GBP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-bank-us
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    currencies: [JPY]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payco
+    currencies: [KRW]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payme
+    currencies: [HKD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    currencies: [SGD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypal
+    currencies: [AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, INR, JPY, MXN, MYR, NOK, NZD,
+      PHP, PLN, RUB, SEK, SGD, THB, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypay
+    currencies: [JPY]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypo
+    currencies: [PLN]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysafecard
+    currencies: [AUD, CAD, CHF, CZK, GBP, HUF, KWD, NOK, NZD, PLN, RON, SAR, SEK, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payshop
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: philippines-online-banking
+    currencies: [PHP]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    currencies: [BRL]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pre-authorized-debits
+    currencies: [CAD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    currencies: [THB]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pulse
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rakuten-pay
+    currencies: [JPY]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ratepay
+    currencies: [CHF, EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: riverty
+    currencies: [CHF, EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rupay
+    currencies: [INR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    currencies: [AED, AUD, EUR, INR, MYR, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scalapay
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sepa-direct-debit
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: star
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: swish
+    currencies: [SEK]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: thailand-online-banking
+    currencies: [THB]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    currencies: [MYR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: trustly
+    currencies: [DKK, EUR, NOK, SEK]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: twint
+    currencies: [CHF]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionpay
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: upi
+    currencies: [INR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: v-pay
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vipps
+    currencies: [NOK]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: walley
+    currencies: [DKK, EUR, NOK, SEK]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    currencies: [CNY]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wero
+    currencies: [EUR]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: yoomoney
+    currencies: [USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zip
+    currencies: [AUD, GBP, NZD, USD]
+    source: https://www.adyen.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24

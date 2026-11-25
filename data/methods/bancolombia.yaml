@@ -1,0 +1,5 @@
+id: bancolombia
+name: Bancolombia
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

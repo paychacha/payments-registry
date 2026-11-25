@@ -1,0 +1,7 @@
+id: unionpay
+name: UnionPay
+aliases:
+  - China UnionPay
+type: card
+countries: [CN]
+currencies: [CNY]

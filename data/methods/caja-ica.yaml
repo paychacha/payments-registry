@@ -1,0 +1,5 @@
+id: caja-ica
+name: Caja ICA
+type: cash_voucher
+countries: [PE]
+currencies: [PEN]

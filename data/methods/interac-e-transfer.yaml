@@ -1,0 +1,10 @@
+id: interac-e-transfer
+name: Interac e-Transfer
+aliases:
+  - Instant Interac eTransfer
+  - Interac combined
+  - Interac Express Connect
+  - Interac Instant
+type: bank_transfer
+countries: [CA]
+currencies: [CAD]

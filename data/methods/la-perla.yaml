@@ -1,0 +1,5 @@
+id: la-perla
+name: La Perla
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

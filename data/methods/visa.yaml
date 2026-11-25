@@ -1,0 +1,4 @@
+id: visa
+name: Visa
+type: card
+global: true

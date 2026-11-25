@@ -1,0 +1,5 @@
+id: kriya
+name: Kriya
+type: bnpl
+countries: [GB]
+currencies: [GBP]

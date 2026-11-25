@@ -1,0 +1,5 @@
+id: inteligo
+name: Inteligo
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

@@ -1,0 +1,8 @@
+id: 7-eleven
+name: 7-Eleven
+aliases:
+  - 7-Eleven Malaysia
+  - Konbini (7-Eleven)
+type: cash_voucher
+countries: [JP, MX, MY, PH, TW]
+currencies: [JPY, MXN, MYR, PHP, TWD]

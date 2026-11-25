@@ -1,0 +1,5 @@
+id: qris
+name: QRIS
+type: real_time_payment
+countries: [ID]
+currencies: [IDR]

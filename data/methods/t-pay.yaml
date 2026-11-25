@@ -1,0 +1,4 @@
+id: t-pay
+name: T-Pay
+type: wallet
+countries: [RU]

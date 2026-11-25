@@ -1,0 +1,5 @@
+id: peruvian-cards
+name: Peruvian cards
+type: card
+countries: [PE]
+currencies: [PEN]

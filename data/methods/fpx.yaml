@@ -1,0 +1,5 @@
+id: fpx
+name: FPX
+type: bank_redirect
+countries: [MY]
+currencies: [MYR]

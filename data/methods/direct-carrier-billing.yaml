@@ -1,0 +1,5 @@
+id: direct-carrier-billing
+name: Direct Carrier Billing
+type: carrier_billing
+countries: [KR]
+currencies: [KRW]

@@ -1,0 +1,5 @@
+id: surtimax
+name: Surtimax
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

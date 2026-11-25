@@ -1,0 +1,5 @@
+id: taiwan-convenience-stores
+name: Taiwan Convenience Stores
+type: cash_voucher
+countries: [TW]
+currencies: [TWD]

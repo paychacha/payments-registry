@@ -1,0 +1,5 @@
+id: authorize-net
+name: Authorize.net
+website: https://www.authorize.net
+roles: [gateway]
+coverage: []

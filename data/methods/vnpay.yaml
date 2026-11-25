@@ -1,0 +1,4 @@
+id: vnpay
+name: VNPay
+type: wallet
+countries: [VN]

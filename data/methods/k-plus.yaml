@@ -1,0 +1,10 @@
+id: k-plus
+name: K PLUS
+aliases:
+  - KBank
+  - Kasikorn Bank
+  - Kasikorn Bank ATM
+  - Kasikorn Bank Mobile Banking
+type: wallet
+countries: [TH]
+currencies: [THB]

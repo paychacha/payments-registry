@@ -1,0 +1,4 @@
+id: equitel
+name: Equitel
+type: bank_transfer
+countries: [KE]

@@ -1,0 +1,5 @@
+id: kfh
+name: KFH
+type: bank_transfer
+countries: [MY]
+currencies: [MYR]

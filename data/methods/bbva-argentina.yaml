@@ -1,0 +1,6 @@
+id: bbva-argentina
+name: BBVA (Argentina)
+aliases:
+  - BBVA
+type: bank_transfer
+countries: [AR]

@@ -1,0 +1,5 @@
+id: alipay-hk
+name: AlipayHK
+type: wallet
+countries: [HK]
+currencies: [HKD]

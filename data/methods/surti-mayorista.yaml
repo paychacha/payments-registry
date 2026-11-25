@@ -1,0 +1,5 @@
+id: surti-mayorista
+name: Surti Mayorista
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

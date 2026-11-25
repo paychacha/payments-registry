@@ -1,0 +1,5 @@
+id: interbank
+name: InterBank
+type: real_time_payment
+countries: [PE]
+currencies: [PEN]

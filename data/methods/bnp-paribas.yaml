@@ -1,0 +1,5 @@
+id: bnp-paribas
+name: BNP Paribas
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

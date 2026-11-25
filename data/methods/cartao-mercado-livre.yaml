@@ -1,0 +1,7 @@
+id: cartao-mercado-livre
+name: Cartao Mercado Livre
+aliases:
+  - Mercado livre
+type: card
+countries: [BR]
+currencies: [BRL]

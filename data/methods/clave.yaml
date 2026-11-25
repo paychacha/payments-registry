@@ -1,0 +1,7 @@
+id: clave
+name: Clave
+aliases:
+  - Tarjeta clave
+type: card
+countries: [PA]
+currencies: [USD]

@@ -1,0 +1,5 @@
+id: korean-virtual-account
+name: Korean Virtual Account
+type: bank_redirect
+countries: [KR]
+currencies: [KRW]

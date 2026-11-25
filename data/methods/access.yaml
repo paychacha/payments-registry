@@ -1,0 +1,6 @@
+id: access
+name: Access Bank
+aliases:
+  - Access
+type: bank_transfer
+countries: [NG]

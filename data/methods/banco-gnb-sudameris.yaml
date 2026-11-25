@@ -1,0 +1,4 @@
+id: banco-gnb-sudameris
+name: Banco GNB Sudameris
+type: bank_transfer
+countries: [CO]

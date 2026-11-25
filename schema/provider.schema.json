@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/paychacha/payments-registry/main/schema/provider.schema.json",
+  "title": "Payment provider",
+  "description": "A company a merchant signs a contract with to accept payments. One file per provider: data/providers/<id>.yaml. Facts only: no marketing copy, rankings, prices or fees.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "website", "roles", "coverage"],
+  "properties": {
+    "id": {
+      "description": "Lowercase slug, unique in the registry, equal to the file name.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "website": { "$ref": "#/$defs/https" },
+    "roles": {
+      "description": "Every role the company plays; each value is defined in GLOSSARY.md.",
+      "type": "array",
+      "items": { "enum": ["psp", "acquirer", "gateway", "payfac", "mor", "aggregator"] },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "merchant_countries": {
+      "description": "Where a merchant's business can be registered to sign up. ISO 3166-1 alpha-2. Only with a public source.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/country" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "merchant_countries_source": { "$ref": "#/$defs/https" },
+    "maintainers": {
+      "description": "GitHub usernames of the provider's own staff who keep this file up to date.",
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Za-z0-9](-?[A-Za-z0-9]){0,38}$" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "coverage": {
+      "description": "The payment methods the provider supports: one entry per method, sorted by method id.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/coverage" }
+    }
+  },
+  "dependentRequired": { "merchant_countries": ["merchant_countries_source"] },
+  "$defs": {
+    "https": { "type": "string", "pattern": "^https://[^\\s]+$" },
+    "country": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "source", "source_type", "checked"],
+      "properties": {
+        "method": {
+          "description": "The id of a file in data/methods/.",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "global": {
+          "description": "The source says worldwide. Used instead of `countries`.",
+          "const": true
+        },
+        "countries": {
+          "description": "Payer countries the provider supports this method in, as the source states. Left out when the source names none.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/country" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "currencies": {
+          "description": "Currencies the provider processes this method in. ISO 4217.",
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[A-Z]{3}$" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "source": {
+          "description": "A public page that shows this.",
+          "$ref": "#/$defs/https"
+        },
+        "source_type": {
+          "description": "provider_docs: read from the provider's public pages. self_reported: stated by the provider in a pull request. third_party: any other public source.",
+          "enum": ["provider_docs", "self_reported", "third_party"]
+        },
+        "checked": {
+          "description": "The day the source was last read. YYYY-MM-DD.",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      },
+      "not": { "required": ["global", "countries"] }
+    }
+  }
+}

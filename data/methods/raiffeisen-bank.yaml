@@ -1,0 +1,5 @@
+id: raiffeisen-bank
+name: Raiffeisen bank
+type: bank_transfer
+countries: [CZ]
+currencies: [CZK]

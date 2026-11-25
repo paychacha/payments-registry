@@ -1,0 +1,5 @@
+id: indian-cards
+name: Indian cards
+type: card
+countries: [IN]
+currencies: [INR]

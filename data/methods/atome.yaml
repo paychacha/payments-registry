@@ -1,0 +1,5 @@
+id: atome
+name: Atome
+type: bnpl
+countries: [MY, SG]
+currencies: [MYR, SGD]

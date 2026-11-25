@@ -1,0 +1,5 @@
+id: banco-azteca
+name: Banco Azteca
+type: bank_transfer
+countries: [MX]
+currencies: [MXN]

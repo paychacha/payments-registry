@@ -1,0 +1,4 @@
+id: direct-debit
+name: Direct Debit
+type: bank_transfer
+countries: [ID, PH]

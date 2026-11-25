@@ -1,0 +1,5 @@
+id: cenpay
+name: CenPay
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

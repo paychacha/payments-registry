@@ -1,0 +1,8 @@
+id: momo
+name: MoMo
+aliases:
+  - MoMo (digital wallet)
+  - Momo Wallet
+type: wallet
+countries: [VN]
+currencies: [VND]

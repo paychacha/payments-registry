@@ -1,0 +1,5 @@
+id: banrisul
+name: Banrisul
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

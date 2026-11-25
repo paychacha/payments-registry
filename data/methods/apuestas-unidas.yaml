@@ -1,0 +1,5 @@
+id: apuestas-unidas
+name: Apuestas Unidas
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

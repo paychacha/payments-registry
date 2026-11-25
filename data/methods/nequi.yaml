@@ -1,0 +1,11 @@
+id: nequi
+name: Nequi
+aliases:
+  - Nequi Push
+  - Nequi Mixed (Push + QR)
+  - Nequi QR
+  - NEQUI Bank transfer
+  - Nequi Mobile Payments
+type: wallet
+countries: [CO, PA]
+currencies: [COP, USD]

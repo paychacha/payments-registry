@@ -1,0 +1,5 @@
+id: rapipago
+name: Rapipago
+type: cash_voucher
+countries: [AR]
+currencies: [ARS]

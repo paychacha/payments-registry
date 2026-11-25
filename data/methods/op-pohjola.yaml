@@ -1,0 +1,5 @@
+id: op-pohjola
+name: OP-Pohjola
+type: bank_redirect
+countries: [FI]
+currencies: [EUR]

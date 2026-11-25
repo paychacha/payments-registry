@@ -1,0 +1,7 @@
+id: grabpay
+name: GrabPay
+aliases:
+  - Grabpay SG
+type: wallet
+countries: [MY, PH, SG]
+currencies: [MYR, PHP, SGD]

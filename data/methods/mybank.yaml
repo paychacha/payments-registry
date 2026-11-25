@@ -1,0 +1,5 @@
+id: mybank
+name: MyBank
+type: bank_redirect
+countries: [BE, ES, IT, PT]
+currencies: [EUR]

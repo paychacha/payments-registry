@@ -1,0 +1,7 @@
+id: naranja
+name: Naranja
+aliases:
+  - Tarjeta Naranja
+type: card
+countries: [AR]
+currencies: [ARS]

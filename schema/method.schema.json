@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/paychacha/payments-registry/main/schema/method.schema.json",
+  "title": "Payment method",
+  "description": "A brand a payer pays with (Alipay, iDEAL, Pix, Visa). One file per method: data/methods/<id>.yaml. Only methods usable for online checkout, bill pay or payment links.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "type"],
+  "properties": {
+    "id": {
+      "description": "Lowercase slug, unique in the registry, equal to the file name.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "name": {
+      "description": "The name the brand goes by in English or internationally.",
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "description": "Other spellings, local-language names, and the names providers list this method under.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "type": {
+      "enum": [
+        "card",
+        "wallet",
+        "real_time_payment",
+        "bank_redirect",
+        "bank_transfer",
+        "cash_voucher",
+        "bnpl",
+        "prepaid_voucher",
+        "bank_debit",
+        "carrier_billing",
+        "stablecoin"
+      ]
+    },
+    "global": {
+      "description": "Payers are worldwide (Visa, PayPal). Used instead of `countries`.",
+      "const": true
+    },
+    "countries": {
+      "description": "Where the brand's payers mainly are. ISO 3166-1 alpha-2. Left out when no source says.",
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Z]{2}$" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "currencies": {
+      "description": "Currencies the payer pays in. ISO 4217.",
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "website": {
+      "description": "The brand's own site.",
+      "type": "string",
+      "pattern": "^https://[^\\s]+$"
+    }
+  },
+  "not": { "required": ["global", "countries"] }
+}

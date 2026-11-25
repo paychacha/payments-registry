@@ -1,0 +1,5 @@
+id: open-banking
+name: Open Banking
+type: bank_transfer
+countries: [KR]
+currencies: [KRW]

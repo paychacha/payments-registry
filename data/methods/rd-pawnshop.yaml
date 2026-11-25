@@ -1,0 +1,5 @@
+id: rd-pawnshop
+name: RD Pawnshop
+type: cash_voucher
+countries: [PH]
+currencies: [PHP]

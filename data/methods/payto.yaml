@@ -1,0 +1,5 @@
+id: payto
+name: PayTo
+type: real_time_payment
+countries: [AU]
+currencies: [AUD]

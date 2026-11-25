@@ -1,0 +1,5 @@
+id: alfamart-group
+name: Alfamart Group
+type: cash_voucher
+countries: [ID]
+currencies: [IDR]

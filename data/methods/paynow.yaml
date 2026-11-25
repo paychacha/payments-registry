@@ -1,0 +1,5 @@
+id: paynow
+name: PayNow
+type: real_time_payment
+countries: [SG]
+currencies: [SGD]

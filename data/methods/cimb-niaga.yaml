@@ -1,0 +1,9 @@
+id: cimb-niaga
+name: CIMB Niaga
+aliases:
+  - CIMB Niaga VA
+  - CIMB Bank
+  - CIMB
+type: bank_redirect
+countries: [ID]
+currencies: [IDR]

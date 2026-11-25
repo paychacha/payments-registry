@@ -1,0 +1,5 @@
+id: banco-de-chile
+name: Banco de Chile
+type: real_time_payment
+countries: [CL]
+currencies: [CLP]

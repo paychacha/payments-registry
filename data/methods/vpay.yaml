@@ -1,0 +1,4 @@
+id: vpay
+name: Vpay
+type: real_time_payment
+countries: [BO]

@@ -1,0 +1,7 @@
+id: krungthai-next
+name: Krungthai NEXT
+aliases:
+  - Krung Thai Bank
+type: bank_transfer
+countries: [TH]
+currencies: [THB]

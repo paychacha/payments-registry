@@ -1,0 +1,7 @@
+id: alipay
+name: Alipay
+aliases:
+  - 支付宝
+type: wallet
+countries: [CN]
+currencies: [CNY]

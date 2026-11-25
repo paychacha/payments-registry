@@ -1,0 +1,5 @@
+id: banco-safra
+name: Banco Safra
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

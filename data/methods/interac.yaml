@@ -1,0 +1,5 @@
+id: interac
+name: Interac
+type: card
+countries: [CA]
+currencies: [CAD]

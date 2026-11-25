@@ -1,0 +1,5 @@
+id: rhb
+name: RHB
+type: real_time_payment
+countries: [MY]
+currencies: [MYR]

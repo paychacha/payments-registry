@@ -1,0 +1,4 @@
+id: caja-tacna
+name: Caja Tacna
+type: bank_transfer
+countries: [PE]

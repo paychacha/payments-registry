@@ -1,0 +1,5 @@
+id: danamon-bank
+name: Danamon Bank
+type: cash_voucher
+countries: [ID]
+currencies: [IDR]

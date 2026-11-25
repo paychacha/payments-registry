@@ -1,0 +1,5 @@
+id: bank-rakyat
+name: Bank Rakyat
+type: bank_transfer
+countries: [MY]
+currencies: [MYR]

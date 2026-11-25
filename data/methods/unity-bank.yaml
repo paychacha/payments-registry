@@ -1,0 +1,4 @@
+id: unity-bank
+name: Unity Bank
+type: bank_transfer
+countries: [NG]

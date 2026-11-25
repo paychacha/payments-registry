@@ -1,0 +1,7 @@
+id: bca
+name: BCA
+aliases:
+  - Bank Central Asia
+type: bank_redirect
+countries: [ID]
+currencies: [IDR]

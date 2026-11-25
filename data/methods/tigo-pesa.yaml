@@ -1,0 +1,8 @@
+id: tigo-pesa
+name: Tigo Pesa
+aliases:
+  - Tigo
+  - Tigo Mobile Money
+type: wallet
+countries: [TZ]
+currencies: [TZS]

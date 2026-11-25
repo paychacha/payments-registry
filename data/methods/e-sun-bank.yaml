@@ -1,0 +1,8 @@
+id: e-sun-bank
+name: E.SUN Bank
+aliases:
+  - E.SUN (TW ATM & Internet Banking)
+  - E.SUN Bank ePayment
+type: bank_transfer
+countries: [TW]
+currencies: [TWD]

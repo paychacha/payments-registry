@@ -1,0 +1,5 @@
+id: pagos-724
+name: Pagos 724
+type: cash_voucher
+countries: [SV]
+currencies: [USD]

@@ -1,0 +1,5 @@
+id: robinson
+name: Robinson
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

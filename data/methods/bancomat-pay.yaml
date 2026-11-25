@@ -1,0 +1,5 @@
+id: bancomat-pay
+name: BANCOMAT Pay
+type: bank_redirect
+countries: [IT]
+currencies: [EUR]

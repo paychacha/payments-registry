@@ -1,0 +1,7 @@
+id: santander-brazil
+name: Santander (Brazil)
+aliases:
+  - Santander
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

@@ -1,0 +1,6 @@
+id: diners-club
+name: Diners Club
+aliases:
+  - Diners
+type: card
+global: true

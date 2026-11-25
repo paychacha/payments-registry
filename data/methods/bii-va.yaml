@@ -1,0 +1,5 @@
+id: bii-va
+name: BII VA
+type: cash_voucher
+countries: [ID]
+currencies: [IDR]

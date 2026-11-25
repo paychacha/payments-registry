@@ -1,0 +1,5 @@
+id: airwallex-pay
+name: Airwallex Pay
+type: wallet
+countries: [AU, CN, HK, NZ, SG]
+currencies: [AUD, CNY, HKD, NZD, SGD]

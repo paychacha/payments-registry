@@ -1,0 +1,5 @@
+id: puntored
+name: Puntored
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

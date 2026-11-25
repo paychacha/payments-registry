@@ -1,0 +1,5 @@
+id: eromnet
+name: Eromnet
+type: wallet
+countries: [KR]
+currencies: [KRW]

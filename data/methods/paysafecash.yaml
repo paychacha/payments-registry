@@ -1,0 +1,5 @@
+id: paysafecash
+name: Paysafecash
+type: cash_voucher
+countries: [AT, BE, CY, ES, FR, GB, GR, HR, IE, IT, NL, PL, PT, RO, SE, SI, SK, US]
+currencies: [EUR, GBP, PLN, RON, SEK, USD]

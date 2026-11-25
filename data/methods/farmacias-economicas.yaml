@@ -1,0 +1,5 @@
+id: farmacias-economicas
+name: Farmacias economicas
+type: cash_voucher
+countries: [SV]
+currencies: [USD]

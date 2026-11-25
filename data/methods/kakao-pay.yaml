@@ -1,0 +1,7 @@
+id: kakao-pay
+name: Kakao Pay
+aliases:
+  - Kakao
+type: wallet
+countries: [KR]
+currencies: [KRW]

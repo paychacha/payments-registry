@@ -1,0 +1,4 @@
+id: static-virtual-account-via-instapay-or-pesonet
+name: Static Virtual Account ( Via Instapay or PESONet)
+type: bank_transfer
+countries: [PH]

@@ -1,0 +1,4 @@
+id: era
+name: ERA
+type: bank_transfer
+countries: [CZ]

@@ -1,0 +1,6 @@
+id: citi-argentina
+name: Citi (Argentina)
+aliases:
+  - Citi
+type: bank_transfer
+countries: [AR]

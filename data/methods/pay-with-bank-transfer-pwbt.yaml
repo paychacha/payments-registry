@@ -1,0 +1,5 @@
+id: pay-with-bank-transfer-pwbt
+name: Pay With Bank Transfer (PWBT)
+type: real_time_payment
+countries: [GB]
+currencies: [GBP]

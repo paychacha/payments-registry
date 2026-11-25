@@ -1,0 +1,5 @@
+id: tatra-banka
+name: Tatra Banka
+type: bank_transfer
+countries: [SK]
+currencies: [EUR]

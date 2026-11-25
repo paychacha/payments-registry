@@ -1,0 +1,4 @@
+id: providus-bank
+name: Providus Bank
+type: bank_transfer
+countries: [NG]

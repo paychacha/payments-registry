@@ -1,0 +1,4 @@
+id: hsbc-argentina
+name: HSBC (Argentina)
+type: bank_transfer
+countries: [AR]

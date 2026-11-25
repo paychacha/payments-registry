@@ -1,0 +1,5 @@
+id: su-red
+name: Su red
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

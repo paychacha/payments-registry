@@ -1,0 +1,5 @@
+id: mpay
+name: MPay
+type: wallet
+countries: [MO]
+currencies: [MOP]

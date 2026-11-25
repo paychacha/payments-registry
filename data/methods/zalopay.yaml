@@ -1,0 +1,5 @@
+id: zalopay
+name: Zalopay
+type: wallet
+countries: [VN]
+currencies: [VND]

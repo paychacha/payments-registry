@@ -1,0 +1,5 @@
+id: estonian-banks
+name: Estonian Banks
+type: bank_redirect
+countries: [EE]
+currencies: [EUR]

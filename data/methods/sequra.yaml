@@ -1,0 +1,5 @@
+id: sequra
+name: seQura
+type: bnpl
+countries: [ES]
+currencies: [EUR]

@@ -1,0 +1,7 @@
+id: unionbank
+name: UnionBank
+aliases:
+  - UBP Unionbank Philippines
+type: bank_redirect
+countries: [PH]
+currencies: [PHP]

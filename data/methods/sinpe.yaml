@@ -1,0 +1,4 @@
+id: sinpe
+name: Sinpe
+type: bank_transfer
+countries: [CR]

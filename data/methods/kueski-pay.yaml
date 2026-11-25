@@ -1,0 +1,5 @@
+id: kueski-pay
+name: Kueski Pay
+type: bnpl
+countries: [MX]
+currencies: [MXN]

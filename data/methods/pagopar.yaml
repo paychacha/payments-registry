@@ -1,0 +1,4 @@
+id: pagopar
+name: PagoPar
+type: cash_voucher
+countries: [PY]

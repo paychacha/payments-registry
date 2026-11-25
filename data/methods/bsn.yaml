@@ -1,0 +1,7 @@
+id: bsn
+name: BSN
+aliases:
+  - Bank Simpanan Nasional
+type: real_time_payment
+countries: [MY]
+currencies: [MYR]

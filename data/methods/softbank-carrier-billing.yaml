@@ -1,0 +1,7 @@
+id: softbank-carrier-billing
+name: ソフトバンクまとめて支払い (SoftBank carrier payments)
+aliases:
+  - SoftBank
+type: carrier_billing
+countries: [JP]
+currencies: [JPY]

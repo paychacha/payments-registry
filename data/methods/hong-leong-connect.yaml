@@ -1,0 +1,7 @@
+id: hong-leong-connect
+name: Hong Leong Connect
+aliases:
+  - Hong Leong Connect PEx+
+type: bank_redirect
+countries: [MY]
+currencies: [MYR]

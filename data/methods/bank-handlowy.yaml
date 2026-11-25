@@ -1,0 +1,7 @@
+id: bank-handlowy
+name: Bank Handlowy
+aliases:
+  - Citi Handlowy
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

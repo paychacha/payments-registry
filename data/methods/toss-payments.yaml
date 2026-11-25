@@ -1,0 +1,5 @@
+id: toss-payments
+name: Toss Payments
+type: wallet
+countries: [KR]
+currencies: [KRW]

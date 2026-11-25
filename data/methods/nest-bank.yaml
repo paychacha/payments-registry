@@ -1,0 +1,5 @@
+id: nest-bank
+name: Nest bank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

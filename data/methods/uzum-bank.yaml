@@ -1,0 +1,5 @@
+id: uzum-bank
+name: Uzum Bank
+type: bank_redirect
+countries: [UZ]
+currencies: [UZS]

@@ -1,0 +1,7 @@
+id: jkopay
+name: JKOPay
+aliases:
+  - 街口支付
+type: wallet
+countries: [TW]
+currencies: [TWD]

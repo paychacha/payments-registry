@@ -1,0 +1,5 @@
+id: coinpayments
+name: CoinPayments
+website: https://www.coinpayments.net
+roles: [psp]
+coverage: []

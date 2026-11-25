@@ -1,0 +1,7 @@
+id: przelewy24
+name: Przelewy24
+aliases:
+  - Przelewy24 (P24)
+type: bank_redirect
+countries: [PL]
+currencies: [PLN]

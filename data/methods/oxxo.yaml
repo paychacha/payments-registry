@@ -1,0 +1,7 @@
+id: oxxo
+name: OXXO
+aliases:
+  - OXXO pay
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

@@ -1,0 +1,5 @@
+id: bradesco
+name: Bradesco
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

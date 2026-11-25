@@ -1,0 +1,5 @@
+id: tops-market
+name: Tops Market
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

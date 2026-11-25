@@ -1,0 +1,5 @@
+id: pbs-bank
+name: PBS bank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

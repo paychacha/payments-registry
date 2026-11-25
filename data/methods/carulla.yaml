@@ -1,0 +1,5 @@
+id: carulla
+name: Carulla
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

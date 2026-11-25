@@ -1,0 +1,5 @@
+id: cash-app-pay
+name: Cash App Pay
+type: wallet
+countries: [US]
+currencies: [USD]

@@ -1,0 +1,5 @@
+id: atm-bersama-prima-alto
+name: ATM Bersama/Prima/Alto
+type: bank_transfer
+countries: [ID]
+currencies: [IDR]

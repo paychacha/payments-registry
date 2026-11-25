@@ -1,0 +1,7 @@
+id: ideal
+name: iDEAL
+aliases:
+  - "iDEAL | Wero"
+type: bank_redirect
+countries: [NL]
+currencies: [EUR]

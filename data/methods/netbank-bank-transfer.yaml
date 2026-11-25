@@ -1,0 +1,4 @@
+id: netbank-bank-transfer
+name: Netbank Bank Transfer
+type: bank_transfer
+countries: [PH]

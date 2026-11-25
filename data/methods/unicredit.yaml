@@ -1,0 +1,7 @@
+id: unicredit
+name: Unicredit
+aliases:
+  - Unicredit Bank SK
+type: bank_transfer
+countries: [CZ, SK]
+currencies: [CZK, EUR]

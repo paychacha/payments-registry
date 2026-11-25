@@ -1,0 +1,7 @@
+id: jcb
+name: JCB
+aliases:
+  - JCBI
+type: card
+countries: [JP]
+currencies: [JPY]

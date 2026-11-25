@@ -1,0 +1,5 @@
+id: mobilepay
+name: MobilePay
+type: wallet
+countries: [DK, FI]
+currencies: [DKK, EUR]

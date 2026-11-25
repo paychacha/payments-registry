@@ -1,0 +1,5 @@
+id: 1voucher
+name: 1voucher
+type: prepaid_voucher
+countries: [ZA]
+currencies: [ZAR]

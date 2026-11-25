@@ -1,0 +1,5 @@
+id: con-suerte
+name: Con Suerte
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

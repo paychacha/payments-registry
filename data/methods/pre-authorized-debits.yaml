@@ -1,0 +1,7 @@
+id: pre-authorized-debits
+name: Pre-authorized debits
+aliases:
+  - EFT Pre-Authorized Debit
+type: bank_debit
+countries: [CA]
+currencies: [CAD]

@@ -1,0 +1,5 @@
+id: brazilian-cards
+name: Brazil Local Card
+type: card
+countries: [BR]
+currencies: [BRL]

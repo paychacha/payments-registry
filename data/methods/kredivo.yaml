@@ -1,0 +1,5 @@
+id: kredivo
+name: Kredivo
+type: bnpl
+countries: [ID]
+currencies: [IDR]

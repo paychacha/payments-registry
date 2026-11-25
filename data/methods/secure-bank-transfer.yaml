@@ -1,0 +1,5 @@
+id: secure-bank-transfer
+name: Secure Bank Transfer
+type: bank_debit
+countries: [US]
+currencies: [USD]

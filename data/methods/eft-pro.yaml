@@ -1,0 +1,5 @@
+id: eft-pro
+name: EFT PRO
+type: bank_transfer
+countries: [ZA]
+currencies: [ZAR]

@@ -1,0 +1,7 @@
+id: mymo
+name: MyMo
+aliases:
+  - Government Savings Bank
+type: bank_redirect
+countries: [TH]
+currencies: [THB]

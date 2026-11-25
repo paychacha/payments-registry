@@ -1,0 +1,5 @@
+id: bayad-center
+name: Bayad Center
+type: cash_voucher
+countries: [PH]
+currencies: [PHP]

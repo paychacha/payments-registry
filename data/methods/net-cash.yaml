@@ -1,0 +1,5 @@
+id: net-cash
+name: NET CASH
+type: prepaid_voucher
+countries: [JP]
+currencies: [JPY]

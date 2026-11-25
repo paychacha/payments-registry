@@ -1,0 +1,4 @@
+id: punto-pago
+name: Punto Pago
+type: cash_voucher
+countries: [PA]

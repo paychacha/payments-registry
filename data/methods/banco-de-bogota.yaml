@@ -1,0 +1,5 @@
+id: banco-de-bogota
+name: Banco De Bogota
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

@@ -1,0 +1,7 @@
+id: mtransfer
+name: mTransfer
+aliases:
+  - mTransfer - mBank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

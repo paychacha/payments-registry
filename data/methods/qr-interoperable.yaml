@@ -1,0 +1,4 @@
+id: qr-interoperable
+name: QR Interoperable
+type: real_time_payment
+countries: [AR]

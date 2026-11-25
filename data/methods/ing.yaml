@@ -1,0 +1,5 @@
+id: ing
+name: ING
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

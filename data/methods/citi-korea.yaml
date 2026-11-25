@@ -1,0 +1,7 @@
+id: citi-korea
+name: Citi Card (Korea)
+aliases:
+  - Citi
+type: card
+countries: [KR]
+currencies: [KRW]

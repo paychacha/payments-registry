@@ -1,0 +1,5 @@
+id: alma
+name: Alma
+type: bnpl
+countries: [BE, ES, FR, IT, LU, NL]
+currencies: [EUR]

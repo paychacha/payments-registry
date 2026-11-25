@@ -1,0 +1,5 @@
+id: qr-redeban
+name: QR Redeban
+type: wallet
+countries: [CO]
+currencies: [COP]

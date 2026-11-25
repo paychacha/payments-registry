@@ -1,0 +1,5 @@
+id: banco-original
+name: Banco Original
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

@@ -1,0 +1,698 @@
+id: payermax
+name: PayerMax
+website: https://www.payermax.com
+roles: [psp, aggregator]
+coverage:
+  - method: 7-eleven
+    countries: [JP, PH, TW]
+    currencies: [JPY, PHP, TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: abitab
+    countries: [UY]
+    currencies: [UYU]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-hk
+    countries: [HK]
+    currencies: [HKD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, INR, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MMK, MXN, MYR, NOK, NZD,
+      OMR, PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TRY, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-do-brasil
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-nacional-de-bolivia
+    countries: [BO]
+    currencies: [BOB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancontact
+    countries: [BE]
+    currencies: [EUR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-transfer
+    countries: [AR, EG, KR, PE, PH, TR, TW, ZA]
+    currencies: [EGP, KRW, PEN, PHP, TRY, TWD, USD, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bca
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: benefit
+    countries: [BH]
+    currencies: [BHD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bitcash
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boleto
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bradesco
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bualuang-mbanking
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caixa
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cebuana-lhuillier
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: culture-land
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: d-barai
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: daily-yamazaki
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: davivienda
+    countries: [CO]
+    currencies: [COP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-club
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, INR, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MXN, MYR, NOK, NZD, OMR,
+      PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TRY, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: discover
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, INR, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MXN, MYR, NOK, NZD, OMR,
+      PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TRY, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: e-sun-bank
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ecpay
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: efecty
+    countries: [CO]
+    currencies: [COP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: egg-money
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: elo
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: familymart
+    countries: [JP, TW]
+    currencies: [JPY, TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fawry
+    countries: [EG]
+    currencies: [EGP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fetnet
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fps
+    countries: [HK]
+    currencies: [HKD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fpx
+    countries: [MY]
+    currencies: [MYR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gash
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: google-pay
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MMK, MXN, MYR, NOK, NZD, OMR,
+      PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gpay
+    countries: [TR]
+    currencies: [TRY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    countries: [MY, PH]
+    currencies: [MYR, PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hi-life
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hipercard
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: humo
+    countries: [UZ]
+    currencies: [UZS]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indonesian-cards
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: itau
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jcb
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, INR, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MXN, MYR, NOK, NZD, OMR,
+      PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TRY, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jkopay
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: k-plus
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kakao-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: knet
+    countries: [KW]
+    currencies: [KWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-cards
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: krungsri
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: krungthai-next
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: lawson
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: m-lhuillier
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mada
+    countries: [SA]
+    currencies: [SAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: make-by-kbank
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, INR, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MMK, MXN, MYR, NOK, NZD,
+      OMR, PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TRY, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maya
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mercado-pago
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: merpay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ministop
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobile-wallets-egypt
+    countries: [EG]
+    currencies: [EGP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naps
+    countries: [QA]
+    currencies: [QAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naver-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nequi
+    countries: [CO]
+    currencies: [COP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: net-cash
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ok-mart
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: open-banking
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ovo
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oxxo
+    countries: [MX]
+    currencies: [MXN]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagoefectivo
+    countries: [EC, PE]
+    currencies: [PEN, USD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paotang-pay
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payco
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    countries: [SG]
+    currencies: [SGD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypal
+    global: true
+    currencies: [AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, ILS, JPY, MXN, NOK, NZD, PHP, SGD, THB,
+      TWD, USD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: philippines-online-banking
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pse
+    countries: [CO]
+    currencies: [COP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qr-ph
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qris
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rabbit-line-pay
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rakuten-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rapipago
+    countries: [AR]
+    currencies: [USD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rd-pawnshop
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: redpagos
+    countries: [UY]
+    currencies: [UYU]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-brazil
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scb-easy
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: seicomart
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: servipag
+    countries: [CL]
+    currencies: [CLP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopeepay
+    countries: [ID, MY, SG, TH]
+    currencies: [IDR, MYR, SGD, THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sm-bills-payment
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: spei
+    countries: [MX]
+    currencies: [MXN]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ssg-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: stc-pay
+    countries: [SA]
+    currencies: [SAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: t-money
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: taiwan-mobile
+    countries: [TW]
+    currencies: [TWD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: toss-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    countries: [MY]
+    currencies: [MYR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: troy
+    countries: [TR]
+    currencies: [TRY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: truemoney
+    countries: [PH, TH]
+    currencies: [PHP, THB]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: uzcard
+    countries: [UZ]
+    currencies: [UZS]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: uzum-bank
+    countries: [UZ]
+    currencies: [UZS]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vietqr
+    countries: [VN]
+    currencies: [VND]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    global: true
+    currencies: [AED, ARS, AUD, AZN, BDT, BHD, BOB, BRL, CAD, CHF, CLP, COP, CZK, DKK, DZD, EGP,
+      EUR, GBP, HKD, IDR, ILS, INR, ISK, JOD, JPY, KRW, KWD, MAD, MDL, MMK, MXN, MYR, NOK, NZD,
+      OMR, PEN, PHP, PKR, PLN, PYG, QAR, RON, SAR, SGD, THB, TRY, TWD, USD, UYU, VND, ZAR]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vodafone-cash
+    countries: [EG]
+    currencies: [EGP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: webmoney
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: webpay
+    countries: [CL]
+    currencies: [CLP]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay-hk
+    countries: [HK]
+    currencies: [HKD]
+    source: https://docs.payermax.com/en/202606-version/acquiring/payment-method-capabilities/payment-method-list/standard-acquiring-products.html
+    source_type: provider_docs
+    checked: 2026-11-24

@@ -1,0 +1,4 @@
+id: mastercard
+name: Mastercard
+type: card
+global: true

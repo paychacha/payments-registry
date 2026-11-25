@@ -1,0 +1,7 @@
+id: circle-k
+name: Circle K
+aliases:
+  - Circulo K
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

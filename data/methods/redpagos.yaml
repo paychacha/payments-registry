@@ -1,0 +1,5 @@
+id: redpagos
+name: RedPagos
+type: cash_voucher
+countries: [UY]
+currencies: [UYU]

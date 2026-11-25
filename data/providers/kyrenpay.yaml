@@ -1,0 +1,120 @@
+id: kyrenpay
+name: KyrenPay
+website: https://kyrenpay.com
+roles: [mor]
+coverage:
+  - method: alipay
+    countries: [CN]
+    source: https://kyrenpay.com/#alipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-hk
+    countries: [HK]
+    source: https://kyrenpay.com/#alipay-hk
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    global: true
+    source: https://kyrenpay.com/#apple-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boost
+    countries: [MY]
+    source: https://kyrenpay.com/#boost
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: crypto-wallet-pay
+    global: true
+    source: https://kyrenpay.com/#crypto-wallet-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    countries: [ID]
+    source: https://kyrenpay.com/#dana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indonesia-virtual-account
+    countries: [ID]
+    source: https://kyrenpay.com/#indonesia-va
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jkopay
+    countries: [TW]
+    source: https://kyrenpay.com/#jkopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kredivo
+    countries: [ID]
+    source: https://kyrenpay.com/#kredivo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mir
+    countries: [RU]
+    source: https://kyrenpay.com/#mir
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ovo
+    countries: [ID]
+    source: https://kyrenpay.com/#ovo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payco
+    countries: [KR]
+    source: https://kyrenpay.com/#payco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    countries: [SG]
+    source: https://kyrenpay.com/#paynow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    countries: [KR]
+    source: https://kyrenpay.com/#samsung-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sberpay
+    countries: [RU]
+    source: https://kyrenpay.com/#sberpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sbp
+    countries: [RU]
+    source: https://kyrenpay.com/#sbp
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopeepay
+    countries: [ID]
+    source: https://kyrenpay.com/#shopeepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: t-pay
+    countries: [RU]
+    source: https://kyrenpay.com/#t-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: toss-pay
+    countries: [KR]
+    source: https://kyrenpay.com/#toss-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    countries: [MY]
+    source: https://kyrenpay.com/#touch-n-go-ewallet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: usdt
+    global: true
+    source: https://kyrenpay.com/#stablecoin-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    countries: [CN]
+    source: https://kyrenpay.com/#wechat-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: yoomoney
+    countries: [RU]
+    source: https://kyrenpay.com/#yoomoney
+    source_type: provider_docs
+    checked: 2026-11-24

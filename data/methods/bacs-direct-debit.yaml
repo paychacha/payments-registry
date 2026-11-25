@@ -1,0 +1,5 @@
+id: bacs-direct-debit
+name: Bacs Direct Debit
+type: bank_debit
+countries: [GB]
+currencies: [GBP]

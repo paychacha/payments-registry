@@ -1,0 +1,7 @@
+id: vietqr
+name: VietQR
+aliases:
+  - Bank Transfer via VietQR
+type: real_time_payment
+countries: [VN]
+currencies: [VND]

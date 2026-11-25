@@ -1,0 +1,5 @@
+id: podkarpacki-bank-spoldzielczy
+name: Podkarpacki Bank Spóldzielczy
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

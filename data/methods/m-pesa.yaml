@@ -1,0 +1,8 @@
+id: m-pesa
+name: M-Pesa
+aliases:
+  - Vodacom Mobile Money
+  - VodaCom
+type: wallet
+countries: [KE, TZ]
+currencies: [TZS]

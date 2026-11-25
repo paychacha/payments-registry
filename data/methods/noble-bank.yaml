@@ -1,0 +1,5 @@
+id: noble-bank
+name: Noble Bank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

@@ -1,0 +1,5 @@
+id: mbank
+name: mBank
+type: bank_transfer
+countries: [CZ]
+currencies: [CZK]

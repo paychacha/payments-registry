@@ -1,0 +1,6 @@
+id: macro
+name: Banco Macro
+aliases:
+  - Macro
+type: bank_transfer
+countries: [AR]

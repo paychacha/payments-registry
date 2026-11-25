@@ -1,0 +1,5 @@
+id: onshop
+name: OnShop
+type: prepaid_voucher
+countries: [IT]
+currencies: [EUR]

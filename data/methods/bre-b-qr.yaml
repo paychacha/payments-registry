@@ -1,0 +1,4 @@
+id: bre-b-qr
+name: Bre-B QR
+type: real_time_payment
+countries: [CO]

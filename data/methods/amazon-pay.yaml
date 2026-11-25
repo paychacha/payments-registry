@@ -1,0 +1,5 @@
+id: amazon-pay
+name: Amazon Pay
+type: wallet
+countries: [US]
+currencies: [USD]

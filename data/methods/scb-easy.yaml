@@ -1,0 +1,10 @@
+id: scb-easy
+name: SCB EASY
+aliases:
+  - Siam Commerical Bank
+  - Siam Commercial Bank
+  - Siam Commercial Bank ATM
+  - Siam Commercial Bank Easy Pay
+type: bank_transfer
+countries: [TH]
+currencies: [THB]

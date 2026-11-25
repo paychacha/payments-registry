@@ -1,0 +1,5 @@
+id: bank-muamalat
+name: Bank Muamalat
+type: cash_voucher
+countries: [MY]
+currencies: [MYR]

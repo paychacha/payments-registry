@@ -1,0 +1,8 @@
+id: maybank2u
+name: Maybank2u
+aliases:
+  - Maybank
+  - Maybank QR
+type: bank_redirect
+countries: [ID, MY]
+currencies: [IDR, MYR]

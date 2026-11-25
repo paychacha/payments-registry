@@ -1,0 +1,5 @@
+id: todito-cash
+name: Todito Cash
+type: wallet
+countries: [MX]
+currencies: [MXN]

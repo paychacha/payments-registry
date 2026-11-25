@@ -1,0 +1,5 @@
+id: pay4fun
+name: Pay4Fun
+type: wallet
+countries: [BR]
+currencies: [BRL]

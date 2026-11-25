@@ -1,0 +1,5 @@
+id: okto-cash
+name: OKTO Cash
+type: prepaid_voucher
+countries: [CY, GR, IT, RO]
+currencies: [EUR, RON]

@@ -1,0 +1,5 @@
+id: axs
+name: AXS
+type: cash_voucher
+countries: [SG]
+currencies: [SGD]

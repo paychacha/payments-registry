@@ -1,0 +1,4 @@
+id: sberpay
+name: SberPay
+type: wallet
+countries: [RU]

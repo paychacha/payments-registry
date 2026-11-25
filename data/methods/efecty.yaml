@@ -1,0 +1,5 @@
+id: efecty
+name: Efecty
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

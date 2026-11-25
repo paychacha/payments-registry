@@ -1,0 +1,5 @@
+id: truemoney
+name: TrueMoney
+type: wallet
+countries: [PH, TH]
+currencies: [PHP, THB]

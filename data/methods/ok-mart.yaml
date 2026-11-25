@@ -1,0 +1,5 @@
+id: ok-mart
+name: OK Mart
+type: cash_voucher
+countries: [TW]
+currencies: [TWD]

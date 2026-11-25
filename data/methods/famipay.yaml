@@ -1,0 +1,5 @@
+id: famipay
+name: FamiPay
+type: wallet
+countries: [JP]
+currencies: [JPY]

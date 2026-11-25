@@ -1,0 +1,5 @@
+id: gana
+name: Gana
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

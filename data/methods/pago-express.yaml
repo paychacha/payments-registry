@@ -1,0 +1,4 @@
+id: pago-express
+name: Pago Express
+type: cash_voucher
+countries: [PY]

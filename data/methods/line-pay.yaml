@@ -1,0 +1,5 @@
+id: line-pay
+name: LINE Pay
+type: wallet
+countries: [JP]
+currencies: [JPY]

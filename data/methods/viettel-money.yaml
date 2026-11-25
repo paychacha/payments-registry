@@ -1,0 +1,5 @@
+id: viettel-money
+name: Viettel Money
+type: wallet
+countries: [VN]
+currencies: [VND]

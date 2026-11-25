@@ -1,0 +1,4 @@
+id: scotiabank
+name: Scotiabank
+type: bank_transfer
+countries: [CL, MX, PE]

@@ -1,0 +1,5 @@
+id: banco-walmart-lider
+name: Banco Walmart - Lider
+type: cash_voucher
+countries: [CL]
+currencies: [CLP]

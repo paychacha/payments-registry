@@ -1,0 +1,5 @@
+id: usd-bank-transfers
+name: USD bank transfers
+type: bank_transfer
+countries: [US]
+currencies: [USD]

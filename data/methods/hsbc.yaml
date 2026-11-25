@@ -1,0 +1,5 @@
+id: hsbc
+name: HSBC
+type: bank_transfer
+countries: [MX]
+currencies: [MXN]

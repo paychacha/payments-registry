@@ -1,0 +1,5 @@
+id: cross-bank-qr
+name: Cross Bank QR
+type: real_time_payment
+countries: [TH]
+currencies: [THB]

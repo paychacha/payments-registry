@@ -1,0 +1,4 @@
+id: pago-al-paso
+name: Pago al Paso
+type: cash_voucher
+countries: [BO]

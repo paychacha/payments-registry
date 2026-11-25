@@ -1,0 +1,5 @@
+id: servipag
+name: Servipag
+type: cash_voucher
+countries: [CL]
+currencies: [CLP]

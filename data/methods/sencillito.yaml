@@ -1,0 +1,5 @@
+id: sencillito
+name: Sencillito
+type: cash_voucher
+countries: [CL]
+currencies: [CLP]

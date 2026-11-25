@@ -1,0 +1,5 @@
+id: billease
+name: BillEase
+type: bnpl
+countries: [PH]
+currencies: [PHP]

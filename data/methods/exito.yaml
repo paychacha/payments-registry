@@ -1,0 +1,5 @@
+id: exito
+name: Exito
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

@@ -1,0 +1,5 @@
+id: sberbank
+name: Sberbank
+type: bank_transfer
+countries: [CZ]
+currencies: [CZK]

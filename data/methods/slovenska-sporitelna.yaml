@@ -1,0 +1,5 @@
+id: slovenska-sporitelna
+name: Slovenska sporitelna
+type: bank_transfer
+countries: [SK]
+currencies: [EUR]

@@ -1,0 +1,5 @@
+id: eps
+name: EPS
+type: bank_redirect
+countries: [AT]
+currencies: [EUR]

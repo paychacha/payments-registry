@@ -1,0 +1,5 @@
+id: billie
+name: Billie
+type: bnpl
+countries: [AT, CH, DE, DK, ES, FI, FR, GB, IT, NL, "NO", SE]
+currencies: [CHF, DKK, EUR, GBP, NOK, SEK]

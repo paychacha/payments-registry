@@ -1,0 +1,5 @@
+id: calimax
+name: Calimax
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

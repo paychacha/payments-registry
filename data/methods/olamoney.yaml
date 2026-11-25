@@ -1,0 +1,5 @@
+id: olamoney
+name: OlaMoney
+type: wallet
+countries: [IN]
+currencies: [INR]

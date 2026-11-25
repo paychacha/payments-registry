@@ -1,0 +1,7 @@
+id: airtel-money
+name: Airtel Money
+aliases:
+  - Airtel Mobile Money
+type: wallet
+countries: [AL, IN, KE, RW, TZ, UG, ZM]
+currencies: [ALL, INR, KES, TZS, ZMW]

@@ -1,0 +1,5 @@
+id: fundacion-genesis
+name: Fundación Génesis
+type: cash_voucher
+countries: [GT]
+currencies: [GTQ]

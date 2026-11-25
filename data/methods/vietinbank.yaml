@@ -1,0 +1,5 @@
+id: vietinbank
+name: Vietinbank
+type: bank_transfer
+countries: [VN]
+currencies: [VND]

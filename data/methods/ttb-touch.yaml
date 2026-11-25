@@ -1,0 +1,8 @@
+id: ttb-touch
+name: ttb touch
+aliases:
+  - Thanachart Bank
+  - TMB Bank
+type: bank_transfer
+countries: [TH]
+currencies: [THB]

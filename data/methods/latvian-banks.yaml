@@ -1,0 +1,5 @@
+id: latvian-banks
+name: Latvian Banks
+type: bank_redirect
+countries: [LV]
+currencies: [EUR]

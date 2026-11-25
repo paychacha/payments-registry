@@ -1,0 +1,4 @@
+id: banco-popular
+name: Banco Popular
+type: bank_transfer
+countries: [CO]

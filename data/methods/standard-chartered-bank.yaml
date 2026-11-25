@@ -1,0 +1,5 @@
+id: standard-chartered-bank
+name: Standard Chartered Bank
+type: real_time_payment
+countries: [SG]
+currencies: [SGD]

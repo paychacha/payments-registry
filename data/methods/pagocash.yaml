@@ -1,0 +1,5 @@
+id: pagocash
+name: PagoCash
+type: cash_voucher
+countries: [PA]
+currencies: [USD]

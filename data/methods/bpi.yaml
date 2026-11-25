@@ -1,0 +1,7 @@
+id: bpi
+name: BPI
+aliases:
+  - BPI Bank of the Philippine Islands
+type: bank_redirect
+countries: [PH]
+currencies: [PHP]

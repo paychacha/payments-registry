@@ -1,0 +1,7 @@
+id: au-carrier-billing
+name: auかんたん決済 (au carrier payments)
+aliases:
+  - au
+type: carrier_billing
+countries: [JP]
+currencies: [JPY]

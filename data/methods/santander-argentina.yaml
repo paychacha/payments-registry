@@ -1,0 +1,6 @@
+id: santander-argentina
+name: Santander (Argentina)
+aliases:
+  - Santander
+type: bank_transfer
+countries: [AR]

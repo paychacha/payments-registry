@@ -1,0 +1,5 @@
+id: cimb-clicks
+name: CIMB Clicks
+type: bank_transfer
+countries: [ID]
+currencies: [IDR]

@@ -1,0 +1,5 @@
+id: tabby
+name: Tabby
+type: bnpl
+countries: [AE, SA]
+currencies: [AED, SAR]

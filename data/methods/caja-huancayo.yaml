@@ -1,0 +1,4 @@
+id: caja-huancayo
+name: Caja Huancayo
+type: bank_transfer
+countries: [PE]

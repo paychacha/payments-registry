@@ -1,0 +1,7 @@
+id: cmr
+name: CMR
+aliases:
+  - CMR Falabella
+type: card
+countries: [AR, CL]
+currencies: [CLP]

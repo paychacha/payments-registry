@@ -1,0 +1,5 @@
+id: mobile-wallets-egypt
+name: Mobile Wallets (Egypt)
+type: wallet
+countries: [EG]
+currencies: [EGP]

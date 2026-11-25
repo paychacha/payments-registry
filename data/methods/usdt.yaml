@@ -1,0 +1,6 @@
+id: usdt
+name: Tether USD (USDT)
+aliases:
+  - USDT Direct
+type: stablecoin
+global: true

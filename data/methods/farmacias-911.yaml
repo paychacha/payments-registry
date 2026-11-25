@@ -1,0 +1,5 @@
+id: farmacias-911
+name: Farmacias 911
+type: cash_voucher
+countries: [EC]
+currencies: [USD]

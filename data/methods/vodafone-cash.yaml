@@ -1,0 +1,8 @@
+id: vodafone-cash
+name: Vodafone Cash
+aliases:
+  - Vodafone Mobile Money
+  - Vodafone
+type: wallet
+countries: [EG, GH]
+currencies: [EGP, GHS]

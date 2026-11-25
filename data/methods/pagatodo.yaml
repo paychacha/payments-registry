@@ -1,0 +1,5 @@
+id: pagatodo
+name: PagaTodo
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

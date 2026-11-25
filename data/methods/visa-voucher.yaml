@@ -1,0 +1,8 @@
+id: visa-voucher
+name: Visa Voucher
+type: prepaid_voucher
+countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DK, EE, ES, FI, GB, GR, HR, HU, IE,
+  IN, IT, JP, KR, LT, LU, LV, MT, MX, MY, NL, "NO", NZ, PE, PH, PL, PT, QA, RO, RS, SA, SE, SG,
+  SI, SK, TH, UA, ZA]
+currencies: [AED, ARS, AUD, BRL, CAD, CHF, CLP, CZK, DKK, EUR, GBP, HUF, INR, JPY, MXN, MYR,
+  NOK, NZD, PEN, PHP, PLN, QAR, RON, RSD, SAR, SEK, SGD, THB, UAH, ZAR]

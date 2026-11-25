@@ -1,0 +1,8 @@
+id: mtn-mobile-money
+name: MTN MoMo
+aliases:
+  - MTN Mobile Money
+  - MTN
+type: wallet
+countries: [CI, CM, GA, GH, RW, UG, ZM]
+currencies: [GHS, RWF, XAF, XOF, ZMW]

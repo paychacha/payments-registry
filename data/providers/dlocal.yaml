@@ -1,0 +1,1090 @@
+id: dlocal
+name: dLocal
+website: https://www.dlocal.com
+roles: [psp]
+coverage:
+  - method: 7-eleven
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: 9pay
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: abitab
+    countries: [UY]
+    source: https://docs.dlocal.com/docs/uruguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: absa
+    countries: [ZA]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: access
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: addi
+    countries: [CO]
+    source: https://docs.dlocal.com/docs/colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airtel-money
+    countries: [KE, RW, TZ, UG]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airteltigo
+    countries: [GH]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: akipago
+    countries: [SV]
+    source: https://docs.dlocal.com/docs/el-salvador
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: akisipuedo
+    countries: [GT]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alelo
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alfa
+    countries: [PK]
+    source: https://docs.dlocal.com/docs/pakistan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alia
+    countries: [EC]
+    source: https://docs.dlocal.com/docs/ecuador
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    countries: [AR, BR, CL, CO, CR, DO, EC, GT, HN, ID, IN, JP, LK, MX, NI, PA, PE, PH, PY, SV,
+      TH, TR, TZ, UY, ZA]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: aozora-bank-transfer
+    countries: [JP]
+    source: https://docs.dlocal.com/docs/japan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: argencard
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atome
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-pay
+    countries: [JP]
+    source: https://docs.dlocal.com/docs/japan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: aura
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: baloto
+    countries: [CO]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancard
+    countries: [PY]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-do-brasil
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-falabella
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-nacion
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: banco-popular-dominicano
+    countries: [DO]
+    source: https://docs.dlocal.com/docs/dominican-republic
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancolombia
+    countries: [CO]
+    source: https://docs.dlocal.com/docs/colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-transfer
+    countries: [AR, BO, NG, PK, PY, UY]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-transfer-direct-debit
+    countries: [NG]
+    source: https://docs.dlocal.com/docs/nigeria
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: baokim
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bbva-argentina
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bbva-chile
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bcb
+    countries: [BO]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bcp
+    countries: [PE]
+    source: https://docs.dlocal.com/docs/peru
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: benefit
+    countries: [BH]
+    source: https://docs.dlocal.com/docs/bahrain
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: big-c
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: billetera-personal
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bn-servicios
+    countries: [CR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boleto
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boost
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bradesco
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bre-b-qr
+    countries: [CO]
+    source: https://docs.dlocal.com/docs/colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: buy-now-pay-later-bnpl
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cabal
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: caixa
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: capitec-pay
+    countries: [ZA]
+    source: https://docs.dlocal.com/docs/south-africa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: carnet
+    countries: [MX]
+    source: https://docs.dlocal.com/docs/mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartao-mercado-livre
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: carulla
+    countries: [CO]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cash
+    countries: [ID]
+    source: https://docs.dlocal.com/docs/indonesia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cencosud
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: citi-argentina
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: clave
+    countries: [PA]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cmi
+    countries: [MA]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cmr
+    countries: [AR, CL]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cobro-express
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: codensa
+    countries: [CO]
+    source: https://docs.dlocal.com/docs/colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: codi
+    countries: [MX]
+    source: https://docs.dlocal.com/docs/mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: credicoop
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: d-barai
+    countries: [JP]
+    source: https://docs.dlocal.com/docs/japan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    countries: [ID]
+    source: https://docs.dlocal.com/docs/indonesia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: deuna
+    countries: [EC]
+    source: https://docs.dlocal.com/docs/ecuador
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: didi-paga-despues
+    countries: [MX]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-club
+    countries: [CL, CO, CR, DO, EC, GT, HN, IN, JP, NI, PA, PE, SV, TH, UY]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: direct-debit
+    countries: [ID, PH]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: discover
+    countries: [BR, CR, DO, GT, HN, NI, PA, SV, TH, TR]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: domiciliacion-bancaria
+    countries: [MX]
+    source: https://docs.dlocal.com/docs/mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: duitnow
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: easypaisa
+    countries: [PK]
+    source: https://docs.dlocal.com/docs/pakistan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: efecty
+    countries: [CO]
+    source: https://docs.dlocal.com/docs/colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: elo
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fawry
+    countries: [EG]
+    source: https://docs.dlocal.com/docs/egypt
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fintoc
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: first-bank
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fnb
+    countries: [ZA]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fpx
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: galicia
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    countries: [PH]
+    source: https://docs.dlocal.com/docs/philippines
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: giros-claro
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    countries: [MY, PH]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gt-bank
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hbl-konnect
+    countries: [PK]
+    source: https://docs.dlocal.com/docs/pakistan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hipercard
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hsbc-argentina
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indonesia-virtual-account
+    countries: [ID]
+    source: https://docs.dlocal.com/docs/indonesia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: infonet
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: investec
+    countries: [ZA]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: itau
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: itau-argentina
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: itau-chile
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jazzcash
+    countries: [PK]
+    source: https://docs.dlocal.com/docs/pakistan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jcb
+    countries: [BR, CR, GT, HN, ID, JP, MA, NI, PA, PH, SV, TH]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: k-plus
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: khipu
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: konbini
+    countries: [JP]
+    source: https://docs.dlocal.com/docs/japan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kueski-pay
+    countries: [MX]
+    source: https://docs.dlocal.com/docs/mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: lider
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: lider-card
+    countries: [UY]
+    source: https://docs.dlocal.com/docs/uruguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ligopay
+    countries: [PE]
+    source: https://docs.dlocal.com/docs/peru
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: linkaja
+    countries: [ID]
+    source: https://docs.dlocal.com/docs/indonesia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: m-pesa
+    countries: [KE, TZ]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mach
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: macro
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mada
+    countries: [SA]
+    source: https://docs.dlocal.com/docs/saudi-arabia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maestro
+    countries: [AR, BR, TR]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: magna
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    countries: [AE, AR, BD, BH, BJ, BO, BR, BW, CD, CF, CI, CL, CM, CO, CR, DO, EC, EG, GH, GQ,
+      GT, GW, HN, ID, IN, JO, JP, KE, LR, LS, MA, MW, MX, MY, MZ, NE, NG, NI, OM, PA, PE, PH,
+      PK, PY, QA, RW, SA, SL, SN, SV, TD, TH, TR, TZ, UG, UY, VN, ZA, ZM, ZW]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maya
+    countries: [PH]
+    source: https://docs.dlocal.com/docs/philippines
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maybank2u
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: meeza
+    countries: [EG]
+    source: https://docs.dlocal.com/docs/egypt
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: meeza-digital-network
+    countries: [EG]
+    source: https://docs.dlocal.com/docs/egypt
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mercado-pago
+    countries: [BR, CL, CO, MX]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mixx-by-yas
+    countries: [SN, TZ]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobicred
+    countries: [ZA]
+    source: https://docs.dlocal.com/docs/south-africa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobile-money
+    countries: [CI, CM, GH, RW, SN, TZ, UG]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: modo-cards
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: momo
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mono-direct-debit
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: moov
+    countries: [CI]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mtn-mobile-money
+    countries: [CI, CM, GH, RW, UG]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: multipago
+    countries: [BO]
+    source: https://docs.dlocal.com/docs/bolivia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: napas
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naps
+    countries: [QA]
+    source: https://docs.dlocal.com/docs/qatar
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naranja
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naranjax
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nativa
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nedbank
+    countries: [ZA]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nequi
+    countries: [CO]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: netbank-bank-transfer
+    countries: [PH]
+    source: https://docs.dlocal.com/docs/philippines
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: netbanking
+    countries: [IN]
+    source: https://docs.dlocal.com/docs/india
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nupay
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oca
+    countries: [UY]
+    source: https://docs.dlocal.com/docs/uruguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: okra
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: opay
+    countries: [NG]
+    source: https://docs.dlocal.com/docs/nigeria
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: orange-money
+    countries: [CI, CM, SN]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ovo
+    countries: [ID]
+    source: https://docs.dlocal.com/docs/indonesia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oxxo
+    countries: [MX]
+    source: https://docs.dlocal.com/docs/mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ozow
+    countries: [ZA]
+    source: https://docs.dlocal.com/docs/south-africa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paga
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagaleve
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pago-al-paso
+    countries: [BO]
+    source: https://docs.dlocal.com/docs/bolivia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pago-express
+    countries: [PY]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pago-facil
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagoefectivo
+    countries: [EC, PE]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagopar
+    countries: [PY]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pareto
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    countries: [JP]
+    source: https://docs.dlocal.com/docs/japan
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paycash
+    countries: [CR, GT, PA, PE]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payflex
+    countries: [ZA]
+    source: https://docs.dlocal.com/docs/south-africa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynet
+    countries: [MX]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payvalida
+    countries: [EC, PE]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: picpay
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: practipago
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: providus-bank
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pse
+    countries: [CO]
+    source: https://docs.dlocal.com/docs/colombia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: punto-pago
+    countries: [PA]
+    source: https://docs.dlocal.com/docs/panama
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: puntored
+    countries: [CO]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: puntoxpress
+    countries: [HN, NI, SV]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qr-interoperable
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qr-payments
+    countries: [BO, PY]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qris
+    countries: [ID]
+    source: https://docs.dlocal.com/docs/indonesia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rabbit-line-pay
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rapipago
+    countries: [AR]
+    source: https://docs.dlocal.com/docs/argentina
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rcs-store-card
+    countries: [ZA]
+    source: https://docs.dlocal.com/docs/south-africa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: red-compra
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: redpagos
+    countries: [UY]
+    source: https://docs.dlocal.com/docs/uruguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rupay
+    countries: [IN]
+    source: https://docs.dlocal.com/docs/india
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rutpay
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-argentina
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-brazil
+    countries: [BR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: santander-chile
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scotiabank
+    countries: [CL]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sencillito
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: servipag
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopeepay
+    countries: [ID, MY, PH, TH]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sinpe
+    countries: [CR]
+    source: https://docs.dlocal.com/docs/costa-rica
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sinpe-movil
+    countries: [CR]
+    source: https://docs.dlocal.com/docs/costa-rica
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: soyfri
+    countries: [GT]
+    source: https://docs.dlocal.com/docs/guatemala
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: spei
+    countries: [MX]
+    source: https://docs.dlocal.com/docs/mexico
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: standard-bank
+    countries: [ZA]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: static-virtual-account-via-instapay-or-pesonet
+    countries: [PH]
+    source: https://docs.dlocal.com/docs/philippines
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sterling-bank
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: stitch
+    countries: [ZA]
+    source: https://docs.dlocal.com/docs/south-africa
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tamara
+    countries: [SA]
+    source: https://docs.dlocal.com/docs/saudi-arabia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tarjeta-shopping
+    countries: [AR]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tigo-money
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tigo-pesa
+    countries: [TZ]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    countries: [MY]
+    source: https://docs.dlocal.com/docs/malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: troy
+    countries: [TR]
+    source: https://docs.dlocal.com/docs/turkey
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: truemoney
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionpay
+    countries: [MA, TH]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unity-bank
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: upi
+    countries: [IN]
+    source: https://docs.dlocal.com/docs/india
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: valu
+    countries: [EG]
+    source: https://docs.dlocal.com/docs/egypt
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: verve
+    countries: [NG]
+    source: https://docs.dlocal.com/docs/nigeria
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    countries: [AE, AR, BD, BH, BJ, BO, BR, BW, CD, CF, CI, CL, CM, CO, CR, DO, EC, EG, GH, GQ,
+      GT, GW, HN, ID, IN, JO, JP, KE, LR, LS, MA, MW, MX, MY, MZ, NE, NG, NI, OM, PA, PE, PH,
+      PK, PY, QA, RW, SA, SL, SN, SV, TD, TH, TR, TZ, UG, UY, VN, ZA, ZM, ZW]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vnpay
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vodafone-cash
+    countries: [GH]
+    source: https://docs.dlocal.com/docs/ghana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vpay
+    countries: [BO]
+    source: https://www.dlocal.com/payment-processors-in-latin-america/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vr
+    countries: [BR]
+    source: https://docs.dlocal.com/docs/brazil
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vtc-pay
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wabi
+    countries: [BO]
+    source: https://docs.dlocal.com/docs/bolivia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wafacash
+    countries: [MA]
+    source: https://docs.dlocal.com/docs/morocco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wally
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wave
+    countries: [CI, SN]
+    source: https://docs.dlocal.com/docs/payment-method
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: webpay
+    countries: [CL]
+    source: https://docs.dlocal.com/docs/chile
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    countries: [TH]
+    source: https://docs.dlocal.com/docs/thailand
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wepa
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: yape
+    countries: [PE]
+    source: https://docs.dlocal.com/docs/peru
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: yup
+    countries: [CI, CM]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zalopay
+    countries: [VN]
+    source: https://docs.dlocal.com/docs/vietnam
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zantel
+    countries: [TZ]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zenith
+    countries: [NG]
+    source: https://www.dlocal.com/payment-processors-in-africa-and-middle-east/
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zimple
+    countries: [PY]
+    source: https://docs.dlocal.com/docs/paraguay
+    source_type: provider_docs
+    checked: 2026-11-24

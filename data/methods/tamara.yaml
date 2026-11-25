@@ -1,0 +1,5 @@
+id: tamara
+name: Tamara
+type: bnpl
+countries: [AE, SA]
+currencies: [AED, SAR]

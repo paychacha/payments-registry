@@ -1,0 +1,5 @@
+id: openbucks-card
+name: Openbucks card
+type: prepaid_voucher
+countries: [US]
+currencies: [USD]

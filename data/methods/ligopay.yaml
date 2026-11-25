@@ -1,0 +1,4 @@
+id: ligopay
+name: LigoPay
+type: real_time_payment
+countries: [PE]

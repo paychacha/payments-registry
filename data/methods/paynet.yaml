@@ -1,0 +1,7 @@
+id: paynet
+name: PayNet
+aliases:
+  - S PayNet
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

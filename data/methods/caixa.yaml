@@ -1,0 +1,5 @@
+id: caixa
+name: Caixa
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

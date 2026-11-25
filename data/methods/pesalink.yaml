@@ -1,0 +1,4 @@
+id: pesalink
+name: PesaLink
+type: bank_transfer
+countries: [KE]

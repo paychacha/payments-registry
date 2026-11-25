@@ -1,0 +1,5 @@
+id: postfinance-efinance
+name: PostFinance eFinance
+type: bank_transfer
+countries: [CH]
+currencies: [CHF]

@@ -1,0 +1,5 @@
+id: wero
+name: Wero
+type: wallet
+countries: [BE, DE, FR, LU, NL]
+currencies: [EUR]

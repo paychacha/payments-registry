@@ -1,0 +1,5 @@
+id: paypo
+name: PayPo
+type: bnpl
+countries: [PL, RO]
+currencies: [PLN]

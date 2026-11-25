@@ -1,0 +1,4 @@
+id: crypto-wallet-pay
+name: Crypto Wallet Pay
+type: stablecoin
+global: true

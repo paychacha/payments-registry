@@ -1,0 +1,7 @@
+id: thailand-online-banking
+name: Thailand Online Banking
+aliases:
+  - Online banking Thailand
+type: bank_redirect
+countries: [TH]
+currencies: [THB]

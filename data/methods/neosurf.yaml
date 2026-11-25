@@ -1,0 +1,6 @@
+id: neosurf
+name: NeoSurf
+type: prepaid_voucher
+countries: [AT, AU, BE, CA, CH, CY, DK, ES, FR, GB, IE, IT, KE, LU, MA, NE, NG, NL, "NO", NZ,
+  PL, PT, RO, SE, SN]
+currencies: [AUD, CAD, EUR, GBP, PLN]

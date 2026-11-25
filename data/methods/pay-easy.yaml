@@ -1,0 +1,8 @@
+id: pay-easy
+name: Pay-easy
+aliases:
+  - Pay-easy online banking
+  - Pay Easy ATM
+type: bank_redirect
+countries: [JP]
+currencies: [JPY]

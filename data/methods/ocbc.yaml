@@ -1,0 +1,7 @@
+id: ocbc
+name: OCBC Bank
+aliases:
+  - OCBC Bank / Plus
+type: bank_transfer
+countries: [MY, SG]
+currencies: [MYR, SGD]

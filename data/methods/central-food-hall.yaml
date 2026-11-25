@@ -1,0 +1,5 @@
+id: central-food-hall
+name: Central Food Hall
+type: cash_voucher
+countries: [TH]
+currencies: [THB]

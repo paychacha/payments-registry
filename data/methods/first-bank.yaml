@@ -1,0 +1,4 @@
+id: first-bank
+name: First Bank
+type: bank_transfer
+countries: [NG]

@@ -1,0 +1,6 @@
+id: revolut-pay
+name: Revolut Pay
+type: wallet
+countries: [AT, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IT, LI, LT, LU, LV,
+  MT, NL, "NO", PL, PT, RO, SE, SI, SK]
+currencies: [DKK, EUR, GBP, HUF, PLN, RON]

@@ -1,0 +1,5 @@
+id: binance-pay
+name: Binance Pay
+website: https://pay.binance.com
+roles: [psp]
+coverage: []

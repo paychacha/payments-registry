@@ -1,0 +1,5 @@
+id: rabbit-line-pay
+name: Rabbit LINE Pay
+type: wallet
+countries: [TH]
+currencies: [THB]

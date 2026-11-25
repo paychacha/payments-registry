@@ -1,0 +1,8 @@
+id: promptpay
+name: PromptPay
+aliases:
+  - Thai QR Payment
+  - ThaiQR
+type: real_time_payment
+countries: [TH]
+currencies: [THB]

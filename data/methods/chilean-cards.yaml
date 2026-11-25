@@ -1,0 +1,5 @@
+id: chilean-cards
+name: Chilean cards
+type: card
+countries: [CL]
+currencies: [CLP]

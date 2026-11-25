@@ -1,0 +1,5 @@
+id: swiss-payments
+name: Swiss Payments
+type: bank_transfer
+countries: [CH]
+currencies: [CHF]

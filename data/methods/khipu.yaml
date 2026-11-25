@@ -1,0 +1,5 @@
+id: khipu
+name: Khipu
+type: bank_redirect
+countries: [CL]
+currencies: [CLP]

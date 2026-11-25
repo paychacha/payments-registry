@@ -1,0 +1,5 @@
+id: turkish-cards
+name: Turkish cards
+type: card
+countries: [TR]
+currencies: [TRY]

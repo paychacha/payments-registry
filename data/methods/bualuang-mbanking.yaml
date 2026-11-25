@@ -1,0 +1,10 @@
+id: bualuang-mbanking
+name: Bualuang mBanking
+aliases:
+  - Bangkok Bank
+  - Bangkok Bank ATM
+  - Bangkok Bank iPay
+  - Bangkok Bank Mobile Banking
+type: bank_transfer
+countries: [TH]
+currencies: [THB]

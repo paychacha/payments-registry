@@ -1,0 +1,4 @@
+id: instant-bank-payments
+name: Instant Bank Payments
+type: bank_debit
+countries: [US]

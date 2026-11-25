@@ -1,0 +1,5 @@
+id: alliance-bank
+name: Alliance Bank
+type: bank_transfer
+countries: [MY]
+currencies: [MYR]

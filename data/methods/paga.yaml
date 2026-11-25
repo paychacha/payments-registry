@@ -1,0 +1,7 @@
+id: paga
+name: Paga
+aliases:
+  - Paga Wallet
+type: wallet
+countries: [NG]
+currencies: [NGN]

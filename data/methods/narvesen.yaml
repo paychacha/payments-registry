@@ -1,0 +1,5 @@
+id: narvesen
+name: Narvesen
+type: cash_voucher
+countries: [LT]
+currencies: [EUR]

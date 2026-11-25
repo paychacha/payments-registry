@@ -1,0 +1,7 @@
+id: mobile-money
+name: Mobile Money
+aliases:
+  - Mobile network operators
+type: wallet
+countries: [CI, CM, GH, RW, SN, TZ, UG]
+currencies: [TZS]

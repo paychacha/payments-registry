@@ -1,0 +1,9 @@
+id: korean-cards
+name: Korean cards
+aliases:
+  - Korea Local Cards
+  - South Korean cards
+  - South Korea Local Cards
+type: card
+countries: [KR]
+currencies: [KRW]

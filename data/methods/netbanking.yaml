@@ -1,0 +1,7 @@
+id: netbanking
+name: NetBanking
+aliases:
+  - Online banking India
+type: bank_redirect
+countries: [IN]
+currencies: [INR]

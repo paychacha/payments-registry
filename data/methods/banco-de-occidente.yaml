@@ -1,0 +1,5 @@
+id: banco-de-occidente
+name: Banco de Occidente
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

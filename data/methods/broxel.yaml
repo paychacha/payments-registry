@@ -1,0 +1,5 @@
+id: broxel
+name: Broxel
+type: cash_voucher
+countries: [MX]
+currencies: [MXN]

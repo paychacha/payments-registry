@@ -1,0 +1,5 @@
+id: bos-bank
+name: BOS Bank
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

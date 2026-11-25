@@ -1,0 +1,5 @@
+id: facilito
+name: Facilito
+type: bank_transfer
+countries: [EC]
+currencies: [USD]

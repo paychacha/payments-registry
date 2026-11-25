@@ -1,0 +1,4 @@
+id: santander-mexico
+name: Santander Mexico
+type: bank_transfer
+countries: [MX]

@@ -1,0 +1,4 @@
+id: qr-payments
+name: QR Payments
+type: real_time_payment
+countries: [BO, PY]

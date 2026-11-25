@@ -1,0 +1,7 @@
+id: duitnow
+name: DuitNow
+aliases:
+  - DuitNowQR
+type: wallet
+countries: [MY]
+currencies: [MYR]

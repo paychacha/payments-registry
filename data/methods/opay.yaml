@@ -1,0 +1,7 @@
+id: opay
+name: OPay
+aliases:
+  - OPay Wallet
+type: wallet
+countries: [EG, NG]
+currencies: [EGP]

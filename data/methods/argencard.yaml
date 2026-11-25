@@ -1,0 +1,5 @@
+id: argencard
+name: Argencard
+type: card
+countries: [AR]
+currencies: [ARS]

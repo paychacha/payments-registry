@@ -1,0 +1,5 @@
+id: ussd
+name: USSD
+type: wallet
+countries: [NG]
+currencies: [NGN]

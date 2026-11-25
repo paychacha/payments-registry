@@ -1,0 +1,7 @@
+id: konbini
+name: Konbini
+aliases:
+  - コンビニ決済
+type: cash_voucher
+countries: [JP]
+currencies: [JPY]

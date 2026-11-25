@@ -1,0 +1,4 @@
+id: uk-bank-transfers
+name: UK bank transfers
+type: bank_transfer
+countries: [GB]

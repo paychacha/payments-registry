@@ -1,0 +1,5 @@
+id: twint
+name: TWINT
+type: wallet
+countries: [CH]
+currencies: [CHF]

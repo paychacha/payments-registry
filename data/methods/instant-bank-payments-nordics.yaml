@@ -1,0 +1,5 @@
+id: instant-bank-payments-nordics
+name: Instant Bank Payments (Nordics)
+type: real_time_payment
+countries: [DK, EE, FI, SE]
+currencies: [DKK, EUR, SEK]

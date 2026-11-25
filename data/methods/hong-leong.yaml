@@ -1,0 +1,5 @@
+id: hong-leong
+name: Hong Leong
+type: real_time_payment
+countries: [MY]
+currencies: [MYR]

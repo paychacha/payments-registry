@@ -1,0 +1,5 @@
+id: webmoney
+name: WebMoney
+type: prepaid_voucher
+countries: [JP]
+currencies: [JPY]

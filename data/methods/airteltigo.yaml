@@ -1,0 +1,8 @@
+id: airteltigo
+name: AirtelTigo Money
+aliases:
+  - airteltigo
+  - AirtelTigo Mobile Money
+type: wallet
+countries: [GH]
+currencies: [GHS]

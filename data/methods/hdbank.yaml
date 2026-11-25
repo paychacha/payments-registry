@@ -1,0 +1,5 @@
+id: hdbank
+name: HDBank
+type: bank_transfer
+countries: [VN]
+currencies: [VND]

@@ -1,0 +1,5 @@
+id: postfinance-card
+name: PostFinance Card
+type: card
+countries: [CH]
+currencies: [CHF]

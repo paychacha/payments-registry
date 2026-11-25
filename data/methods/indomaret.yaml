@@ -1,0 +1,5 @@
+id: indomaret
+name: Indomaret
+type: cash_voucher
+countries: [ID]
+currencies: [IDR]

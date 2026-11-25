@@ -1,0 +1,5 @@
+id: banamex
+name: Banamex
+type: real_time_payment
+countries: [MX]
+currencies: [MXN]

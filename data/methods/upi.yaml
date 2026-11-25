@@ -1,0 +1,7 @@
+id: upi
+name: UPI
+aliases:
+  - UPI Direct
+type: real_time_payment
+countries: [IN]
+currencies: [INR]

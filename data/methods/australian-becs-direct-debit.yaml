@@ -1,0 +1,5 @@
+id: australian-becs-direct-debit
+name: Australian BECS Direct Debit
+type: bank_debit
+countries: [AU]
+currencies: [AUD]

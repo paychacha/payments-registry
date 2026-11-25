@@ -1,0 +1,5 @@
+id: sunbit
+name: Sunbit
+type: bnpl
+countries: [US]
+currencies: [USD]

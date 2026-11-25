@@ -1,0 +1,6 @@
+id: bcb
+name: BCB QR
+aliases:
+  - BCB
+type: real_time_payment
+countries: [BO]

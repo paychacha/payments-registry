@@ -1,0 +1,5 @@
+id: cobro-express
+name: Cobro Express
+type: cash_voucher
+countries: [AR]
+currencies: [ARS]

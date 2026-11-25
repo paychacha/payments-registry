@@ -1,0 +1,5 @@
+id: vseobecna-uverova-banka
+name: Vseobecna uverova Banka
+type: bank_transfer
+countries: [SK]
+currencies: [EUR]

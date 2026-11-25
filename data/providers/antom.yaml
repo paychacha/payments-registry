@@ -1,0 +1,700 @@
+id: antom
+name: Antom
+website: https://www.antom.com
+roles: [psp, acquirer]
+coverage:
+  - method: 7-eleven
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/Konbini_711_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ach-direct-debit
+    countries: [US]
+    currencies: [USD]
+    source: https://docs.antom.com/ac/antomop/ach
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay
+    countries: [CN]
+    currencies: [CNY]
+    source: https://docs.antom.com/ac/antomop/alipay_cn
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-hk
+    countries: [CN, HK]
+    currencies: [HKD]
+    source: https://docs.antom.com/ac/antomop/aplusalipayhk
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    global: true
+    currencies: [HKD, JPY, SGD, USD]
+    source: https://docs.antom.com/ac/antomop/amex_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    global: true
+    currencies: [AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, IDR, JPY, MXN, NOK, NZD, PEN, PLN,
+      SEK, SGD, THB, USD, ZAR]
+    source: https://docs.antom.com/ac/antomop/applepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atm-bersama-prima-alto
+    source: https://docs.antom.com/ac/antomop/atmtransfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atome
+    countries: [MY, SG]
+    currencies: [MYR, SGD]
+    source: https://docs.antom.com/ac/antomop/atome
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-carrier-billing
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/au
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/aupay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancomat-pay
+    countries: [IT]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/bancomatpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancontact
+    countries: [BE]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/bancontact
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bca
+    countries: [ID]
+    source: https://docs.antom.com/ac/antomop/bca
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bettr
+    countries: [BR]
+    source: https://docs.antom.com/ac/pm/enumeration_values
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: billease
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.antom.com/ac/antomop/billease
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bizum
+    countries: [ES]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/bizum
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: blik
+    countries: [PL]
+    currencies: [PLN]
+    source: https://docs.antom.com/ac/antomop/blik
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bni
+    countries: [ID]
+    source: https://docs.antom.com/ac/antomop/bni
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boost
+    countries: [MY]
+    currencies: [MYR]
+    source: https://docs.antom.com/ac/antomop/boost
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bpi
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.antom.com/ac/antomop/aplusbpi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: brazilian-cards
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.antom.com/ac/antomop/brazilian_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bsi
+    countries: [ID]
+    source: https://docs.antom.com/ac/antomop/bsi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bualuang-mbanking
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/bangkok_bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: card-installment
+    source: https://www.antom.com/payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartes-bancaires
+    countries: [FR]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/cartes_bancaires_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: chilean-cards
+    countries: [CL]
+    currencies: [CLP]
+    source: https://docs.antom.com/ac/antomop/chilean_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cimb-niaga
+    countries: [ID]
+    source: https://docs.antom.com/ac/antomop/cimbniaga
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: d-barai
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/dbarai
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.antom.com/ac/antomop/DANA
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-club
+    global: true
+    currencies: [CNY, HKD, IDR, JPY, KRW, LKR, MOP, MYR, NPR, PHP, PKR, SGD, TWD, USD]
+    source: https://docs.antom.com/ac/antomop/diners_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: direct-carrier-billing
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/dcb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: discover
+    global: true
+    currencies: [CNY, HKD, IDR, JPY, KRW, LKR, MOP, MYR, NPR, PHP, PKR, SGD, TWD, USD]
+    source: https://docs.antom.com/ac/antomop/discover_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eps
+    countries: [AT]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/eps
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: express-bank-transfer
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/express_bank_transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: famipay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/famipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fpx
+    countries: [MY]
+    currencies: [MYR]
+    source: https://docs.antom.com/ac/antomop/fpx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.antom.com/ac/antomop/gcash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: google-pay
+    global: true
+    currencies: [AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, IDR, JPY, MXN, NOK, NZD, PEN, PLN,
+      SEK, SGD, THB, USD, ZAR]
+    source: https://docs.antom.com/ac/antomop/googlepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gopay
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.antom.com/ac/antomop/gopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    countries: [MY, PH, SG]
+    currencies: [MYR, PHP, SGD]
+    source: https://docs.antom.com/ac/antomop/grabpay_
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: hipay-mongolia
+    countries: [MN]
+    currencies: [MNT]
+    source: https://docs.antom.com/ac/antomop/hipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ideal
+    countries: [NL]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/ideal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indian-cards
+    countries: [IN]
+    currencies: [INR]
+    source: https://docs.antom.com/ac/antomop/indian
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: iris
+    countries: [GR]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/iris
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jcb
+    global: true
+    currencies: [JPY, USD]
+    source: https://docs.antom.com/ac/antomop/jcb_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jkopay
+    countries: [CN, TW]
+    currencies: [TWD]
+    source: https://docs.antom.com/ac/antomop/jkopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: k-plus
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/kplus
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kakao-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/kakaopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: konbini
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/Konbini_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-cards
+    countries: [KR]
+    source: https://docs.antom.com/ac/antomop/south_korean_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-virtual-account
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/virtual_account
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kredivo
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.antom.com/ac/antomop/kredivo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: krungsri
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/bay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: krungthai-next
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/kyb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kueski-pay
+    countries: [MX]
+    currencies: [MXN]
+    source: https://docs.antom.com/ac/antomop/kueskipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: linkaja
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.antom.com/ac/antomop/linkaja
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mach
+    countries: [CL]
+    source: https://docs.antom.com/ac/antomop/machbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maestro
+    global: true
+    source: https://docs.antom.com/ac/antomop/maestro_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    global: true
+    currencies: [AED, AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, JPY, NZD, PLN, SEK, SGD, USD]
+    source: https://docs.antom.com/ac/antomop/mastercard_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maya
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.antom.com/ac/antomop/maya
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maybank2u
+    countries: [ID]
+    source: https://docs.antom.com/ac/antomop/maybank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mb-way
+    countries: [PT]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/mbway
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mercado-pago
+    countries: [BR, CL, MX, PE]
+    currencies: [BRL, CLP, MXN, PEN]
+    source: https://docs.antom.com/ac/antomop/mercado_pago
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: merpay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/merpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mexican-cards
+    countries: [MX]
+    currencies: [MXN]
+    source: https://docs.antom.com/ac/antomop/mexican_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: momo
+    countries: [VN]
+    currencies: [VND]
+    source: https://docs.antom.com/ac/antomop/momo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mpay
+    countries: [CN, MO]
+    currencies: [MOP]
+    source: https://docs.antom.com/ac/antomop/mpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mymo
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/gsb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naver-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/naverpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: netbanking
+    countries: [IN]
+    currencies: [INR]
+    source: https://docs.antom.com/ac/antomop/net_banking
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: octopus
+    countries: [CN, HK]
+    currencies: [HKD]
+    source: https://docs.antom.com/ac/antomop/octopus
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ovo
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.antom.com/ac/antomop/ovo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pagaleve
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.antom.com/ac/antomop/Pagaleve
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paidy
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/paidy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-bank
+    countries: [BE, DE, ES, FI, FR, GB, NL]
+    currencies: [EUR, GBP]
+    source: https://docs.antom.com/ac/antomop/pay_by_bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/payeasy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payme
+    countries: [CN, HK]
+    currencies: [HKD]
+    source: https://docs.antom.com/ac/antomop/payme
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    countries: [SG]
+    currencies: [SGD]
+    source: https://docs.antom.com/ac/antomop/paynow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/paypay_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypo
+    countries: [PL, RO]
+    source: https://docs.antom.com/ac/antomop/paypo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payu
+    countries: [CZ, PL, SK]
+    currencies: [CZK, EUR, PLN]
+    source: https://docs.antom.com/ac/antomop/payu
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: permata
+    countries: [ID]
+    source: https://docs.antom.com/ac/antomop/permata
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: peruvian-cards
+    countries: [PE]
+    currencies: [PEN]
+    source: https://docs.antom.com/ac/antomop/peruvian_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: picpay
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.antom.com/ac/antomop/picpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.antom.com/ac/antomop/pix
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/promptpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: przelewy24
+    countries: [PL]
+    currencies: [PLN]
+    source: https://docs.antom.com/ac/antomop/przelewy24
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qr-ph
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.antom.com/ac/antomop/qrph
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: qris
+    countries: [ID]
+    currencies: [IDR]
+    source: https://docs.antom.com/ac/antomop/qris
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rabbit-line-pay
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/rabbitlinepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rakuten-pay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/rakuten_pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/samsung_pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: satispay
+    countries: [IT]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/satispay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scalapay
+    countries: [ES, FR, IT, NL, PT]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/scalapay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scb-easy
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/scb
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sequra
+    countries: [ES]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/sequra
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopback
+    countries: [SG]
+    currencies: [SGD]
+    source: https://docs.antom.com/ac/antomop/shopback
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopeepay
+    countries: [ID, MY, PH, SG, TH]
+    currencies: [IDR, MYR, PHP, SGD, THB]
+    source: https://docs.antom.com/ac/antomop/shopeepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: softbank-carrier-billing
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.antom.com/ac/antomop/softbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: swish
+    countries: [SE]
+    currencies: [SEK]
+    source: https://docs.antom.com/ac/antomop/swish
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tabby
+    countries: [AE, SA]
+    currencies: [AED, SAR]
+    source: https://docs.antom.com/ac/antomop/tabby
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tamara
+    countries: [AE, SA]
+    currencies: [AED, SAR]
+    source: https://docs.antom.com/ac/antomop/tamara
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tinaba
+    countries: [IT]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/tinaba
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: toss-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://docs.antom.com/ac/antomop/tosspay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    countries: [MY]
+    currencies: [MYR]
+    source: https://docs.antom.com/ac/antomop/touchngo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: truemoney
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.antom.com/ac/antomop/truemoney
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: trustly
+    countries: [AT, DE, DK, EE, FI, GB, LT, LV, NL, "NO", SE]
+    currencies: [DKK, EUR, GBP, NOK, SEK]
+    source: https://docs.antom.com/ac/antomop/trustly
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: turkish-cards
+    countries: [TR]
+    currencies: [TRY]
+    source: https://docs.antom.com/ac/antomop/turkish_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: twint
+    countries: [CH]
+    currencies: [CHF]
+    source: https://docs.antom.com/ac/antomop/twint
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionbank
+    countries: [PH]
+    currencies: [PHP]
+    source: https://docs.antom.com/ac/antomop/unionbank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionpay
+    global: true
+    currencies: [CNY, HKD, IDR, KRW, LKR, MOP, MYR, NPR, PHP, PKR, SGD, TWD, USD]
+    source: https://docs.antom.com/ac/antomop/unionpay_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: upi
+    countries: [IN]
+    currencies: [INR]
+    source: https://docs.antom.com/ac/antomop/upi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: vietqr
+    countries: [VN]
+    currencies: [VND]
+    source: https://docs.antom.com/ac/antomop/vietqr
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: viettel-money
+    countries: [VN]
+    currencies: [VND]
+    source: https://docs.antom.com/ac/antomop/viettelmoney
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    global: true
+    currencies: [AED, AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, JPY, NZD, PLN, SEK, SGD, USD]
+    source: https://docs.antom.com/ac/antomop/visa_mdx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    countries: [CN, HK]
+    currencies: [HKD]
+    source: https://docs.antom.com/ac/antomop/wechatpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wero
+    countries: [BE, DE]
+    currencies: [EUR]
+    source: https://docs.antom.com/ac/antomop/wero
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zalopay
+    countries: [VN]
+    currencies: [VND]
+    source: https://docs.antom.com/ac/antomop/zalopay
+    source_type: provider_docs
+    checked: 2026-11-24

@@ -1,0 +1,6 @@
+id: baokim
+name: Baokim
+aliases:
+  - Baokim Bank Transfer
+type: bank_transfer
+countries: [VN]

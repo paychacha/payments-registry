@@ -1,0 +1,5 @@
+id: naver-pay
+name: Naver Pay
+type: wallet
+countries: [KR]
+currencies: [KRW]

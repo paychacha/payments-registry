@@ -1,0 +1,5 @@
+id: cashlib
+name: CASHlib
+type: prepaid_voucher
+countries: [AU, BE, CH, CZ, DE, ES, FR, GB, GR, IT, LU, NL, "NO", PL, SE, TR]
+currencies: [AUD, CHF, CZK, EUR, GBP, NOK, PLN, SEK]

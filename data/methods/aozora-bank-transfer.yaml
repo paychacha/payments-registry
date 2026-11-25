@@ -1,0 +1,4 @@
+id: aozora-bank-transfer
+name: Aozora Bank Transfer
+type: bank_transfer
+countries: [JP]

@@ -1,0 +1,5 @@
+id: swish
+name: Swish
+type: bank_redirect
+countries: [SE]
+currencies: [SEK]

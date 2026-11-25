@@ -1,0 +1,5 @@
+id: ceska-sporitelna
+name: Ceska Sporitelna
+type: bank_transfer
+countries: [CZ]
+currencies: [CZK]

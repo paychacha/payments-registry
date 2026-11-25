@@ -1,0 +1,4 @@
+id: banco-forjadores
+name: Banco Forjadores
+type: bank_transfer
+countries: [MX]

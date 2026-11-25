@@ -1,0 +1,5 @@
+id: cartes-bancaires
+name: Cartes Bancaires
+type: card
+countries: [FR]
+currencies: [EUR]

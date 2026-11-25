@@ -1,0 +1,5 @@
+id: make-by-kbank
+name: MAKE by KBank
+type: bank_redirect
+countries: [TH]
+currencies: [THB]

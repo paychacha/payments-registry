@@ -1,0 +1,7 @@
+id: indonesian-convenience-stores
+name: Indonesian Convenience Stores
+aliases:
+  - Convenience stores Indonesia
+type: cash_voucher
+countries: [ID]
+currencies: [IDR]

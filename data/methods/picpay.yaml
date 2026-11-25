@@ -1,0 +1,5 @@
+id: picpay
+name: PicPay
+type: wallet
+countries: [BR]
+currencies: [BRL]

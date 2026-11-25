@@ -1,0 +1,8 @@
+id: santander-chile
+name: Santander (Chile)
+aliases:
+  - Santander
+  - Banco Santander
+type: bank_transfer
+countries: [CL]
+currencies: [CLP]

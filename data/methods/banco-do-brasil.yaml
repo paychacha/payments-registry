@@ -1,0 +1,7 @@
+id: banco-do-brasil
+name: Banco Do Brasil
+aliases:
+  - Banco do Brazil
+type: bank_transfer
+countries: [BR]
+currencies: [BRL]

@@ -1,0 +1,5 @@
+id: skrill-rapid-transfer
+name: Skrill Rapid Transfer
+type: real_time_payment
+countries: [AT, BE, BG, DE, DK, EE, ES, FI, FR, GB, GR, HU, IT, LV, NL, "NO", PL, PT, SE]
+currencies: [DKK, EUR, GBP, HUF, NOK, PLN, SEK]

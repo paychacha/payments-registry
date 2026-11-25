@@ -1,0 +1,5 @@
+id: banco-nacional-de-bolivia
+name: Banco Nacional de Bolivia
+type: bank_transfer
+countries: [BO]
+currencies: [BOB]

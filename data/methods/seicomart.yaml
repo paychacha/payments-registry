@@ -1,0 +1,5 @@
+id: seicomart
+name: Seicomart
+type: cash_voucher
+countries: [JP]
+currencies: [JPY]

@@ -1,0 +1,6 @@
+id: paypal
+name: PayPal
+aliases:
+  - PayPal Gambling
+type: wallet
+global: true

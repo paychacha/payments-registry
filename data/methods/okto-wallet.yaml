@@ -1,0 +1,5 @@
+id: okto-wallet
+name: Okto Wallet
+type: wallet
+countries: [GR, IT, RO]
+currencies: [RON]

@@ -1,0 +1,9 @@
+id: bitpay
+name: Bitpay
+type: wallet
+countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CN, CO, CR, CY, CZ, DE,
+  DK, EC, EE, EG, ES, FI, FR, GB, GE, GH, GI, GR, GT, HK, HR, HU, ID, IE, IL, IM, IN, IS, IT,
+  JM, JO, JP, KE, KR, LI, LT, LU, LV, MA, MC, MD, ME, MK, MO, MT, MX, MY, NE, NG, NL, "NO", NP,
+  NZ, OM, PA, PE, PH, PL, PR, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV, SZ, TH, TR, TW,
+  UA, US, UY, VE, VN, XK]
+currencies: [EUR, GBP, USD]

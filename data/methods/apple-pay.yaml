@@ -1,0 +1,4 @@
+id: apple-pay
+name: Apple Pay
+type: wallet
+global: true

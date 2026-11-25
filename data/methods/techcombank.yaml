@@ -1,0 +1,5 @@
+id: techcombank
+name: Techcombank
+type: bank_transfer
+countries: [VN]
+currencies: [VND]

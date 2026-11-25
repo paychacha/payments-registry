@@ -1,0 +1,11 @@
+id: pix
+name: Pix
+aliases:
+  - Pix Automático
+  - Pix via Open Finance
+  - Pix via Open Finance (PISP/ITP)
+  - SmartPix
+  - Pix with Biometrics
+type: real_time_payment
+countries: [BR]
+currencies: [BRL]

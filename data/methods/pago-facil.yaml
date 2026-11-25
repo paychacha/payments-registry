@@ -1,0 +1,5 @@
+id: pago-facil
+name: Pago Fácil
+type: cash_voucher
+countries: [AR]
+currencies: [ARS]

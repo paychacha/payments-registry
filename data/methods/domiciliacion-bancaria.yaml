@@ -1,0 +1,4 @@
+id: domiciliacion-bancaria
+name: Domiciliación Bancaria
+type: bank_debit
+countries: [MX]

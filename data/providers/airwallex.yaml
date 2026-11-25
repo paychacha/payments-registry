@@ -1,0 +1,600 @@
+id: airwallex
+name: Airwallex
+website: https://www.airwallex.com
+roles: [psp, acquirer]
+coverage:
+  - method: 7-eleven
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/7-eleven-malaysia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ach-direct-debit
+    countries: [US]
+    currencies: [USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/ach-direct-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: affirm
+    countries: [US]
+    currencies: [USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/affirm
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: afterpay-clearpay
+    countries: [AU, CA, GB, NZ, US]
+    currencies: [AUD, CAD, GBP, NZD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/afterpay-clearpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airi
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/airi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: airwallex-pay
+    countries: [AU, CN, HK, NZ, SG]
+    currencies: [AUD, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, ILS, JPY, KRW, MXN, NOK, NZD,
+      PLN, RON, SEK, SGD, THB, USD, ZAR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/airwallex-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay
+    countries: [CN]
+    currencies: [AUD, CAD, CHF, CNY, EUR, GBP, HKD, JPY, MYR, NZD, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/alipay-cn
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay-hk
+    countries: [HK]
+    currencies: [AUD, EUR, HKD, MYR, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/alipay-hk
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    global: true
+    currencies: [AED, AUD, CAD, CHF, CNY, DKK, EGP, EUR, GBP, HKD, HUF, ILS, INR, JPY, KRW, MOP,
+      MXN, MYR, NOK, NZD, PHP, PLN, QAR, SAR, SEK, SGD, THB, TWD, USD, VND, ZAR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/apple-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atome
+    countries: [MY, SG]
+    currencies: [MYR, SGD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/atome
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bacs-direct-debit
+    countries: [GB]
+    currencies: [GBP]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/bacs-direct-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancontact
+    countries: [BE]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/bancontact
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-transfer
+    global: true
+    currencies: [AED, AUD, CAD, EUR, GBP, HKD, NZD, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/bank-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bizum
+    countries: [ES]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/bizum
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: blik
+    countries: [PL]
+    currencies: [PLN]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/blik
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boost
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/boost
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartes-bancaires
+    countries: [FR]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cash-app-pay
+    countries: [US]
+    currencies: [USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/cash-app-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dana
+    countries: [ID]
+    currencies: [AUD, EUR, HKD, IDR, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/dana
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-club
+    global: true
+    currencies: [AED, AUD, BHD, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, ILS, INR, JPY, KRW,
+      KWD, MAD, MXN, NOK, NZD, OMR, PHP, PLN, QAR, RON, SAR, SEK, SGD, THB, TRY, USD, ZAR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: discover
+    countries: [US]
+    currencies: [AED, AUD, BHD, CAD, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HUF, ILS, INR, JPY, KRW,
+      KWD, MAD, MXN, NOK, NZD, OMR, PHP, PLN, QAR, RON, SAR, SEK, SGD, THB, TRY, USD, ZAR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: doku-wallet
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/doku-wallet
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dragonpay
+    countries: [PH]
+    currencies: [PHP]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/dragonpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: duitnow
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/duitnow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: e-sun-bank
+    countries: [TW]
+    currencies: [TWD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/e.sun-(taiwan-atm-and-internet-banking)
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eps
+    countries: [AT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/eps
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: estonian-banks
+    countries: [EE]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/estonian-banks
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fps
+    countries: [HK]
+    currencies: [CNY, HKD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/fps
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fpx
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/fpx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    countries: [PH]
+    currencies: [AUD, EUR, HKD, MYR, PHP, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/gcash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: google-pay
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/google-paytm
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gopay
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/gopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    countries: [MY, SG]
+    currencies: [MYR, SGD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/grabpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ideal
+    countries: [NL]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/ideal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indonesia-virtual-account
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/indonesian-bank-transfer
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: indonesian-convenience-stores
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/indonesian-convenience-stores-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jcb
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jenius-pay
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/jenius-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jkopay
+    countries: [TW]
+    currencies: [TWD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/jkopay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kakao-pay
+    countries: [KR]
+    currencies: [AUD, EUR, HKD, KRW, MYR, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/kakao-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: klarna
+    countries: [AT, AU, BE, CA, CH, CZ, DE, DK, ES, FI, FR, GB, GR, IE, IT, NL, "NO", PL, PT,
+      SE, US]
+    currencies: [AUD, CAD, CHF, CZK, DKK, EUR, GBP, NOK, NZD, PLN, SEK, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/klarna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: konbini
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/konbini
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-cards
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/korean-local-cards-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: latvian-banks
+    countries: [LV]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/latvian-banks
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: laybuy-by-klarna
+    countries: [NZ]
+    currencies: [NZD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/laybuy-by-klarna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: linkaja
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/linkaja
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: lithuanian-banks
+    countries: [LT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/lithuanian-banks
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: maxima
+    countries: [LT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/maxima
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mb-way
+    countries: [PT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/mb-way
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: multibanco
+    countries: [PT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/multibanco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mybank
+    countries: [IT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/mybank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: narvesen
+    countries: [LT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/narvesen
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naver-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/naver-pay-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: octopus
+    countries: [HK]
+    currencies: [HKD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/octopus
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ovo
+    countries: [ID]
+    currencies: [IDR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/ovo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-bank-app-pbba
+    countries: [GB]
+    currencies: [GBP]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/pay-by-bank-app-(pbba)
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    countries: [JP]
+    currencies: [JPY]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/pay-easy
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payco
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/payco-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payme
+    countries: [HK]
+    currencies: [HKD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/payme
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    countries: [SG]
+    currencies: [SGD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/paynow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypal
+    global: true
+    currencies: [AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, JPY, MXN, MYR, NOK, NZD, PHP,
+      PLN, SEK, SGD, THB, TWD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/paypal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysafecard
+    countries: [AT, AU, BE, BG, CA, CH, CY, CZ, DE, DK, ES, FI, FR, GB, GE, GI, GR, HR, HU, IE,
+      IT, LI, LT, LU, MT, MX, NL, "NO", NZ, PE, PL, PT, RO, SE, SI, SK, UY]
+    currencies: [AUD, CAD, CHF, EUR, GBP, NOK, PLN, RON, SEK, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/paysafecard
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysafecash
+    countries: [AT, BE, CY, ES, FR, GB, GR, HR, IE, IT, NL, PL, PT, RO, SE, SI, SK]
+    currencies: [CAD, CHF, CZK, EUR, GBP, HUF, PLN, RON, SEK, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/paysafecash
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysera
+    countries: [EE, LT, LV]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/paysera
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payto
+    countries: [AU]
+    currencies: [AUD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/payto-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: perlas-terminals
+    countries: [LT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/perlas-terminals
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: philippines-online-banking
+    countries: [PH]
+    currencies: [AUD, HKD, PHP, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/philippines-online-banking
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    countries: [BR]
+    currencies: [BRL]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/pix-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pre-authorized-debits
+    countries: [CA]
+    currencies: [CAD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/eft-pre-authorized-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/promptpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: przelewy24
+    countries: [PL]
+    currencies: [EUR, PLN]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/przelewy24-or-p24
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rabbit-line-pay
+    countries: [TH]
+    currencies: [AUD, EUR, GBP, HKD, MYR, SGD, THB, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/rabbit-line-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/samsung-pay-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: satispay
+    countries: [BE, DE, FR, IT, LU]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/satispay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scalapay
+    countries: [ES, FR, IT, PT]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/scalapay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sepa-direct-debit
+    countries: [AT, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HR, HU, IE, IT, LT, LU, LV, MT,
+      NL, PL, PT, RO, SE, SI, SK]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/sepa-direct-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: shopeepay
+    countries: [ID, MY, PH, SG, TH, VN]
+    currencies: [IDR, MYR, PHP, SGD, THB, VND]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/shopeepay-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: skrill
+    global: true
+    currencies: [EUR, GBP, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/skrill
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: spaylater
+    countries: [ID, MY, PH, SG, TH, VN]
+    currencies: [IDR, MYR, PHP, SGD, THB, VND]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/spaylater-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: spei
+    countries: [MX]
+    currencies: [MXN]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/spei
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: swish
+    countries: [SE]
+    currencies: [SEK]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/swish
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tabby
+    countries: [AE, SA]
+    currencies: [AED, SAR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/tabby
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: taiwan-convenience-stores
+    countries: [TW]
+    currencies: [TWD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/taiwan-convenience-stores
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tesco-lotus
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/tesco-lotus
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: thailand-online-banking
+    countries: [TH]
+    currencies: [THB]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/thailand-online-banking
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: toss-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/toss-pay-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    countries: [MY]
+    currencies: [MYR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/touch-'n-go
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: truemoney
+    countries: [TH]
+    currencies: [AUD, EUR, GBP, HKD, MYR, SGD, THB, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/truemoney
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: trustly
+    countries: [DE, DK, EE, ES, FI, GB, LT, LV, NL, "NO", PL, PT, SE, SK]
+    currencies: [DKK, EUR, GBP, NOK, PLN, SEK]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/trustly
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: twint
+    countries: [CH]
+    currencies: [CHF]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/twint-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionpay
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: upi
+    countries: [IN]
+    currencies: [INR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/upi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: venmo
+    countries: [US]
+    currencies: [USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/north-america-and-latam/venmo-beta
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    global: true
+    source: https://www.airwallex.com/docs/payments/payment-methods/global/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    countries: [CN, HK]
+    currencies: [AUD, CAD, CHF, CNY, EUR, GBP, HKD, JPY, MYR, NZD, SGD, USD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/wechat-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wero
+    countries: [BE, DE, NL]
+    currencies: [EUR]
+    source: https://www.airwallex.com/docs/payments/payment-methods/emea/wero
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zip
+    countries: [AU]
+    currencies: [AUD]
+    source: https://www.airwallex.com/docs/payments/payment-methods/apac/zip-beta
+    source_type: provider_docs
+    checked: 2026-11-24

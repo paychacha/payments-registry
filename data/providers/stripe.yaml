@@ -1,0 +1,704 @@
+id: stripe
+name: Stripe
+website: https://stripe.com
+roles: [psp, payfac]
+coverage:
+  - method: ach-direct-debit
+    countries: [US]
+    source: https://stripe.com/payments/ach-direct-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: affirm
+    countries: [CA, US]
+    source: https://stripe.com/payments/affirm
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: afterpay-clearpay
+    countries: [AU, NZ, US]
+    source: https://stripe.com/payments/afterpay-clearpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alipay
+    countries: [CN]
+    currencies: [AUD, CAD, CNY, EUR, GBP, HKD, JPY, MYR, NZD, SGD, USD]
+    source: https://docs.stripe.com/payments/alipay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: alma
+    countries: [BE, ES, FR, IT, LU, NL]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/alma
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amazon-pay
+    countries: [US]
+    currencies: [AUD, CHF, DKK, EUR, GBP, HKD, JPY, NOK, NZD, SEK, USD, ZAR]
+    source: https://docs.stripe.com/payments/amazon-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: amex
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ, PH,
+      PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, ALL, AMD, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND, BSD, BTN,
+      BWP, BZD, CAD, CDF, CHF, CUP, CZK, DKK, DOP, DZD, EGP, ERN, ETB, EUR, FJD, GBP, GEL, GHS,
+      GIP, GMD, GYD, HKD, HTG, HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR,
+      KMF, KPW, KRW, KWD, KYD, KZT, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MVR, MWK,
+      MXN, MYR, MZN, NAD, NGN, NOK, NPR, NZD, OMR, PGK, PHP, PKR, PLN, QAR, RON, RSD, RUB, RWF,
+      SAR, SBD, SCR, SDG, SEK, SGD, SOS, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND, TOP, TRY, TTD,
+      TZS, UAH, UGX, USD, UZS, VND, VUV, WST, XAF, XCD, XOF, YER, ZAR, ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: aplazame
+    currencies: [EUR]
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: apple-pay
+    source: https://stripe.com/payments/apple-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: atone
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-carrier-billing
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: au-pay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: australian-becs-direct-debit
+    countries: [AU]
+    currencies: [AUD]
+    source: https://docs.stripe.com/payments/au-becs-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: azupay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bacs-direct-debit
+    countries: [GB]
+    source: https://stripe.com/payments/bacs-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bancontact
+    countries: [BE]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/bancontact
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bank-pay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: benefit
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: billie
+    countries: [AT, CH, DE, DK, ES, FI, FR, GB, IT, NL, "NO", SE]
+    currencies: [CHF, DKK, EUR, GBP, NOK, SEK]
+    source: https://docs.stripe.com/payments/billie
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bitcash
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: bizum
+    countries: [ES]
+    currencies: [EUR]
+    source: https://stripe.com/payment-method/bizum
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: blik
+    countries: [PL]
+    currencies: [PLN]
+    source: https://docs.stripe.com/payments/blik
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: boleto
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.stripe.com/payments/boleto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cartes-bancaires
+    countries: [FR]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/cartes-bancaires
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: cash-app-pay
+    countries: [US]
+    source: https://stripe.com/payments/cash-app-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: d-barai
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: dapp
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: diners-club
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IN, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ,
+      PH, PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD,
+      KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN,
+      NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB,
+      RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND,
+      TOP, TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR,
+      ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: discover
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IN, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ,
+      PH, PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD,
+      KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN,
+      NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB,
+      RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND,
+      TOP, TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR,
+      ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: divido
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eftpos
+    countries: [AU]
+    currencies: [AUD]
+    source: https://docs.stripe.com/payments/eftpos-australia
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: eps
+    countries: [AT]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/eps
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: famipay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fawry
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fonix
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: fpx
+    countries: [MY]
+    currencies: [MYR]
+    source: https://docs.stripe.com/payments/fpx
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: gcash
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: google-pay
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IN, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ,
+      PH, PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD,
+      KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN,
+      NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB,
+      RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND,
+      TOP, TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR,
+      ZMW]
+    source: https://docs.stripe.com/google-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grab-paylater
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: grabpay
+    countries: [MY, SG]
+    currencies: [MYR, SGD]
+    source: https://docs.stripe.com/payments/grabpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: ideal
+    countries: [NL]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/ideal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: instant-bank-payments
+    countries: [US]
+    source: https://stripe.com/payments/us-bank-debits
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: interac
+    countries: [CA]
+    source: https://stripe.com/docs/terminal/payments/regional?integration-country=CA#interac-payments
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: iwocapay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: japan-bank-transfer
+    countries: [JP]
+    source: https://stripe.com/payments/jp-bank-transfers
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: jcb
+    countries: [HK, ID, IN, JP, KR, PH, TH]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KRW, KWD, KYD, KZT,
+      LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN, NAD,
+      NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB, RWF,
+      SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND, TOP,
+      TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR, ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kakao-pay
+    countries: [KR]
+    currencies: [KRW]
+    source: https://stripe.com/payment-method/korea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kbc
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: klarna
+    countries: [CH, DE, GB, NL, SE, US]
+    source: https://stripe.com/payments/klarna
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: konbini
+    countries: [JP]
+    currencies: [JPY]
+    source: https://stripe.com/payments/konbini
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: korean-cards
+    countries: [KR]
+    currencies: [KRW]
+    source: https://stripe.com/payment-method/korea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: kriya
+    countries: [GB]
+    currencies: [GBP]
+    source: https://stripe.com/payment-method/kriya
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: line-pay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: link
+    countries: [US]
+    source: https://stripe.com/payments/Link
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mastercard
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IN, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ,
+      PH, PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD,
+      KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN,
+      NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB,
+      RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND,
+      TOP, TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR,
+      ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mb-way
+    countries: [PT]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/mb-way
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: merpay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: meses-sin-intereses
+    countries: [MX]
+    currencies: [MXN]
+    source: https://docs.stripe.com/payments/meses-sin-intereses/accept-a-payment
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mobilepay
+    countries: [DK, FI]
+    currencies: [DKK, EUR, NOK, SEK]
+    source: https://docs.stripe.com/payments/mobilepay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: momo
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: mondu
+    countries: [AT, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GR, HR, HU, IE, IT, LT, LU, LV, MT,
+      NL, PL, PT, RO, SE, SI, SK]
+    currencies: [EUR]
+    source: https://stripe.com/payment-method/mondu
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: multibanco
+    countries: [PT]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/multibanco
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: naver-pay
+    countries: [KR]
+    source: https://stripe.com/payment-method/korea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: net-cash
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: new-zealand-becs-direct-debit
+    countries: [NZ]
+    currencies: [NZD]
+    source: https://docs.stripe.com/payments/nz-bank-account
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nexi-pay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nigerian-bank-transfers
+    countries: [NG]
+    currencies: [NGN]
+    source: https://docs.stripe.com/payments/countries/nigeria
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: nigerian-cards
+    countries: [NG]
+    currencies: [NGN]
+    source: https://docs.stripe.com/payments/countries/nigeria
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: octopus
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oney
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: oxxo
+    countries: [MX]
+    currencies: [MXN]
+    source: https://docs.stripe.com/payments/oxxo
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paidy
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-by-bank
+    countries: [FI, GB, IE]
+    currencies: [EUR, GBP]
+    source: https://stripe.com/payment-method/pay-by-bank
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pay-easy
+    currencies: [JPY]
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payco
+    countries: [KR]
+    source: https://stripe.com/payment-method/korea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payconiq
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payment-on-invoice
+    countries: [DE]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/rechnung
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paynow
+    countries: [SG]
+    currencies: [SGD]
+    source: https://docs.stripe.com/payments/paynow
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypal
+    countries: [AT, BE, BG, CH, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, IE, IT, LI, LT, LU,
+      LV, MT, NL, "NO", PL, PT, RO, SE, SI, SK]
+    currencies: [AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, NOK, NZD, PLN, SEK, SGD, USD]
+    source: https://docs.stripe.com/payments/paypal
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypay
+    countries: [JP]
+    currencies: [JPY]
+    source: https://docs.stripe.com/payments/paypay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paypo
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: paysafecard
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: payto
+    countries: [AU]
+    currencies: [AUD]
+    source: https://docs.stripe.com/payments/payto
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: picpay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pix
+    countries: [BR]
+    currencies: [BRL]
+    source: https://docs.stripe.com/payments/pix
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: planpay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: postepay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: postfinance
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: pre-authorized-debits
+    countries: [CA]
+    source: https://stripe.com/payments/canada-pads-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: promptpay
+    countries: [TH]
+    currencies: [THB]
+    source: https://docs.stripe.com/payments/promptpay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: przelewy24
+    countries: [PL]
+    currencies: [EUR, PLN]
+    source: https://docs.stripe.com/payments/p24
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: rakuten-pay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: revolut-pay
+    countries: [AT, BE, BG, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IT, LI, LT, LU,
+      LV, MT, NL, "NO", PL, PT, RO, SE, SI, SK]
+    currencies: [DKK, EUR, GBP, HUF, PLN, RON]
+    source: https://docs.stripe.com/payments/revolut-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: samsung-pay
+    countries: [KR]
+    source: https://stripe.com/payment-method/korea
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: satispay
+    countries: [IT]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/satispay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: scalapay
+    countries: [ES, FR, IT, NL, PT]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/scalapay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sepa-bank-transfers
+    source: https://stripe.com/payments/europe-bank-transfers
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sepa-direct-debit
+    countries: [DE, ES, IT, NL]
+    source: https://stripe.com/payments/sepa-direct-debit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sequra
+    countries: [ES]
+    currencies: [EUR]
+    source: https://stripe.com/payment-method/sequra
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sezzle
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sofinco
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: softbank-carrier-billing
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: spei
+    countries: [MX]
+    source: https://stripe.com/payments/mx-bank-transfers
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: sunbit
+    countries: [US]
+    currencies: [USD]
+    source: https://stripe.com/payment-method/sunbit
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: swish
+    countries: [SE]
+    currencies: [SEK]
+    source: https://docs.stripe.com/payments/swish
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: tabby
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: toss-pay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: touch-n-go
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: truelayer
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: twint
+    countries: [CH]
+    currencies: [CHF]
+    source: https://docs.stripe.com/payments/twint
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: uk-bank-transfers
+    countries: [GB]
+    source: https://stripe.com/gb/payments/europe-bank-transfers
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: unionpay
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IN, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ,
+      PH, PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD,
+      KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN,
+      NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB,
+      RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND,
+      TOP, TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR,
+      ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: upi
+    countries: [IN]
+    currencies: [INR]
+    source: https://docs.stripe.com/payments/upi
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: usd-bank-transfers
+    countries: [US]
+    currencies: [USD]
+    source: https://docs.stripe.com/payments/bank-transfers
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: usdc
+    source: https://docs.stripe.com/crypto/stablecoin-payments
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: visa
+    countries: [AE, AR, AT, AU, BE, BG, BR, CA, CH, CL, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GI,
+      GR, HK, HR, HU, ID, IE, IL, IN, IS, IT, JP, KR, LI, LT, LU, LV, MT, MX, MY, NL, "NO", NZ,
+      PH, PL, PT, RO, SE, SG, SI, SK, TH, US]
+    currencies: [AED, AFN, ALL, AMD, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BHD, BIF, BMD, BND,
+      BOB, BRL, BSD, BTN, BWP, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUP, CVE, CZK, DJF, DKK,
+      DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GYD, HKD, HNL, HTG,
+      HUF, IDR, ILS, INR, IQD, IRR, ISK, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD,
+      KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN,
+      NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RSD, RUB,
+      RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SOS, SRD, SSP, SVC, SYP, SZL, THB, TJS, TMT, TND,
+      TOP, TRY, TTD, TZS, UAH, UGX, USD, UYU, UZS, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR,
+      ZMW]
+    source: https://docs.stripe.com/payments/cards
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: walley
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: webmoney
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wechat-pay
+    countries: [CN]
+    currencies: [AUD, CAD, CHF, CNY, DKK, EUR, GBP, HKD, JPY, NOK, SEK, SGD, USD]
+    source: https://docs.stripe.com/payments/wechat-pay
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: wero
+    countries: [BE, DE, FR, LU]
+    currencies: [EUR]
+    source: https://docs.stripe.com/payments/wero
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: younitedpay
+    source: https://stripe.com/docs/payments/payment-methods/custom-payment-methods
+    source_type: provider_docs
+    checked: 2026-11-24
+  - method: zip
+    countries: [AU, US]
+    currencies: [AUD, USD]
+    source: https://docs.stripe.com/payments/zip
+    source_type: provider_docs
+    checked: 2026-11-24

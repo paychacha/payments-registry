@@ -1,0 +1,5 @@
+id: nowpayments
+name: NOWPayments
+website: https://nowpayments.io
+roles: [psp]
+coverage: []

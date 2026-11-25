@@ -1,0 +1,4 @@
+id: fnb
+name: FNB
+type: bank_transfer
+countries: [ZA]

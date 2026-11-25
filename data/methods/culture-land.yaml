@@ -1,0 +1,5 @@
+id: culture-land
+name: Culture Land
+type: prepaid_voucher
+countries: [KR]
+currencies: [KRW]

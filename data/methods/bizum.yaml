@@ -1,0 +1,5 @@
+id: bizum
+name: Bizum
+type: bank_redirect
+countries: [ES]
+currencies: [EUR]

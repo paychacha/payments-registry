@@ -1,0 +1,5 @@
+id: fio-banka
+name: FIO Banka
+type: bank_transfer
+countries: [CZ]
+currencies: [CZK]

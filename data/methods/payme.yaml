@@ -1,0 +1,5 @@
+id: payme
+name: PayMe
+type: wallet
+countries: [HK]
+currencies: [HKD]

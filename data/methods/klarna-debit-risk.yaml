@@ -1,0 +1,5 @@
+id: klarna-debit-risk
+name: Klarna Debit Risk
+type: real_time_payment
+countries: [AT, DE, GB]
+currencies: [EUR, GBP]

@@ -1,0 +1,4 @@
+id: mono-direct-debit
+name: Mono Direct Debit
+type: bank_debit
+countries: [NG]

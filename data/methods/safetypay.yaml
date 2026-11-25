@@ -1,0 +1,5 @@
+id: safetypay
+name: Safetypay
+type: bank_transfer
+countries: [AT, BE, BR, CL, DE, EC, ES, MX, NL, PE, PY]
+currencies: [EUR, USD]

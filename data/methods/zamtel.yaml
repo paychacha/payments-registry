@@ -1,0 +1,5 @@
+id: zamtel
+name: Zamtel
+type: wallet
+countries: [ZM]
+currencies: [ZMW]

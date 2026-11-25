@@ -1,0 +1,7 @@
+id: bancontact
+name: Bancontact
+aliases:
+  - Bancontact Card
+type: bank_redirect
+countries: [BE]
+currencies: [EUR]

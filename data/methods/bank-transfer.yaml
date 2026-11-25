@@ -1,0 +1,11 @@
+id: bank-transfer
+name: Bank Transfer
+aliases:
+  - Online Bank Transfer
+  - Bank Transfer Malaysia
+  - Offline Bank Transfer
+  - Przelew Bankowy
+  - Regular Bank Transfer
+  - Transferencia bancaria
+type: bank_transfer
+global: true

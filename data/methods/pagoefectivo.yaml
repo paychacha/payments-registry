@@ -1,0 +1,7 @@
+id: pagoefectivo
+name: PagoEfectivo
+aliases:
+  - PagoEfecivo
+type: cash_voucher
+countries: [EC, PE]
+currencies: [PEN, USD]

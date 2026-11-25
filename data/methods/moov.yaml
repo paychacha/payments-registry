@@ -1,0 +1,8 @@
+id: moov
+name: Moov Money
+aliases:
+  - Moov
+  - MooV Mobile Money
+type: wallet
+countries: [CI]
+currencies: [XOF]

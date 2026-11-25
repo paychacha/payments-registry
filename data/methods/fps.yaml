@@ -1,0 +1,5 @@
+id: fps
+name: FPS
+type: bank_transfer
+countries: [HK]
+currencies: [HKD]

@@ -1,0 +1,5 @@
+id: banco-falabella
+name: Banco Falabella
+type: bank_transfer
+countries: [CL]
+currencies: [CLP]

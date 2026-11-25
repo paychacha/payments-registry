@@ -1,0 +1,5 @@
+id: carnet
+name: Carnet
+type: card
+countries: [MX]
+currencies: [MXN]

@@ -1,0 +1,5 @@
+id: payment-on-invoice
+name: Payment on invoice
+type: bnpl
+countries: [DE]
+currencies: [EUR]

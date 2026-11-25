@@ -1,0 +1,7 @@
+id: ripley
+name: Ripley
+aliases:
+  - Banco Ripley
+type: cash_voucher
+countries: [PE]
+currencies: [PEN]

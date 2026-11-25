@@ -1,0 +1,5 @@
+id: donga-bank
+name: DongA Bank
+type: bank_transfer
+countries: [VN]
+currencies: [VND]

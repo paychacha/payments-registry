@@ -1,0 +1,7 @@
+id: wechat-pay
+name: WeChat Pay
+aliases:
+  - 微信支付
+type: wallet
+countries: [CN]
+currencies: [CNY]

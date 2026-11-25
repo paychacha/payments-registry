@@ -1,0 +1,5 @@
+id: shb
+name: SHB
+type: bank_transfer
+countries: [VN]
+currencies: [VND]

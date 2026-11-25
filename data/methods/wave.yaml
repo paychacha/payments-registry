@@ -1,0 +1,7 @@
+id: wave
+name: Wave
+aliases:
+  - Wave Mobile Money
+type: wallet
+countries: [CI, SN]
+currencies: [XOF]

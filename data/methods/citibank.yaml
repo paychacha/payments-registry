@@ -1,0 +1,4 @@
+id: citibank
+name: Citibank
+type: bank_transfer
+countries: [CO]

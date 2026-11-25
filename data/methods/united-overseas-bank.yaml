@@ -1,0 +1,5 @@
+id: united-overseas-bank
+name: United Overseas Bank
+type: real_time_payment
+countries: [SG]
+currencies: [SGD]

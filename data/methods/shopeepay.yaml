@@ -1,0 +1,5 @@
+id: shopeepay
+name: ShopeePay
+type: wallet
+countries: [ID, MY, PH, SG, TH, VN]
+currencies: [IDR, MYR, PHP, SGD, THB, VND]

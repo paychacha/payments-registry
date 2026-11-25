@@ -1,0 +1,5 @@
+id: lawson
+name: Lawson
+type: cash_voucher
+countries: [JP]
+currencies: [JPY]

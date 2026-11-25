@@ -1,0 +1,5 @@
+id: su-chance
+name: Su Chance
+type: cash_voucher
+countries: [CO]
+currencies: [COP]

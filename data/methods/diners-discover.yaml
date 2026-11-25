@@ -1,0 +1,6 @@
+id: diners-discover
+name: Diners/Discover
+type: card
+countries: [AT, BE, BG, CA, CY, CZ, DE, DK, EE, ES, FI, FR, GB, GR, HR, HU, IE, IT, LT, LU, LV,
+  MT, NL, PL, PT, RO, SE, SI, SK, US]
+currencies: [CAD, CZK, DKK, EUR, GBP, HUF, PLN, RON, SEK, USD]

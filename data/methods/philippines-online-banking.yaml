@@ -1,0 +1,7 @@
+id: philippines-online-banking
+name: Philippines Online Banking
+aliases:
+  - Online banking Philippines
+type: bank_redirect
+countries: [PH]
+currencies: [PHP]

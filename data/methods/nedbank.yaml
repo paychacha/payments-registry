@@ -1,0 +1,4 @@
+id: nedbank
+name: Nedbank
+type: bank_transfer
+countries: [ZA]

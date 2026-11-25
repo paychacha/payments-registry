@@ -1,0 +1,5 @@
+id: tia
+name: Tia
+type: cash_voucher
+countries: [EC]
+currencies: [USD]

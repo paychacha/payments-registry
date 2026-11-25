@@ -1,0 +1,4 @@
+id: western-union
+name: Western Union
+type: cash_voucher
+countries: [EC, PA]

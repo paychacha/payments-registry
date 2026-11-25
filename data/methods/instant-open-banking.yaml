@@ -1,0 +1,5 @@
+id: instant-open-banking
+name: Instant Open-banking
+type: real_time_payment
+countries: [AT, BE, DE, EE, ES, FR, GB, IE, IT, LT, LV, NL]
+currencies: [EUR, GBP]

@@ -1,0 +1,5 @@
+id: sam
+name: SAM
+type: cash_voucher
+countries: [SG]
+currencies: [SGD]

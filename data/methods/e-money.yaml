@@ -1,0 +1,5 @@
+id: e-money
+name: E Money
+type: wallet
+countries: [SN]
+currencies: [XOF]

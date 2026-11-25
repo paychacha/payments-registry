@@ -1,0 +1,5 @@
+id: egg-money
+name: Egg Money
+type: prepaid_voucher
+countries: [KR]
+currencies: [KRW]

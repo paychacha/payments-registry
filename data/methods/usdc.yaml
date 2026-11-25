@@ -1,0 +1,6 @@
+id: usdc
+name: USD Coin (USDC)
+aliases:
+  - Stablecoins
+type: stablecoin
+global: true

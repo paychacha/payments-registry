@@ -1,0 +1,5 @@
+id: instadebit
+name: Instadebit
+type: wallet
+countries: [CA]
+currencies: [CAD]

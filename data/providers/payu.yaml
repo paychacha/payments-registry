@@ -1,0 +1,5 @@
+id: payu
+name: PayU
+website: https://corporate.payu.com
+roles: [psp]
+coverage: []

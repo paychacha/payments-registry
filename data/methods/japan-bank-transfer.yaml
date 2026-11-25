@@ -1,0 +1,8 @@
+id: japan-bank-transfer
+name: Japan Bank Transfer (Furikomi)
+aliases:
+  - Bank Transfers (Furikomi)
+  - Bank Transfer Japan
+type: bank_transfer
+countries: [JP]
+currencies: [JPY]

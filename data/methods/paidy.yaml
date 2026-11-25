@@ -1,0 +1,5 @@
+id: paidy
+name: Paidy
+type: bnpl
+countries: [JP]
+currencies: [JPY]

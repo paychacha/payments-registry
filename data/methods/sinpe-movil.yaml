@@ -1,0 +1,4 @@
+id: sinpe-movil
+name: Sinpe Móvil
+type: bank_transfer
+countries: [CR]

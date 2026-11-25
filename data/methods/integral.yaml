@@ -1,0 +1,5 @@
+id: integral
+name: Integral
+type: cash_voucher
+countries: [SV]
+currencies: [USD]

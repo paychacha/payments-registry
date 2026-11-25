@@ -1,0 +1,4 @@
+id: banco-nacional
+name: Banco Nacional
+type: bank_transfer
+countries: [CR]

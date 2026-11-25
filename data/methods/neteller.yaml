@@ -1,0 +1,8 @@
+id: neteller
+name: Neteller
+type: wallet
+countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, BY, CA, CH, CL, CO, CR, CY, CZ, DE, DK,
+  EC, EE, EG, ES, FI, FR, GB, GE, GI, GR, GT, HK, HR, HU, ID, IE, IL, IM, IN, IS, IT, JM, JO,
+  KE, KR, LI, LT, LU, LV, MA, MC, ME, MK, MO, MT, MX, MY, NE, NG, NL, "NO", NP, NZ, OM, PA, PE,
+  PH, PL, PT, PY, QA, RO, RS, SA, SE, SG, SI, SK, SN, SV, SZ, TH, TR, TW, UA, UY, VE, VN, ZA]
+currencies: [AUD, CAD, DKK, EUR, GBP, HUF, INR, MXN, NOK, PLN, RON, SEK, USD]

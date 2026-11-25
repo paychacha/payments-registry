@@ -1,0 +1,5 @@
+id: banki-spoldzielcze
+name: Banki Spoldzielcze
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]

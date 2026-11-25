@@ -1,0 +1,5 @@
+id: pagaleve
+name: Pagaleve
+type: bnpl
+countries: [BR]
+currencies: [BRL]

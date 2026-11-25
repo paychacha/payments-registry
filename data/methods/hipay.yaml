@@ -1,0 +1,5 @@
+id: hipay
+name: HiPay
+type: wallet
+countries: [BE, BR, DE, ES, FR, GB, NL, PT]
+currencies: [EUR]

@@ -1,0 +1,5 @@
+id: merpay
+name: メルペイ (Merpay)
+type: wallet
+countries: [JP]
+currencies: [JPY]

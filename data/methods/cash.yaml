@@ -1,0 +1,4 @@
+id: cash
+name: Cash
+type: cash_voucher
+countries: [ID]

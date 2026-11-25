@@ -1,0 +1,4 @@
+id: naranjax
+name: NaranjaX
+type: real_time_payment
+countries: [AR]

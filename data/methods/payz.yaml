@@ -1,0 +1,10 @@
+id: payz
+name: Payz
+type: wallet
+countries: [AD, AE, AR, AT, AU, BA, BE, BG, BH, BO, BR, CA, CH, CL, CN, CO, CR, CY, CZ, DE, DK,
+  EC, EE, EG, ES, FI, FR, GB, GE, GI, GR, HK, HR, HU, IE, IL, IN, IS, IT, JM, JO, JP, KR, LI,
+  LT, LU, LV, MC, MD, ME, MK, MO, MT, MX, MY, NL, "NO", NP, NZ, OM, PA, PE, PL, PR, PT, PY, QA,
+  RO, RS, SA, SE, SG, SI, SK, SV, TH, TR, TW, UA, US, UY, VE, VN, XK, ZA]
+currencies: [AED, ARS, AUD, BAM, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, GEL, HKD,
+  HUF, ILS, ISK, JPY, MDL, MOP, MXN, MYR, NOK, NZD, PEN, PLN, RON, RSD, SEK, SGD, THB, TRY, UAH,
+  USD, ZAR]

@@ -1,0 +1,4 @@
+id: google-pay
+name: Google Pay
+type: wallet
+global: true

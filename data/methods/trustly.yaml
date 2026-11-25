@@ -1,0 +1,5 @@
+id: trustly
+name: Trustly
+type: bank_redirect
+countries: [AT, DE, DK, EE, ES, FI, GB, LT, LV, NL, "NO", PL, SE, SK]
+currencies: [DKK, EUR, GBP, NOK, PLN, SEK]

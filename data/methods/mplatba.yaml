@@ -1,0 +1,5 @@
+id: mplatba
+name: Mplatba
+type: wallet
+countries: [CZ]
+currencies: [CZK]

@@ -1,0 +1,5 @@
+id: cvs-pharmacy
+name: CVS Pharmacy
+type: prepaid_voucher
+countries: [US]
+currencies: [USD]

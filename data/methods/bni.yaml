@@ -1,0 +1,8 @@
+id: bni
+name: BNI
+aliases:
+  - BNI Bank
+  - Bank Negara Indonesia
+type: bank_redirect
+countries: [ID]
+currencies: [IDR]

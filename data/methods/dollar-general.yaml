@@ -1,0 +1,5 @@
+id: dollar-general
+name: Dollar General
+type: prepaid_voucher
+countries: [US]
+currencies: [USD]

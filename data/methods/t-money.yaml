@@ -1,0 +1,5 @@
+id: t-money
+name: T-money
+type: prepaid_voucher
+countries: [KR]
+currencies: [KRW]

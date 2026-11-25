@@ -1,0 +1,8 @@
+id: afterpay-clearpay
+name: Afterpay/Clearpay
+aliases:
+  - Afterpay
+  - ClearPay
+type: bnpl
+countries: [AU, CA, GB, NZ, US]
+currencies: [AUD, CAD, GBP, NZD, USD]

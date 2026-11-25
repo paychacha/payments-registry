@@ -1,0 +1,6 @@
+id: crypto-and-go
+name: Crypto & Go
+type: prepaid_voucher
+countries: [AT, AU, BG, CA, CH, CZ, EE, ES, FI, HR, HU, IE, IN, IS, JP, LT, LU, LV, MT, NL,
+  "NO", NZ, PL, PT, SI]
+currencies: [AUD, CAD, CHF, CZK, EUR, HUF, INR, ISK, JPY, NOK, NZD, PLN]

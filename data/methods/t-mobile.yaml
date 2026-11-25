@@ -1,0 +1,5 @@
+id: t-mobile
+name: T Mobile
+type: bank_transfer
+countries: [PL]
+currencies: [PLN]
