@@ -12,6 +12,7 @@
   <a href="README.zh-CN.md">中文</a>
 </p>
 <p align="center">
+  <a href="https://github.com/paychacha/payments-registry/actions/workflows/validate.yml"><img src="https://github.com/paychacha/payments-registry/actions/workflows/validate.yml/badge.svg" alt="Data check"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/data-CC%20BY%204.0-2f7d3a" alt="Data licence: CC BY 4.0"></a>
   <a href="scripts/LICENSE"><img src="https://img.shields.io/badge/scripts-MIT-2f7d3a" alt="Scripts licence: MIT"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/pull%20requests-welcome-4a9a2e" alt="Pull requests welcome"></a>
