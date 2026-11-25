@@ -2,7 +2,9 @@
 
 [English](CONTRIBUTING.md)
 
-修改通过 pull request 提交。每个 pull request 先自动检查，再由人审核。
+修改通过 pull request 提交。每个 pull request 先自动检查，再由人审核。[提交 pull request](#提交-pull-request) 在浏览器里几分钟就能完成，不需要安装任何工具。
+
+不想提 pull request 的话，可以[填一张表单](https://github.com/paychacha/payments-registry/issues/new/choose)，由维护者代为修改。
 
 ## 登记册收什么
 
@@ -44,14 +46,44 @@
 - 覆盖关系按 `method` 排序，每个支付方式一条。
 - `checked` 是你最近一次打开来源的日期，格式 `YYYY-MM-DD`。
 
-提交 pull request 之前先跑一遍检查：
+## 提交 pull request
+
+### 在浏览器里
+
+只需要一个 GitHub 账号。GitHub 的界面是英文的，下面的按钮名称照原样写。
+
+1. **打开文件。** 服务商是 `data/providers/<id>.yaml`，支付方式是 `data/methods/<id>.yaml`。要新增一个，打开所在文件夹，点 **Add file → Create new file**，文件名写 `<id>.yaml`。
+2. **点铅笔图标**（“Edit this file”）。GitHub 会提示先 fork 仓库：点 **Fork this repository**。fork 是你自己名下的一份副本，修改被接受之前先存在那里。
+3. **改好内容**，点 **Commit changes…**，用一句话说明改了什么，再点 **Propose changes**。
+4. **点 Create pull request。** 回答三个问题（改了什么、公开来源、你是否在这家服务商工作），再点一次 **Create pull request**。
+5. **等自动检查。** 绿色对勾表示文件格式正确。红色叉表示有地方要改：点 **Details** 看是哪一行、什么原因，然后在 pull request 的 **Files changed** 页里再次编辑文件，pull request 会自动更新。
+6. **维护者审核**后合并，或在 pull request 里向你提问。两种情况 GitHub 都会发邮件通知你。
+
+第一次提 pull request 时，自动检查要等维护者手动放行，所以对勾可能要过一天才出现。
+
+一个 pull request 里要改多个文件：先按上面的步骤改第一个，然后留在 GitHub 在你的 fork 里建的那个分支（名字类似 `patch-1`）上继续改其他文件，最后再创建 pull request。
+
+### 用 git
 
 ```bash
+gh repo fork paychacha/payments-registry --clone
+cd payments-registry
+git checkout -b update-my-provider
+
+# 修改文件，然后检查
 pip install -r requirements.txt
 python3 scripts/validate.py
+
+git commit -am "Stripe: add coverage for Pix"
+git push -u origin update-my-provider
+gh pr create
 ```
 
-它每个问题输出一行，并说明该怎么改。
+`validate.py` 每个问题输出一行，并说明该怎么改。pull request 跑的是同一项检查。
+
+### 不提 pull request
+
+[开一个 issue](https://github.com/paychacha/payments-registry/issues/new/choose)，选 **Report an error** 或 **List a provider** 表单，附上能佐证的公开页面，由维护者代为修改。
 
 ## 有不同意见时
 

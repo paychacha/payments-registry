@@ -2,7 +2,9 @@
 
 [中文](CONTRIBUTING.zh-CN.md)
 
-Changes come in as pull requests. Each one is checked automatically, then reviewed by a person.
+Changes come in as pull requests. Each one is checked automatically, then reviewed by a person. [Opening a pull request](#opening-a-pull-request) takes a few minutes in the browser and needs no tools.
+
+If you would rather not open one, [fill in a form](https://github.com/paychacha/payments-registry/issues/new/choose) and a maintainer will make the change.
 
 ## What the registry accepts
 
@@ -44,14 +46,44 @@ Add `data/methods/<id>.yaml`, or edit the existing file.
 - Keep coverage entries in order of `method`, one entry per method.
 - `checked` is the day you last opened the source, as `YYYY-MM-DD`.
 
-Run the check before you open the pull request:
+## Opening a pull request
+
+### In the browser
+
+You need a GitHub account and nothing else.
+
+1. **Open the file.** For a provider that is `data/providers/<id>.yaml`, for a payment method `data/methods/<id>.yaml`. To add a new one, open the folder and choose **Add file → Create new file**, then name it `<id>.yaml`.
+2. **Click the pencil icon** ("Edit this file"). GitHub asks to fork the repository: click **Fork this repository**. A fork is your own copy, where your change waits until it is accepted.
+3. **Make the change**, then click **Commit changes…**, describe it in one line and click **Propose changes**.
+4. **Click Create pull request.** Fill in the three questions (what changed, the public source, whether you work for the provider) and click **Create pull request** again.
+5. **Wait for the check.** A green tick means the files are valid. A red cross means something needs fixing: click **Details** to read which line and why, then edit the file again from the pull request's **Files changed** tab. The pull request updates itself.
+6. **A maintainer reviews it**, merges it or asks a question in the pull request. GitHub emails you either way.
+
+On your first pull request the check waits for a maintainer to start it, so the tick may take a day to appear.
+
+To change several files in one pull request, make the first edit as above, then stay on the branch GitHub created in your fork (it is named like `patch-1`), edit the other files there, and open the pull request at the end.
+
+### With git
 
 ```bash
+gh repo fork paychacha/payments-registry --clone
+cd payments-registry
+git checkout -b update-my-provider
+
+# edit the files, then check them
 pip install -r requirements.txt
 python3 scripts/validate.py
+
+git commit -am "Stripe: add coverage for Pix"
+git push -u origin update-my-provider
+gh pr create
 ```
 
-It prints one line per problem and says what to change.
+`validate.py` prints one line per problem and says what to change. It is the same check the pull request runs.
+
+### Without a pull request
+
+[Open an issue](https://github.com/paychacha/payments-registry/issues/new/choose) with one of the forms: **Report an error** or **List a provider**. Give the public page that backs it up, and a maintainer will make the change.
 
 ## Disagreements
 

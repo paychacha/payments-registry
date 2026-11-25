@@ -1,0 +1,60 @@
+name: List a provider
+description: Add a payment provider, or the payment methods one supports. 登记一家服务商，或补充它支持的支付方式。
+title: "Provider: "
+labels: [provider]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A pull request is faster: see [CONTRIBUTING.md](https://github.com/paychacha/payments-registry/blob/main/CONTRIBUTING.md). Use this form if you would rather a maintainer made the change.
+        The registry records facts with a public source. It takes no marketing copy, prices, fees or logos.
+  - type: input
+    id: name
+    attributes:
+      label: Provider name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: https://
+    validations:
+      required: true
+  - type: checkboxes
+    id: roles
+    attributes:
+      label: Roles
+      description: Tick every one that applies. Each is defined in the [glossary](https://github.com/paychacha/payments-registry/blob/main/GLOSSARY.md#provider-roles).
+      options:
+        - label: psp (payment service provider)
+        - label: acquirer
+        - label: gateway
+        - label: payfac (payment facilitator)
+        - label: mor (merchant of record)
+        - label: aggregator
+  - type: textarea
+    id: coverage
+    attributes:
+      label: Payment methods supported
+      description: One per line with the payer countries, or a link to the public page that lists them all. 每行一个支付方式和付款人所在国家，或给出列出全部方式的公开页面。
+      placeholder: |
+        Pix: BR
+        iDEAL: NL
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: The https page on the provider's site or documentation that shows the methods above.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: who
+    attributes:
+      label: Do you work for this provider?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true

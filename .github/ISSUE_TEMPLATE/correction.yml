@@ -1,0 +1,36 @@
+name: Report an error
+description: Something in the registry is wrong or out of date. 数据有误或已过时。
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Which provider or payment method?
+      description: The name, or the file, for example data/providers/stripe.yaml. 服务商或支付方式的名称，或文件路径。
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong, and what should it say?
+      description: 哪里不对，应该是什么。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: An https page anyone can open that shows the correct fact. 能证明正确说法的公开页面。
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: who
+    attributes:
+      label: Do you work for the provider concerned?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
