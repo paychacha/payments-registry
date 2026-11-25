@@ -2173,7 +2173,7 @@ coverage:
     source_type: provider_docs
     checked: 2026-11-24
   - method: riverty
-    countries: [AT, BE, DE, DK, FI, NL, "NO", SE, SZ]
+    countries: [AT, BE, CH, DE, DK, FI, NL, "NO", SE]
     currencies: [CHF, DKK, EUR, NOK, SEK]
     source: https://www.nuvei.com/apm/riverty
     source_type: provider_docs

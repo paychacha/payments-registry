@@ -1,6 +1,21 @@
-# Payments Registry
-
-[中文](README.zh-CN.md)
+<p align="center">
+  <a href="https://paychacha.com"><img src=".github/assets/paychacha.svg" width="64" height="64" alt="paychacha"></a>
+</p>
+<h1 align="center">Payments Registry</h1>
+<p align="center">
+  Which payment methods people use in each country, and which payment providers support them.
+</p>
+<p align="center">
+  <a href="https://paychacha.com/payment-methods"><b>Browse by country</b></a> ·
+  <a href="GLOSSARY.md">Glossary</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a> ·
+  <a href="README.zh-CN.md">中文</a>
+</p>
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/data-CC%20BY%204.0-2f7d3a" alt="Data licence: CC BY 4.0"></a>
+  <a href="scripts/LICENSE"><img src="https://img.shields.io/badge/scripts-MIT-2f7d3a" alt="Scripts licence: MIT"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/pull%20requests-welcome-4a9a2e" alt="Pull requests welcome"></a>
+</p>
 
 An open record of which payment methods people use in each country, and which payment providers support them. It is maintained by [paychacha.com](https://paychacha.com) and by the providers themselves, through pull requests.
 

@@ -1,5 +1,5 @@
 id: riverty
 name: Riverty
 type: bnpl
-countries: [AT, BE, DE, DK, FI, NL, "NO", SE, SZ]
-currencies: [DKK, EUR, NOK, SEK]
+countries: [AT, BE, CH, DE, DK, FI, NL, "NO", SE]
+currencies: [CHF, DKK, EUR, NOK, SEK]
